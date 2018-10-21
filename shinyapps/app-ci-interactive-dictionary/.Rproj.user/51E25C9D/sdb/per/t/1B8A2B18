@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(dplyr)\nlibrary(readr)\nlibrary(RSQLite)\n\n\n\n\ncon <- dbConnect(SQLite(), \"../../projects/DjangoProjects/data_manager/db.sqlite3\")\ndataElementsDF0 <- dbGetQuery(con, \"SELECT * FROM data_assets_dataelement\")\ndataElementUsesDFO <- dbGetQuery(con, \"SELECT * FROM data_assets_dataelementuse\")\ndataElementsAndUsesDF0 <- dbGetQuery(con, \"SELECT * FROM data_assets_dataelementuse_data_element\")\n\n####\ndataElementsDF1 <-dataElementsDF0 %>%\n  select(id,\n         element_id,\n         name,\n         name_is_conformed,\n         type,\n         definition,\n         accepted_values,\n         under_review,\n         category)\n\ncolnames(dataElementsDF1)\ncolnames(dataElementsDF1) <- c(\"dataElementID\",\n                               \"Element ID\",\n                               \"Name\",\n                               \"Name is conformed\",\n                               \"Type\",\n                               \"Definition\",\n                               \"Accepted values\",\n                               \"Currently under review\",\n                               \"Category\")\n\n\nreadr::write_csv(dataElementsDF1, \"./data/preparedData/dataElements.csv\")\n\nglimpse(dataElementsDF0)\nglimpse(dataElementUsesDFO)\nglimpse(dataElementsAndUsesDF0)\n\n\ndataElementsDF2 <- dataElementsDF0 %>%\n  select(id,\n         element_id,\n         name)\n\n\nelementsAndUseKeys <- right_join(dataElementsDF2, dataElementsAndUsesDF0, by=c(\"id\"=\"dataelement_id\"))\nelementsAndUsesDF1 <- left_join(dataElementUsesDFO, elementsAndUseKeys, by = c(\"id\" = \"dataelementuse_id\"))\n\nelementsAndUsesDF2 <- elementsAndUsesDF1 %>%\n  select(element_use_id,\n         risk_level,\n         null_value_accepted,\n         element_transformation_rules,\n         destination_data_asset_id,\n         source_data_asset_id,\n         destination_element_name,\n         source_element_name,\n         destination_name_is_conformed,\n         element_id)\n\nglimpse(elementsAndUsesDF2)\n",
+    "created" : 1537784556545.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2385306039",
+    "id" : "1B8A2B18",
+    "lastKnownWriteTime" : 1537788984,
+    "last_content_update" : 1537788985000,
+    "path" : "C:/JamiesFiles/Analytics/RShinyTestingServer/shinyapps/app-ci-interactive-dictionary/data/dataPrep.R",
+    "project_path" : "data/dataPrep.R",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

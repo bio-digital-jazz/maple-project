@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "## Only run examples in interactive R sessions\nif (interactive()) {\n  \n  ui <- fluidPage(\n    p(\"The checkbox group controls the select input\"),\n    checkboxGroupInput(\"inCheckboxGroup\", \"Input checkbox\",\n                       c(\"Item A\", \"Item B\", \"Item C\")),\n    selectInput(\"inSelect\", \"Select input\",\n                c(\"Item A\", \"Item B\", \"Item C\"))\n  )\n  \n  server <- function(input, output, session) {\n    observe({\n      x <- input$inCheckboxGroup\n      \n      # Can use character(0) to remove all choices\n      if (is.null(x))\n        x <- character(0)\n      \n      # Can also set the label and select items\n      updateSelectInput(session, \"inSelect\",\n                        label = paste(\"Select input label\", length(x)),\n                        choices = x,\n                        selected = tail(x, 1)\n      )\n    })\n  }\n  \n  shinyApp(ui, server)\n}",
+    "created" : 1537927916646.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "2108243408",
+    "id" : "A23FCF2E",
+    "lastKnownWriteTime" : 2466321560063209061,
+    "last_content_update" : 1537927919916,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

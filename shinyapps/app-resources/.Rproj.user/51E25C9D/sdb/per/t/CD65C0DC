@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "library(shiny)\nlibrary(dplyr)\nlibrary(DT)\n\n \nui <- fluidPage(\n  tags$head( \n    tags$link(rel = \"stylesheet\", type = \"text/css\", href = \"materialize/css/materialize.min.css\"),\n    tags$link(rel = \"stylesheet\", type = \"text/css\", href = \"css/style.css\")\n  ),   \n  fluidRow(             \n      \n    column(12,          \n           br(), \n\n           tabsetPanel(type = \"tabs\",        \n                       tabPanel(\"R Resources\",        \n                                br(),  \n                                includeHTML('www/partials/r-resources.html') \n                       ),\n                       tabPanel(\"R Projects\",        \n                                br(),\n                                includeHTML('www/partials/r-projects.html') \n                       ),   \n                      tabPanel(\"Accessing data\",   \n                                br(),\n                                includeHTML('www/partials/accessing-data.html')\n                       ), \n                      tabPanel(\"Governance resources\",   \n                               br(),\n                                 includeHTML('www/partials/governance-resources.html') \n                      )\n           )   \n    )           \n              \n                       \n      \n        \n    \n  )\n  \n     \n)\n\nserver <- function(input, output) {\n  \n  \n  \n  \n  \n  \n  \n}\n\n\nshinyApp(ui = ui, server = server)\n\n",
+    "created" : 1534741071569.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2529038301",
+    "id" : "CD65C0DC",
+    "lastKnownWriteTime" : 1539739180,
+    "last_content_update" : 1539739180,
+    "path" : "C:/JamiesFiles/Analytics/RShinyTestingServer/shinyapps/app-resources/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+        "source_window_id" : "",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

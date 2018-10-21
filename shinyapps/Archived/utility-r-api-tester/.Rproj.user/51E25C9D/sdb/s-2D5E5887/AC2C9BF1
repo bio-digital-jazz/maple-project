@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\nlibrary(httr)\nlibrary(jsonlite)\n\ndata <- GET(\"http://localhost:7000/data-api/v1/data/\")\ncontent = content(data, 'text')\ncontentJson <- fromJSON(content, flatten = TRUE)\ndf <- as.data.frame(contentJson)\n\ndf\n\ndim(df)\n",
+    "created" : 1532654152042.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2935228500",
+    "id" : "AC2C9BF1",
+    "lastKnownWriteTime" : 1532065392,
+    "last_content_update" : 1532065392,
+    "path" : "C:/JamiesFiles/Analytics/RProjects/r-api-tester/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

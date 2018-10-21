@@ -1,0 +1,6 @@
+id,password,last_login,is_superuser,username,first_name,email,is_staff,is_active,date_joined,last_name
+1,pbkdf2_sha256$100000$is4l7adfmSvG$TPfxd8s5cV5CN4+8wZouA+o/RClWMcvY1TcV4I/JPeA=,13:11.2,1,jgab3103,Jamie,jgab3103@gmail.com,1,1,13/07/2018 5:10,Gabriel
+2,pbkdf2_sha256$100000$yoHyHun9nFym$YSnmvGYzgHK/Eg3ERTZy6iXwEbL+X17vIxuZRKoDnJ4=,,0,rwalton,Richard,richard@place.com,0,1,19/07/2018 3:14,Walton
+3,pbkdf2_sha256$100000$yoHyHun9nFym$YSnmvGYzgHK/Eg3ERTZy6iXwEbL+X17vIxuZRKoDnJ4=,,0,dcurrow,David,david.currow@health.nsw.gov.au,0,1,19/07/2018 3:14,Currow
+4,pbkdf2_sha256$100000$yoHyHun9nFym$YSnmvGYzgHK/Eg3ERTZy6iXwEbL+X17vIxuZRKoDnJ4=,,0,tmedcalf,Jeffrey,jeffrey.truong@health.nsw.gov.au,0,1,19/07/2018 3:14,Truong
+5,pbkdf2_sha256$100000$yoHyHun9nFym$YSnmvGYzgHK/Eg3ERTZy6iXwEbL+X17vIxuZRKoDnJ4=,,0,rwalton,Nicola,nicola.creighton@health.nsw.gov.au,0,1,19/07/2018 3:14,Creighton

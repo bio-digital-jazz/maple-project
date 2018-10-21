@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1537939497438.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "805AFFB",
+    "lastKnownWriteTime" : 8389754659302220320,
+    "last_content_update" : 1537939497438,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "D5D3F12C",
+        "caption" : "SurgicalOutcomesAppDF2",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=SurgicalOutcomesAppDF2&cache_key=D5D3F12C",
+        "displayedObservations" : 107760,
+        "environment" : "",
+        "object" : "SurgicalOutcomesAppDF2",
+        "preview" : 0,
+        "totalObservations" : 107760,
+        "variables" : 10
+    },
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

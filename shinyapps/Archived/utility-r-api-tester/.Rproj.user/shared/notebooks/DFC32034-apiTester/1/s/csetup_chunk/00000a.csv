@@ -1,0 +1,6 @@
+"0","data <- GET(""http://localhost:7000/data-api/v1/data/"")"
+"0","content = content(data, 'text')"
+"2","No encoding supplied: defaulting to UTF-8.
+"
+"0","contentJson <- fromJSON(content, flatten = TRUE)"
+"0","df <- as.data.frame(contentJson)"

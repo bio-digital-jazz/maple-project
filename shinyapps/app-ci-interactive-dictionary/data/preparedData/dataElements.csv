@@ -1,0 +1,281 @@
+dataElementID,Element ID,Name,Name is conformed,Type,Definition,Accepted values,Currently under review,Category
+1,E1,ABirthCountryCode,1,Integer,TBD,TBD,0,Person
+2,E2,AIndigenousStatusCode,1,Varchar,TBD,TBD,0,Person
+3,E3,ASex,1,Integer,TBD,TBD,0,Person
+4,E4,ABirthDate,1,Date,TBD,TBD,0,Person
+5,E5,ABirthDateValidityCode,1,Integer,"An indicator of the accuracy of the components of a reported date, as represented by a code.",TBD,0,Person
+6,E6,AAddressPostcode,1,Varchar,The postcode for the suburb of the person's usual residential address.,TBD,0,Person
+7,E7,ADeathPlace,1,Varchar,TBD,TBD,0,Person
+8,E8,ADeathDate,1,Date,TBD,TBD,0,Person
+9,E9,ADeathCauseText,1,Varchar,TBD,TBD,0,Person
+10,E10,AABSDeathCauseCode,1,Integer,TBD,TBD,0,Person
+11,E11,ASurnameFull,1,Varchar,"That part of a name a person usually has in common with some other members of his/her family, as distinguished from his/her given names, as represented by text.",TBD,0,Person
+12,E12,ASurnameFirst,1,Varchar,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",TBD,0,Person
+13,E13,ASurnameSecond,1,Varchar,"That part of a name a person usually has in common with some other members of his/her family, as distinguished from his/her given names, as represented by text.",TBD,0,Person
+14,E14,ASurnameThird,1,Varchar,"That part of a name a person usually has in common with some other members of his/her family, as distinguished from his/her given names, as represented by text.",TBD,0,Person
+15,E15,AGivenNameFull,1,Varchar,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",TBD,0,Person
+16,E16,AGivenNameFirst,1,Varchar,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",TBD,0,Person
+17,E17,AGivenNameSecond,1,Varchar,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",TBD,0,Person
+18,E18,AGivenNameThird,1,Varchar,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",TBD,0,Person
+19,E19,AAddressFull,1,Varchar,The address at which the client usually resides,TBD,0,Person
+20,E20,AAddressLocality,1,Varchar,"The name of the locality/suburb of the address, as represented by text.",TBD,0,Person
+21,E21,AAdressStateOrTerritory,1,Varchar,"The Australian state or territory where a person can be located, as represented by a code.",TBD,0,Person
+22,E22,BDiagnosisDate,1,Date,"The date on which the patient was first diagnosed with cancer (whether at its primary site or as a metastasis), expressed as DDMMYYYY.",TBD,0,Case
+23,E23,BDiagnosisDateValidityCode,1,Integer,TBD,TBD,0,Case
+24,E24,BPrimarySiteCode,1,Integer,"Person with cancer—primary site of cancer
+The site in which the tumour originated in a person with cancer, as opposed to the secondary or metastatic sites, as represented by a code.",TBD,0,Case
+25,E25,BMorphologyCode,1,Integer,"Definitive Morphology at First Presentation
+The histological classification of the cancer tissue (histopathological type) in a person with cancer, and a description of the course of development that a tumour is likely to take: benign or malignant (behaviour), as represented by a code.",TBD,0,Case
+26,E26,BBestDiagnosisBasisCode,1,Integer,"The most valid basis of diagnosis in a person with cancer, as represented by a code.",TBD,0,Case
+27,E27,BSpreadDegreeCode,1,Integer,"A measure of the progression/extent of cancer at diagnosis, as represented by a code.",TBD,0,Case
+28,E28,BLateralityCode,1,Integer,"The side of a paired organ or the side of the body that is the origin of the primary cancer in a person with cancer, as represented by a code.",TBD,0,Case
+29,E29,BMelanomaThickness,1,Integer,The measured thickness of a melanoma in millimetres.,TBD,0,Case
+30,E30,BTumourSize,1,Varchar,"The largest dimension of a solid tumour, measured in millimetres.",TBD,0,Case
+31,E31,ADiagnosisAddressFull,1,Varchar,The place the person usually resided in at the time of diagnosis,TBD,0,Person
+32,E32,BCaseClassCode,1,Varchar,An indicator of the state/territory in which a person with cancer was diagnosed and treated.,TBD,0,Case
+33,E33,BPathologicalDiagnosisDate,1,Date,The date on which a diagnosis of cancer was first confirmed by pathological investigation.,TBD,0,Case
+34,E34,BClinicalCancerSiteCode,1,Integer,TBD,TBD,0,Case
+35,E35,CEpisodeModalityCode,1,Varchar,"The type of treatment administered during the initial course of treatment for cancer, as represented by a code.",TBD,0,Episode
+36,E36,CEpisodeIntentCode,1,Varchar,"The intention of the initial treatment for cancer for the particular patient, as represented by a code.",TBD,0,Episode
+37,E37,CEpisodeStartDate,1,Date,Date on which an admitted patient commences an episode of care.,TBD,0,Episode
+38,E38,CEpisodeEndDate,1,Date,Date on which an admitted patient completes an episode of care.,TBD,0,Episode
+39,E39,CFacilityCode,1,Integer,An identifier for the establishment in which the episode or event occurred.,TBD,0,Episode
+40,E40,CSpreadDegreeCode,1,Integer,"A measure of the progression/extent of cancer at diagnosis, as represented by a code.",TBD,0,Episode
+41,E41,CMDTDate,1,Date,"The date of first consultation with a multidisciplinary team of health professionals regarding the diagnosis, treatment and care of the person with cancer.",TBD,0,Episode
+42,E42,CAdmitReasonCode,1,Integer,Episode of care - cancer treatment flag,TBD,0,Episode
+43,E43,CPerformanceStatusCode,1,Integer,"""The result of the appraisal of the individual’s ability to manage activities of daily living, conducted at the time of diagnosis of cancer, as represented by a code.
+""",TBD,0,Episode
+44,E44,ASurnameFullNotification,1,Varchar,Surname,TBD,0,Person
+45,E45,ASurnameFirstNotification,1,Varchar,Surname,TBD,0,Person
+46,E46,ASurnameSecondNotification,1,Varchar,Surname,TBD,0,Person
+47,E47,ASurnameThirdNotification,1,Varchar,Surname,TBD,0,Person
+48,E48,PSexNotification,1,Integer,Type,TBD,0,Person
+49,E49,AGivenNameFirstNotification,1,Varchar,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",TBD,0,Person
+50,E50,AGivenNameSecondNotification,1,Varchar,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",TBD,0,Person
+51,E51,AGivenNameThirdNotification,1,Varchar,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",TBD,0,Person
+52,E52,AGivenNameAliasFirstNotification,1,Varchar,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",TBD,0,Person
+53,E53,AGivenNameAliasSecondNotification,1,Varchar,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",TBD,0,Person
+54,E54,AGivenNameAliasThirdNotification,1,Varchar,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",TBD,0,Person
+55,E55,ABirthDateNotification,1,Date,The date of birth of the person.,TBD,0,Person
+56,E56,ABirthDateValidityCodeNotification,1,Date,"An indicator of the accuracy of the components of a reported date, as represented by a code.",TBD,0,Person
+57,E57,ABirthCountryCodeNotification,1,Varchar,"The country in which the person was born, as represented by a code.",TBD,0,Person
+58,E58,AIndigenousStatusCodeNotification,1,Varchar,"Whether a person identifies as being of Aboriginal or Torres Strait Islander origin, as represented by a code. This is in accord with the first two of three components of the Commonwealth definition.",TBD,0,Person
+59,E59,ALanguagePreferenceCodeNotification,1,Varchar,"The language most preferred by the person for communication, as represented by a code.",TBD,0,Person
+60,E60,AAddressFullNotification,1,Varchar,The address at which the client usually resides.,TBD,0,Person
+61,E61,AAddressLocalityNotification,1,Varchar,"The name of the locality/suburb of the address, as represented by text.",TBD,0,Person
+62,E62,AAddressPostcodeNotification,1,Varchar,The postcode for the suburb of the patient's usual residential address.,TBD,0,Person
+63,E63,AAddressStateOrTerritoryNotification,1,Varchar,"The Australian state or territory where a person can be located, as represented by a code.",TBD,0,Person
+64,E64,AMedicareNumberNotification,1,Varchar,"Person identifier, allocated by the Health Insurance Commission to eligible persons under the Medicare scheme, that appears on a Medicare card.",TBD,0,Person
+65,E65,ADVANumberNotification,1,Varchar,A unique personal identifier issued to a veteran by the Department of Veterans' Affairs.,TBD,0,Person
+66,E66,ACliinicalDetailsOptOutNotification,1,Varchar,TBD,TBD,0,Person
+67,E67,ANotifyingFacilityCodeNotification,1,Varchar,"""An identifier for the establishment in which the episode or event occurred.
+""",TBD,0,Person
+68,E68,ADeathDateNotification,1,Varchar,The date of death of the person.,TBD,0,Person
+69,E69,BDiagnosisDateNotification,1,Date,"The date on which the patient was first diagnosed with cancer (whether at its primary site or as a metastasis), expressed as DDMMYYYY.",TBD,0,Case
+70,E70,BDiagnosisDateValidityCodeNotification,1,Varchar,"The most valid basis of diagnosis in a person with cancer, as represented by a code.",TBD,0,Case
+71,E71,BPrimarySiteCodeNotification,1,Varchar,"The site in which the tumour originated in a person with cancer, as opposed to the secondary or metastatic sites, as represented by a code.",TBD,0,Case
+72,E72,BMorphologyCodeNotification,1,Varchar,"The histological classification of the cancer tissue (histopathological type) in a person with cancer, and a description of the course of development that a tumour is likely to take: benign or malignant (behaviour), as represented by a code.",TBD,0,Case
+73,E73,BLateralityCodeNotification,1,Varchar,"The side of a paired organ or the side of the body that is the origin of the primary cancer in a person with cancer, as represented by a code.",TBD,0,Case
+74,E74,BBestDiagnosisBasisCodeNotification,1,Varchar,"The most valid basis of diagnosis in a person with cancer, as represented by a code.",TBD,0,Case
+75,E75,BHistopathologicalGradeCodeNotification,1,Varchar,"The histopathological grade or differentiation in a person with cancer, as represented by a code.",TBD,0,Case
+76,E76,BHaematologicalCellTypeCodeNotification,1,Varchar,"The specific presentation of a lymphoid neoplasm, as represented by a code.",TBD,0,Case
+77,E77,BDiseaseGradeSchemeCodeNotification,1,Varchar,"The disease specific (histopathological) grading system used to record a specific measure of the aggressiveness of the cancer, as represented by a code.",TBD,0,Case
+78,E78,BDiseaseGradeScoreCodeNotification,1,Varchar,"The disease specific grade, score or measurement is calculated by the pathologist and reported according to the disease specific grading system being used, as represented by a code.",TBD,0,Case
+79,E79,BSpreadDegreeCodeNotification,1,Varchar,"A measure of the progression/extent of cancer at this episode of care, as represented by a code.",TBD,0,Case
+80,E80,BTNMStagingDateNotification,1,Date,The date of TNM staging values for cancer.,TBD,0,Case
+81,E81,BTNMStagingTimingCodeNotification,1,Varchar,An indictor of whether the staging was at diagnosis or not at diagnosis.,TBD,0,Case
+82,E82,BTStageCodeNotification,1,Varchar,"The size and extent of the primary tumour in a person with cancer, as represented by a code.",TBD,0,Case
+83,E83,BTStagingBasisCodeNotification,1,Varchar,"The evidence basis for the T stage value for a cancer, as represented by a code.",TBD,0,Case
+84,E84,BNStageCodeNotification,1,Varchar,"The absence or presence and extent of regional lymph node metastasis in a person with cancer, as represented by a code.",TBD,0,Case
+85,E85,BNStagingBasisCodeNotification,1,Varchar,"The evidence basis for the N stage value for a cancer, as represented by a code.",TBD,0,Case
+86,E86,BMStageCodeNotification,1,Varchar,"The absence or presence of distant metastasis in a person with cancer, as represented by a code.",TBD,0,Case
+87,E87,BMStagingBasisCodeNotification,1,Varchar,"The evidence basis for the M stage value for a cancer, as represented by a code.",TBD,0,Person
+88,E88,BTNMStageGroupCodeNotification,1,Varchar,"The anatomical extent of disease in a person with cancer based on the previously coded T, N and M stage categories, as represented by a code.",TBD,0,Case
+89,E89,BTNMEditionNumberCodeNotification,1,Varchar,"The edition number of the TNM staging scheme used to determine the extent or stage of the cancer, as represented by a code.",TBD,0,Case
+90,E90,BTNMStageBasisCodeNotification,1,Varchar,"The timing and evidence for cancer stage values, as represented by a code.",TBD,0,Case
+91,E91,BOtherStagingDateNotification,1,Date,The date of non-TNM staging values for cancer.,TBD,0,Case
+92,E92,BOtherStagingSchemeCodeNotification,1,Varchar,"The reference which describes in detail the methods of staging and the definitions for the classification system used in determining the extent of cancer, as represented by a code.",TBD,0,Case
+93,E93,BOtherStagingGroupCodeNotification,1,Varchar,"The anatomical extent of disease in a person with cancer based on stage categories of a staging classification other than the standard TNM classification, as represented by a code.",TBD,0,Case
+94,E94,BOtherStagingVersionCodeNotification,1,Varchar,"The edition number or year of the cancer staging scheme used to determine the extent or stage of the cancer, as represented by a code.",TBD,0,Case
+95,E95,BOtherStagingBasisCodeNotification,1,Varchar,"The timing and evidence for cancer stage values, as represented by a code.",TBD,0,Case
+96,E96,CEpisodeWorkflowStatusNotification,1,Varchar,Status of completion of episode information in the NSWCR for this treatment.,TBD,0,Episode
+97,E97,BRecurrenceDateNotification,1,Date,"The date on which a patient is diagnosed with the first recurrence of a cancer, expressed as DDMMYYYY.",TBD,0,Case
+98,E98,BRecurrenceDateFlagNotification,1,Varchar,"An indicator of the accuracy of the components of a reported date, as represented by a code.",TBD,0,Case
+99,E99,BRecurrenceSiteNotification,1,Varchar,"The site of first recurrence of cancer in a person with cancer, after a disease-free period, as represented by a code. ICD-03 or ICD-10 Code",TBD,0,Case
+100,E100,BRecurrenceTypeNotification,1,Varchar,"The type of first recurrence of primary cancer after a disease free intermission or remission, as represented by a code.",TBD,0,Case
+101,E101,BBestRecurrenceBasisNotification,1,Varchar,"The most valid basis of diagnosis of the first recurrence of a cancer or distant metastasis in a person with cancer, as represented by a code.",TBD,0,Case
+102,E102,AMRNNotification,1,Varchar,A patient identifier assigned by and unique to a hospital or health service provider.,TBD,0,Person
+103,E103,APatientAreaUniqueIdentifierNotification,1,Varchar,A unique code assigned to the patient for identification at the former Area Health Service level.,TBD,0,Person
+104,E104,CTreatmentModalityNofication,1,Varchar,"The type of treatment administered during the initial course of treatment for cancer, as represented by a code.",TBD,0,Episode
+105,E105,CTreatmentIntentNotification,1,Varchar,"The intention of the initial treatment for cancer for the particular patient, as represented by a code.",TBD,0,Episode
+106,E106,CNoTreatmentReasonNotification,1,Varchar,"The primary reason why no active cancer treatment is specified within a Cancer Care Plan, as represented by a code.",TBD,0,Episode
+107,E107,CInititalTreatmentFlagNotification,1,Varchar,"An indicator of whether treatment for cancer was administered during the initial course of treatment, or following the initial course due to disease progression and recurrence, as represented by a code.",TBD,0,Episode
+108,E108,DAMOAPRARegistrationNumberNotification,1,Varchar,The Registration number of the doctor treating the patient for this episode of care.,TBD,0,Health Practitioner
+109,E109,DTreatingDoctorsNameNotification,1,Varchar,The full name of the doctor in charge of the case.,TBD,0,Health Practitioner
+110,E110,BCancerSpecialistReferalDateNotification,1,Date,"The date that a person with cancer was referred to a cancer specialist (oncologist, haematologist or surgeon).",TBD,0,Case
+111,E109,BCancerSpecialistConsultationDateNotification,1,Varchar,"The date of the first consultation between a person with cancer and the cancer specialist (oncologist, haematologist or surgeon) during this course of treatment.",TBD,0,Case
+112,E110,CEpisodeGroupNotification,1,Varchar,"The type of treatment administered during this episode of treatment for cancer, as represented by a code.",TBD,0,Episode
+113,E111,CEpisodeStartDateNotification,1,Varchar,Date on which an admitted patient commences an episode of care.,TBD,0,Episode
+114,E112,CTreatmentEndDateNotification,1,Varchar,Date on which an admitted patient completes an episode of care.,TBD,0,Episode
+115,E113,CPrincipleAdmissionReasonNotification,1,Varchar,TBD,TBD,0,Episode
+116,E114,CSeparationStatusNotification,1,Varchar,"The indication of whether the person was alive or dead at the time the patient last received active treatment, or obtained a pathology test, for a notifiable cancer.",TBD,0,Episode
+117,E115,CProcedureCodeNotification,1,Varchar,The surgical procedure(s) for the initial management of the cancer. ICD-10-AM procedure code,TBD,0,Episode
+118,E116,CSurgicalDateNotification,1,Date,"The date on which a cancer-directed surgical procedure was performed during the initial course of treatment for cancer, expressed as DDMMYYYY.",TBD,0,Episode
+119,E117,CPrincipleProcedureFlagNotification,1,Varchar,Indicates the main procedure the person with cancer was admitted for.,TBD,0,Episode
+120,E118,CCancerProcedureFlagNotification,1,Varchar,Indicates that the procedure code is cancer-related,TBD,0,Episode
+121,E119,CSystemicTherapyEpisodeStartDateNotification,1,Date,"The start date of systemic agent therapy administered during the initial course of treatment for cancer, expressed as DDMMYYYY.",TBD,0,Episode
+122,E120,CSystemicTherapyEpisodeEndDateNotification,1,Date,"The completion date of systemic agent therapy  administered during the initial course of treatment for cancer, expressed as DDMMYYYY.",TBD,0,Episode
+123,E121,CSystemicTherapyTypeNotification,1,Varchar,"The type of systemic agent therapy  administered during the course of treatment for cancer, as represented by a code.",TBD,0,Episode
+124,E122,CUniqueProtocolIdentifierNotification,1,Varchar,The eviQ protocol identifier for the systemic therapy agent protocol administered during the initial course of treatment for cancer.,TBD,0,Episode
+125,E123,CSystemicTherapyCyclesCountNotification,1,Varchar,The number of treatment cycles that an agent was administered in the course of treatment.,TBD,0,Episode
+126,E124,CProtocolModifiedNotification,1,Varchar,The eviQ protocol identifier for the systemic therapy agent protocol administered during the initial course of treatment for cancer.,TBD,0,Episode
+127,E125,CProtocolConsentNotification,1,Varchar,An indicator that a patient consented to the treatment protocol,TBD,0,Episode
+128,E126,CDrugCodeNotification,1,Varchar,An indicator that a patient consented to the treatment protocol,TBD,0,Episode
+129,E127,CDoseCodeNotification,1,Varchar,"The quantity of a particular systemic therapy agent prescription administered, taken or absorbed at one time.",TBD,0,Episode
+130,E128,CRouteCodeNotification,1,Varchar,"The mode of introduction of a particular systemic therapy agent into the body of a person with cancer, as represented by a code.",TBD,0,Episode
+131,E129,CRegimenStartDateNotification,1,Varchar,"The mode of introduction of a particular systemic therapy agent into the body of a person with cancer, as represented by a code.",TBD,0,Episode
+132,E130,CRegimenEndDateNotification,1,Varchar,The date the chemotherapy regimen ended,TBD,0,Episode
+133,E131,CRegimenFrequencyNotification,1,Varchar,"The frequency with which a particular systemic therapy agent was administered, during the course of treatment for a cancer, as represented by a number",TBD,0,Episode
+134,E134,CRegimenFrequencyUnitNotification,1,Varchar,"The unit of measure used to express the frequency with which a particular systemic therapy agent was administered, during the course of treatment for a cancer, as represented by a code.",TBD,0,Episode
+135,E135,CRegimenDayNotification,1,Varchar,The day of the systemic therapy treatment cycle on which a particular dose was administered.,TBD,0,Episode
+136,E136,CCareReadyDateNotification,1,Varchar,"The date on which a cancer specialist (oncologist, haematologist or surgeon) indicated treatment of a person with cancer should commence.",TBD,0,Episode
+137,E137,CRadiotherapyEpisodeStartDateNotification,1,Date,"The start date of the radiotherapy course administered during the initial course of treatment for cancer, expressed as DDMMYYYY.",DDMMYYYY. If Unknown set to '01/01/9999' except for Inpatient.,0,Episode
+138,E138,CRadiotherapyEpisodeEndDateNotification,1,Date,"The completion date of the radiotherapy administered during the initial course of treatment for cancer, expressed as DDMMYYYY.",DDMMYYYY. If Unknown set to '01/01/9999'.,0,Episode
+139,E139,CRadiotherapyTreatmentTypeCodeNotification,1,Varchar,"The type of radiation therapy used in the primary treatment of the cancer, as represented by a code.",TBD,0,Episode
+140,E140,CRadiotherapyPriorityCodeNotification,1,Varchar,The priority code of the Radiotherapy Course.,TBD,0,Episode
+141,E141,CRadiotherapyTotalDose,1,Varchar,The total received dose of radiation delivered at initial treatment measured in the Radiation Dose Unit specified.,Numeric Value (NNN.NN),0,Episode
+142,E142,CRadiationDoseUnitClassificationCodeNotification,1,Varchar,The classification used to measure the radiation dose.,TBD,0,Episode
+143,E143,CRadiotherapyTotalFractionsNotification,1,Varchar,Total number of radiotherapy fractions delivered in the initial course of radiation.,""" Total dose, beam type and number of fractions describe the course of radiotherapy.
+
+ 
+00 - No radiation fractions were received
+NN - Number of Fractions received
+98 - Not applicable
+99 - Radiation therapy was administered but the dose is unknown 
+ """,0,Episode
+144,E144,CRadiotherapySiteCodeNotification,1,Varchar,"The target site of radiotherapy administered during the initial course of treatment for cancer, as represented by a code.",TBD,0,Episode
+145,E145,CRadiotherapySiteStartDateNotification,1,Date,"The start date of the radiotherapy administered to the radiotherapy site during the initial course of treatment for cancer, expressed as DDMMYYYY.",datetime (YYYY-MM-DD HH:MM:SS:MS),0,Episode
+146,E146,CRadiotherapySiteEndDateNotification,1,Date,"The completion date of the radiotherapy administered to the radiotherapy site during the initial course of treatment for cancer, expressed as DDMMYYYY.",datetime (YYYY-MM-DD HH:MM:SS:MS),0,Episode
+147,E147,CActualRadiationDose,1,Varchar,The received dose of radiation delivered to the Radiotherapy Site measured in the Radiation Dose Unit.,TBD,0,Episode
+148,E148,CActualRadiationFractionsNotification,1,Varchar,Number of radiotherapy fractions delivered to the Radiotherapy Site.,""" Total dose, beam type and number of fractions describe the course of radiotherapy.
+
+ 
+00 - No radiation fractions were received
+NN - Number of Fractions received
+98 - Not applicable
+99 - Radiation therapy was administered but the dose is unknown 
+ """,0,Episode
+149,E149,GClinicalTrialNameNotification,0,Varchar,The name of the clinical trial indicates which clinical trial the patient is enrolled in.,TBD,0,Clinical Trial
+150,E150,GClinicalTrialEnrolmentDateNotification,1,Date,"The date a person with cancer was enrolled in a clinical trial.",datetime (YYYY-MM-DD HH:MM:SS:MS),0,Clinical Trial
+151,E151,DMTDConsultationDateNotification,1,Date,"The date of first consultation with a multidisciplinary team of health professionals regarding the diagnosis, treatment and care of the person with cancer.",datetime (YYYY-MM-DD HH:MM:SS:MS),0,Health Practitioner
+152,E152,BPalliativeCareReferralDateNotification,1,Date,"The date a person with cancer was referred to a palliative care physician or team during their course of treatment.
+""",datetime (YYYY-MM-DD HH:MM:SS:MS),0,Case
+153,E153,CPerformanceStatusDateNotification,1,Date,"The date on which the appraisal of the individual’s ability to manage activities of daily living was conducted.
+""",datetime (YYYY-MM-DD HH:MM:SS:MS),0,Episode
+154,E154,CPerformanceStatusCodeNotification,1,Varchar,"""The result of the appraisal of the individual’s ability to manage activities of daily living, conducted at the time of diagnosis of cancer, as represented by a code.
+""",TBD,0,Episode
+155,E155,CPyshocialReferralNotification,1,Varchar,"""
+The health professional, support group or advisor to whom a person with cancer is initially referred for psycho-social support or intervention, as represented by a code.
+""","""Four values can be recorded. The order of referral should be: 
+
+first referral=psychosocial referral 1
+second referral= psychosocial referral 2 
+third referral= psychosocial referral 3
+fourth referral= psychosocial referral 4""",0,Episode
+156,E156,BBDSEInitialPresentationNotification,1,Varchar,Description of the principal method by which the cancer was detected at initial presentation.,TBD,0,Case
+157,E157,BBDSEInvasiveTumourSizeNotification,1,Varchar,The maximum diameter in millimetres of the furthest points of extension of the tumour cells.,TBD,0,Case
+158,E158,BBDSESurgicalMarginInvolvmentNotification,1,Varchar,"The extent of carcinoma in the surgical resection margin, in millimetres.",Numeric Value (NNN.NN),0,Case
+159,E159,BBDSEClosestSurgicalMarginDistanceNotification,1,Varchar,"""The distance of the closest surgical margin from the invasive or in situ
+carcinoma in millimetres (mm).""",Numeric Value (NNN.NN),0,Case
+160,E160,BBDSESentinelLymphNodesCountNotification,1,Varchar,The total number of a person's sentinel lymph nodes examined by the pathologist.,TBD,0,Case
+161,E161,BBDSEPostiveSentinelLymphNodesCountNotification,1,Varchar,The total number of sentinel lymph nodes reported as containing tumour after examination by a pathologist.,TBD,0,Case
+162,E162,BBDSELymphovascularInvasionNotification,1,Varchar,"The presence or absence of the invasion of cancer cells into blood vessel(s) and/or the lymphatic system, as represented by a code.",TBD,0,Case
+163,E163,BBDSERegionalLymphNodesExaminedCountNotification,1,Varchar,The total number of regional lymph nodes examined by a pathologist in a person with cancer.,TBD,0,Case
+164,E164,BBDSEPostiveRegionalLymphNotesCountNotification,1,Varchar,The total number of regional lymph nodes reported to contain tumour in a person with cancer.,TBD,0,Case
+165,E165,BBDSEMenopausalStatusNotification,1,Varchar,The menopausal status of a person with cancer.,"""1 Pre-menopausal: An individual who has not yet experienced the menopause
+2 Post-menopausal: An individual who has experienced the menopause and the occurrence of 12 months of spontaneous amenorrhoea
+3 Peri-menopausal: An individual who is either in the period just prior to menopause or the subsequent 12 months of amenorrhea following menopause
+4 Male - not female
+9 Unknown: The patient's menopausal status is not known""",0,Case
+166,E166,BBDSEOestogenReceptorStatusNotification,1,Varchar,"The result of oestrogen receptor assay at the time of diagnosis of the primary breast tumour, as represented by a code.",TBD,0,Case
+167,E167,BBDSEProgesteroneReceptorStatusNotification,1,Varchar,"The results of progesterone receptor assay at the time or diagnosis of the primary breast tumour, as represented by a code.",TBD,0,Case
+168,E168,BBDSEHER2StatusNotification,1,Varchar,"""The result of a person's human epidermal growth factor receptor-2 (HER2) test, as
+represented by a code.""",TBD,0,Case
+169,E169,BBDSEHER2TestTypeNotification,1,Varchar,"The type of test used to determine the results of human epidermal growth factor receptor-2 (HER2) at the time of diagnosis of the primary tumour, as represented by a code.",TBD,0,Case
+170,E170,BBDSEInvasiveTumoursCountNotification,1,Varchar,"The number of invasive tumours in one breast, as represented by a code.",TBD,0,Case
+171,E171,BBDSETotalLesionExtentNotification,1,Varchar,The maximum diameter in millimetres of the furthest points of extension of the whole lesion including DCIS which extends beyond the invasive component,Numeric Value (NNN.NN),0,Case
+172,E172,BBDSENecrosisNotification,1,Varchar,Person with cancer - necrosis of in-situ breast tumour,"""1 No necrosis/minimal - Necrosis not present or minimal
+No central duct necrosis is present, but focal necrosis and isolated apoptotic cells may be present.
+2 Necrosis - Necrosis present
+Central necrosis is identified in ducts (this has previously been described as “comedo” type necrosis).
+9 Not applicable - The default value for this data item. It is not applicable if the tumour is invasive""",0,Case
+173,E173,BBDSEAccomodationTypeNotification,1,Varchar,Accommodation chargeable status elected by patient on admission.,TBD,0,Case
+174,E174,BCDSEInitialPresentationNotification,1,Varchar,"The presentation of the patient who has been admitted for a scheduled appointment/ surgery/ screening for bowel cancer, as represented by a code.","""1 Screening detected, method of screening not otherwise specified
+2 Faecal Occult Blood Test for screening bowel cancer
+3 Patient presented with symptoms of bowel cancer
+9 It is unknown how the patient presented""",0,Case
+175,E175,BCDSEEmergencySurgeryReasonNotification,1,Varchar,"The reason that emergency surgery was performed for colorectal cancer, as represented by a code.",TBD,0,Case
+176,E176,BCDSESurgeryMethodNotification,1,Varchar,"The method of surgery performed, as represented by a code.",TBD,0,Case
+177,E177,BCDSEStomaTypeNotification,1,Varchar,"The type of stoma created for a patient with colorectal cancer, as represented by a code.",TBD,0,Case
+178,E178,BCDSETumourSizeNotification,1,Varchar,"The largest dimension of a solid tumour, measured in millimetres.",TBD,0,Case
+179,E179,BCDSERegionalLymphNodesExaminedCountNotification,1,Varchar,The total number of regional lymph nodes examined by a pathologist in a person with cancer.,TBD,0,Case
+180,E180,BCDSEPostiveRegionalLymphNodesCountNotification,1,Varchar,The total number of regional lymph nodes reported to contain tumour in a person with cancer.,TBD,0,Case
+181,E181,BCDSELymphovascularInvasionNotification,1,Varchar,"The presence or absence of the invasion of cancer cells into blood vessel(s) and/or the lymphatic system, as represented by a code.",TBD,0,Case
+182,E182,BCDSEPerineuralInvasionNotification,1,Varchar,"An indication of whether perineural invasion was present , as represented by a code",TBD,0,Case
+183,E183,BCDSEMismatchRepairDeficiencyStatusNotification,1,Varchar,"The result of Mismatch Repair Enzyme Testing, as represented by a code.",TBD,0,Case
+184,E184,BCDSEClosestSurgicalMarginDistanceNotification,1,Varchar,"The distance of carcinoma from the surgical resection margin, in millimetres.",TBD,0,Case
+185,E185,BCDSEResidualTumourStatusNotification,1,Varchar,A code set describing whether residual tumour is present or absent after the initial course of treatment for cancer.,TBD,0,Case
+186,E186,BCDSEPostOperativeComplicationsNotification,1,Varchar,"The type of complication following surgery for colorectal cancer, as represented by a code.",TBD,0,Case
+187,E187,BCDSEReadmissionWithin28DaysNotification,1,Varchar,"""An indication of whether the patient was readmitted as an admitted patient within 28 days of last being admitted and, if so, whether the admission was to the facility reporting the current episode, or another facility, as represented by a code.
+""",TBD,0,Case
+188,E188,BCDSEReadmissionReasonNotification,1,Varchar,The reason that a patient was readmitted to hospital following treatment for colorectal cancer.,TBD,0,Case
+189,E189,BCDSERectalCancerLevelNotification,1,Varchar,"The level of rectal cancer in relation to the anal verge, as represented by a code.","""1 High: entirely above the level of the peritoneal reflection anteriorly (11-15cm)
+
+2 Medium: astride (or at) the level  of the peritoneal reflection anteriorly (6-10cm)
+
+3 Low: entirely below the level of the peritoneal reflection anteriorly (0-5cm)""",0,Case
+190,E190,BCDSEAnalVergeDistanceNotification,1,Varchar,"The distal level of rectal cancer from the anal verge, measured in centimetres (cm).",TBD,0,Case
+191,E191,BCDSERadialResectionMarginNotification,1,Varchar,"The distance from the tumour to the radial resection margin, measured in millimetres (mm).",TBD,0,Case
+192,E192,BPDSEDiagnosisPSANotification,1,Varchar,Person with cancer - PSA score,TBD,0,Case
+193,E193,BPDSEProstateRiskStratificationNotification,1,Varchar,Person with cancer - prostate risk stratification,"""1 – Low Risk
+2 – Intermediate Risk
+3 – High Risk       
+9 – Unknown Risk
+""",0,Case
+194,E194,BPDSERadicalProstatectomyNotification,1,Varchar,Person with cancer - Gleason grade at radical prostatectomy,"""
+1+1=2
+1+2=3
+1+3=4
+1+4=5
+1+5=6
+2+1=3
+2+2=4
+2+3=5
+2+4=6
+2+5=7
+3+1=4
+3+2=5
+3+3=6
+3+4=7
+3+5=8
+4+1=5
+4+2=6
+4+3=7
+4+4=8
+4+5=9
+5+1=6
+5+2=7
+5+3=8
+5+4=9
+5+5=10
+n+n=10
+n+n=2
+n+n=3
+n+n=4
+n+n=5
+n+n=6
+n+n=7
+n+n=8
+n+n=9
+Unknown""",0,Case
+195,E195,BMDSEMelanomaUlcerationNotification,1,Varchar,Person with cancer - ulceration of melanoma,TBD,0,Case

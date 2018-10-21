@@ -1,0 +1,693 @@
+lhd,LGA,year,calc_rate,calc_LCI,calc_UCI,calc_inv
+Central Coast LHD,Central Coast LHD,2014,0.335,0.328,0.342,19749
+Central Coast LHD,Gosford,2014,0.337,0.328,0.346,10506
+Central Coast LHD,Wyong,2014,0.333,0.323,0.342,9243
+Far West LHD,Balranald,2014,0.378,0.294,0.462,127
+Far West LHD,Broken Hill,2014,0.374,0.343,0.405,943
+Far West LHD,Central Darling,2014,0.211,0.129,0.293,95
+Far West LHD,Far West LHD,2014,0.365,0.341,0.388,1584
+Far West LHD,Unincorporated NSW,2014,0.369,0.273,0.465,97
+Far West LHD,Wentworth,2014,0.376,0.323,0.429,322
+Hunter New England LHD,Armidale Dumaresq,2014,0.391,0.366,0.417,1413
+Hunter New England LHD,Cessnock,2014,0.334,0.317,0.35,3100
+Hunter New England LHD,Dungog,2014,0.397,0.359,0.434,658
+Hunter New England LHD,Glen Innes Severn,2014,0.372,0.333,0.411,578
+Hunter New England LHD,Gloucester,2014,0.41,0.36,0.461,363
+Hunter New England LHD,Great Lakes,2014,0.396,0.377,0.415,2476
+Hunter New England LHD,Greater Taree,2014,0.37,0.354,0.387,3312
+Hunter New England LHD,Gunnedah,2014,0.383,0.344,0.421,609
+Hunter New England LHD,Guyra,2014,0.316,0.261,0.371,275
+Hunter New England LHD,Gwydir,2014,0.349,0.288,0.41,235
+Hunter New England LHD,Hunter New England LHD,2014,0.361,0.356,0.365,52437
+Hunter New England LHD,Inverell,2014,0.384,0.352,0.415,928
+Hunter New England LHD,Lake Macquarie,2014,0.368,0.36,0.377,12562
+Hunter New England LHD,Liverpool Plains,2014,0.31,0.269,0.352,477
+Hunter New England LHD,Maitland,2014,0.344,0.329,0.359,4026
+Hunter New England LHD,Moree Plains,2014,0.316,0.28,0.353,629
+Hunter New England LHD,Muswellbrook,2014,0.332,0.299,0.364,793
+Hunter New England LHD,Narrabri,2014,0.328,0.294,0.362,726
+Hunter New England LHD,Newcastle,2014,0.355,0.345,0.365,8788
+Hunter New England LHD,Port Stephens,2014,0.366,0.352,0.381,4273
+Hunter New England LHD,Singleton,2014,0.363,0.336,0.391,1172
+Hunter New England LHD,Tamworth Regional,2014,0.357,0.34,0.373,3305
+Hunter New England LHD,Tenterfield,2014,0.291,0.245,0.338,370
+Hunter New England LHD,Upper Hunter Shire,2014,0.322,0.289,0.355,764
+Hunter New England LHD,Uralla,2014,0.384,0.337,0.431,409
+Hunter New England LHD,Walcha,2014,0.367,0.3,0.435,196
+Illawarra Shoalhaven LHD,Illawarra Shoalhaven LHD,2014,0.364,0.357,0.37,23463
+Illawarra Shoalhaven LHD,Kiama,2014,0.39,0.364,0.415,1445
+Illawarra Shoalhaven LHD,Shellharbour,2014,0.36,0.345,0.374,4035
+Illawarra Shoalhaven LHD,Shoalhaven,2014,0.383,0.371,0.395,6262
+Illawarra Shoalhaven LHD,Wollongong,2014,0.351,0.343,0.36,11721
+Mid North Coast LHD,Bellingen,2014,0.341,0.312,0.37,1033
+Mid North Coast LHD,Coffs Harbour,2014,0.38,0.366,0.393,4990
+Mid North Coast LHD,Kempsey,2014,0.356,0.336,0.377,2059
+Mid North Coast LHD,Mid North Coast LHD,2014,0.372,0.364,0.38,14532
+Mid North Coast LHD,Nambucca,2014,0.363,0.338,0.388,1419
+Mid North Coast LHD,Port Macquarie-Hastings,2014,0.38,0.366,0.393,5031
+Murrumbidgee LHD,Albury,2014,0.402,0.384,0.42,2714
+Murrumbidgee LHD,Berrigan,2014,0.389,0.347,0.431,519
+Murrumbidgee LHD,Bland,2014,0.315,0.264,0.365,321
+Murrumbidgee LHD,Boorowa,2014,0.352,0.278,0.426,159
+Murrumbidgee LHD,Carrathool,2014,0.345,0.267,0.422,145
+Murrumbidgee LHD,Conargo,2014,0.296,0.124,0.469,27
+Murrumbidgee LHD,Coolamon,2014,0.383,0.318,0.448,214
+Murrumbidgee LHD,Cootamundra,2014,0.366,0.325,0.407,527
+Murrumbidgee LHD,Corowa Shire,2014,0.408,0.371,0.445,674
+Murrumbidgee LHD,Deniliquin,2014,0.328,0.273,0.384,274
+Murrumbidgee LHD,Greater Hume Shire,2014,0.356,0.317,0.395,578
+Murrumbidgee LHD,Griffith,2014,0.313,0.288,0.338,1332
+Murrumbidgee LHD,Gundagai,2014,0.376,0.309,0.443,202
+Murrumbidgee LHD,Harden,2014,0.338,0.275,0.402,213
+Murrumbidgee LHD,Hay,2014,0.288,0.221,0.355,177
+Murrumbidgee LHD,Jerilderie,2014,0.367,0.261,0.473,79
+Murrumbidgee LHD,Junee,2014,0.314,0.259,0.369,274
+Murrumbidgee LHD,Lachlan,2014,0.265,0.169,0.361,82
+Murrumbidgee LHD,Leeton,2014,0.318,0.28,0.356,572
+Murrumbidgee LHD,Lockhart,2014,0.344,0.275,0.414,180
+Murrumbidgee LHD,Murray,2014,0.415,0.376,0.454,624
+Murrumbidgee LHD,Murrumbidgee,2014,0.349,0.272,0.426,149
+Murrumbidgee LHD,Murrumbidgee LHD,2014,0.36,0.352,0.367,15629
+Murrumbidgee LHD,Narrandera,2014,0.261,0.214,0.308,341
+Murrumbidgee LHD,Temora,2014,0.378,0.327,0.43,341
+Murrumbidgee LHD,Tumbarumba,2014,0.368,0.304,0.432,220
+Murrumbidgee LHD,Tumut Shire,2014,0.36,0.321,0.399,589
+Murrumbidgee LHD,Urana,2014,0.441,0.34,0.542,93
+Murrumbidgee LHD,Wagga Wagga,2014,0.349,0.332,0.366,3105
+Murrumbidgee LHD,Wakool,2014,0.414,0.35,0.478,227
+Murrumbidgee LHD,Young,2014,0.341,0.305,0.377,677
+NSW,NSW,2014,0.338,0.337,0.34,424715
+Nepean Blue Mountains LHD,Blue Mountains,2014,0.354,0.342,0.367,5860
+Nepean Blue Mountains LHD,Hawkesbury,2014,0.321,0.307,0.335,4060
+Nepean Blue Mountains LHD,Lithgow,2014,0.317,0.293,0.341,1443
+Nepean Blue Mountains LHD,Nepean Blue Mountains LHD,2014,0.32,0.314,0.326,21928
+Nepean Blue Mountains LHD,Penrith,2014,0.301,0.292,0.31,10565
+Northern NSW LHD,Ballina,2014,0.375,0.357,0.393,2790
+Northern NSW LHD,Byron,2014,0.327,0.309,0.345,2560
+Northern NSW LHD,Clarence Valley,2014,0.36,0.345,0.376,3572
+Northern NSW LHD,Kyogle,2014,0.402,0.366,0.439,681
+Northern NSW LHD,Lismore,2014,0.369,0.352,0.386,3048
+Northern NSW LHD,Northern NSW LHD,2014,0.357,0.351,0.364,19739
+Northern NSW LHD,Richmond Valley,2014,0.33,0.305,0.355,1375
+Northern NSW LHD,Urbenville,2014,0.291,0.123,0.46,28
+Northern NSW LHD,Tweed,2014,0.356,0.343,0.368,5685
+Northern Sydney LHD,Hornsby,2014,0.36,0.351,0.369,10453
+Northern Sydney LHD,Hunters Hill,2014,0.337,0.305,0.369,846
+Northern Sydney LHD,Ku-ring-gai,2014,0.369,0.359,0.38,7786
+Northern Sydney LHD,Lane Cove,2014,0.345,0.324,0.366,1954
+Northern Sydney LHD,Manly,2014,0.396,0.376,0.416,2324
+Northern Sydney LHD,Mosman,2014,0.332,0.31,0.353,1797
+Northern Sydney LHD,North Sydney,2014,0.353,0.338,0.369,3642
+Northern Sydney LHD,Northern Sydney LHD,2014,0.361,0.357,0.365,52101
+Northern Sydney LHD,Pittwater,2014,0.375,0.36,0.39,4157
+Northern Sydney LHD,Ryde,2014,0.346,0.334,0.358,6290
+Northern Sydney LHD,Warringah,2014,0.367,0.357,0.377,8630
+Northern Sydney LHD,Willoughby,2014,0.357,0.343,0.372,4222
+South Eastern Sydney LHD,Botany Bay,2014,0.285,0.267,0.304,2287
+South Eastern Sydney LHD,Hurstville,2014,0.34,0.327,0.353,4996
+South Eastern Sydney LHD,Kogarah,2014,0.333,0.317,0.349,3357
+South Eastern Sydney LHD,Randwick,2014,0.32,0.309,0.331,6891
+South Eastern Sydney LHD,Rockdale,2014,0.298,0.287,0.31,5734
+South Eastern Sydney LHD,South Eastern Sydney LHD,2014,0.315,0.31,0.319,46773
+South Eastern Sydney LHD,Sutherland Shire,2014,0.327,0.319,0.335,13487
+South Eastern Sydney LHD,Sydney,2014,0.296,0.281,0.311,3430
+South Eastern Sydney LHD,Unincorporated NSW,2014,0.369,0.238,0.5,52
+South Eastern Sydney LHD,Waverley,2014,0.287,0.271,0.302,3252
+South Eastern Sydney LHD,Woollahra,2014,0.29,0.275,0.306,3287
+South Western Sydney LHD,Bankstown,2014,0.31,0.301,0.319,10790
+South Western Sydney LHD,Camden,2014,0.322,0.306,0.338,3281
+South Western Sydney LHD,Campbelltown,2014,0.289,0.28,0.298,9240
+South Western Sydney LHD,Fairfield,2014,0.338,0.33,0.347,12347
+South Western Sydney LHD,Liverpool,2014,0.291,0.282,0.3,10192
+South Western Sydney LHD,South Western Sydney LHD,2014,0.316,0.312,0.32,51597
+South Western Sydney LHD,Wingecarribee,2014,0.357,0.34,0.374,3056
+South Western Sydney LHD,Wollondilly,2014,0.363,0.345,0.382,2691
+Southern NSW LHD,Bega Valley,2014,0.446,0.426,0.465,2556
+Southern NSW LHD,Bombala,2014,0.366,0.296,0.436,183
+Southern NSW LHD,Cooma-Monaro,2014,0.36,0.322,0.399,605
+Southern NSW LHD,Eurobodalla,2014,0.391,0.373,0.409,2842
+Southern NSW LHD,Goulburn Mulwaree,2014,0.35,0.328,0.372,1785
+Southern NSW LHD,Palerang,2014,0.393,0.362,0.423,1014
+Southern NSW LHD,Queanbeyan,2014,0.353,0.333,0.372,2240
+Southern NSW LHD,Snowy River,2014,0.344,0.297,0.391,395
+Southern NSW LHD,Southern NSW LHD,2014,0.385,0.377,0.394,13048
+Southern NSW LHD,Upper Lachlan Shire,2014,0.39,0.349,0.431,546
+Southern NSW LHD,Yass Valley,2014,0.379,0.347,0.411,882
+Sydney LHD,Ashfield,2014,0.333,0.314,0.351,2421
+Sydney LHD,Burwood,2014,0.314,0.294,0.335,1959
+Sydney LHD,Canada Bay,2014,0.327,0.313,0.341,4507
+Sydney LHD,Canterbury,2014,0.291,0.281,0.301,8140
+Sydney LHD,Leichhardt,2014,0.338,0.322,0.354,3355
+Sydney LHD,Marrickville,2014,0.337,0.323,0.351,4232
+Sydney LHD,Strathfield,2014,0.286,0.266,0.306,1946
+Sydney LHD,Sydney,2014,0.296,0.283,0.309,4603
+Sydney LHD,Sydney LHD,2014,0.313,0.307,0.318,31163
+Western NSW LHD,Bathurst Regional,2014,0.368,0.348,0.388,2245
+Western NSW LHD,Blayney,2014,0.351,0.307,0.395,447
+Western NSW LHD,Bogan,2014,0.283,0.205,0.362,127
+Western NSW LHD,Bourke,2014,0.262,0.178,0.345,107
+Western NSW LHD,Brewarrina,2014,0.171,0.086,0.256,76
+Western NSW LHD,Cabonne,2014,0.368,0.331,0.404,669
+Western NSW LHD,Cobar,2014,0.317,0.256,0.378,224
+Western NSW LHD,Coonamble,2014,0.225,0.167,0.283,200
+Western NSW LHD,Cowra,2014,0.332,0.298,0.366,723
+Western NSW LHD,Dubbo,2014,0.335,0.314,0.356,2027
+Western NSW LHD,Forbes,2014,0.358,0.316,0.4,503
+Western NSW LHD,Gilgandra,2014,0.287,0.231,0.343,251
+Western NSW LHD,Lachlan,2014,0.265,0.208,0.322,231
+Western NSW LHD,Mid-Western Regional,2014,0.358,0.332,0.384,1299
+Western NSW LHD,Narromine,2014,0.295,0.247,0.344,342
+Western NSW LHD,Oberon,2014,0.38,0.328,0.432,337
+Western NSW LHD,Orange,2014,0.357,0.337,0.376,2323
+Western NSW LHD,Parkes,2014,0.352,0.32,0.384,856
+Western NSW LHD,Walgett,2014,0.262,0.213,0.311,313
+Western NSW LHD,Warren,2014,0.268,0.194,0.342,138
+Western NSW LHD,Warrumbungle Shire,2014,0.366,0.327,0.406,576
+Western NSW LHD,Weddin,2014,0.279,0.22,0.338,222
+Western NSW LHD,Wellington,2014,0.293,0.249,0.337,413
+Western NSW LHD,Western NSW LHD,2014,0.341,0.333,0.348,14649
+Western Sydney LHD,Auburn,2014,0.309,0.295,0.324,3989
+Western Sydney LHD,Blacktown,2014,0.285,0.278,0.292,16607
+Western Sydney LHD,Holroyd,2014,0.304,0.292,0.316,5380
+Western Sydney LHD,Parramatta,2014,0.307,0.297,0.316,9074
+Western Sydney LHD,The Hills Shire,2014,0.359,0.35,0.368,11273
+Western Sydney LHD,Western Sydney LHD,2014,0.312,0.307,0.316,46323
+Central Coast LHD,Central Coast LHD,2015,0.366,0.36,0.373,20890
+Central Coast LHD,Gosford,2015,0.368,0.359,0.377,11124
+Central Coast LHD,Wyong,2015,0.364,0.355,0.374,9766
+Far West LHD,Balranald,2015,0.282,0.198,0.366,110
+Far West LHD,Broken Hill,2015,0.334,0.305,0.363,991
+Far West LHD,Central Darling,2015,0.173,0.1,0.246,104
+Far West LHD,Far West LHD,2015,0.344,0.321,0.367,1681
+Far West LHD,Unincorporated NSW,2015,0.406,0.314,0.497,111
+Far West LHD,Wentworth,2015,0.419,0.369,0.47,365
+Hunter New England LHD,Armidale Dumaresq,2015,0.433,0.407,0.458,1424
+Hunter New England LHD,Cessnock,2015,0.356,0.339,0.373,3029
+Hunter New England LHD,Dungog,2015,0.422,0.384,0.46,652
+Hunter New England LHD,Glen Innes Severn,2015,0.403,0.362,0.445,538
+Hunter New England LHD,Gloucester,2015,0.455,0.406,0.504,389
+Hunter New England LHD,Great Lakes,2015,0.459,0.44,0.478,2714
+Hunter New England LHD,Greater Taree,2015,0.419,0.403,0.435,3584
+Hunter New England LHD,Gunnedah,2015,0.37,0.333,0.407,652
+Hunter New England LHD,Guyra,2015,0.386,0.327,0.444,267
+Hunter New England LHD,Gwydir,2015,0.345,0.292,0.398,313
+Hunter New England LHD,Hunter New England LHD,2015,0.397,0.393,0.401,53269
+Hunter New England LHD,Inverell,2015,0.397,0.366,0.428,965
+Hunter New England LHD,Lake Macquarie,2015,0.417,0.409,0.426,12604
+Hunter New England LHD,Liverpool Plains,2015,0.391,0.346,0.437,442
+Hunter New England LHD,Maitland,2015,0.376,0.361,0.391,3971
+Hunter New England LHD,Moree Plains,2015,0.265,0.233,0.297,713
+Hunter New England LHD,Muswellbrook,2015,0.326,0.294,0.358,820
+Hunter New England LHD,Narrabri,2015,0.348,0.313,0.383,724
+Hunter New England LHD,Newcastle,2015,0.384,0.374,0.394,8703
+Hunter New England LHD,Port Stephens,2015,0.418,0.403,0.432,4380
+Hunter New England LHD,Singleton,2015,0.366,0.339,0.393,1186
+Hunter New England LHD,Tamworth Regional,2015,0.396,0.379,0.412,3397
+Hunter New England LHD,Tenterfield,2015,0.289,0.247,0.331,454
+Hunter New England LHD,Upper Hunter Shire,2015,0.336,0.303,0.369,792
+Hunter New England LHD,Uralla,2015,0.399,0.35,0.449,378
+Hunter New England LHD,Walcha,2015,0.41,0.338,0.482,178
+Illawarra Shoalhaven LHD,Illawarra Shoalhaven LHD,2015,0.388,0.382,0.394,24354
+Illawarra Shoalhaven LHD,Kiama,2015,0.395,0.371,0.419,1539
+Illawarra Shoalhaven LHD,Shellharbour,2015,0.386,0.371,0.402,4011
+Illawarra Shoalhaven LHD,Shoalhaven,2015,0.425,0.413,0.436,7099
+Illawarra Shoalhaven LHD,Wollongong,2015,0.365,0.357,0.374,11705
+Mid North Coast LHD,Bellingen,2015,0.395,0.364,0.425,985
+Mid North Coast LHD,Coffs Harbour,2015,0.408,0.395,0.422,4898
+Mid North Coast LHD,Kempsey,2015,0.373,0.353,0.394,2075
+Mid North Coast LHD,Mid North Coast LHD,2015,0.4,0.393,0.408,14749
+Mid North Coast LHD,Nambucca,2015,0.385,0.36,0.41,1474
+Mid North Coast LHD,Port Macquarie-Hastings,2015,0.409,0.396,0.422,5317
+Murrumbidgee LHD,Albury,2015,0.414,0.396,0.432,2821
+Murrumbidgee LHD,Berrigan,2015,0.408,0.366,0.45,527
+Murrumbidgee LHD,Bland,2015,0.343,0.293,0.394,338
+Murrumbidgee LHD,Boorowa,2015,0.4,0.319,0.481,140
+Murrumbidgee LHD,Carrathool,2015,0.32,0.238,0.402,125
+Murrumbidgee LHD,Conargo,2015,0.429,0.245,0.612,28
+Murrumbidgee LHD,Coolamon,2015,0.324,0.269,0.379,278
+Murrumbidgee LHD,Cootamundra,2015,0.45,0.408,0.491,547
+Murrumbidgee LHD,Corowa Shire,2015,0.469,0.433,0.505,738
+Murrumbidgee LHD,Deniliquin,2015,0.314,0.261,0.366,303
+Murrumbidgee LHD,Greater Hume Shire,2015,0.392,0.352,0.431,582
+Murrumbidgee LHD,Griffith,2015,0.335,0.309,0.361,1283
+Murrumbidgee LHD,Gundagai,2015,0.347,0.281,0.413,199
+Murrumbidgee LHD,Harden,2015,0.346,0.285,0.408,228
+Murrumbidgee LHD,Hay,2015,0.313,0.247,0.378,192
+Murrumbidgee LHD,Jerilderie,2015,0.446,0.344,0.547,92
+Murrumbidgee LHD,Junee,2015,0.359,0.308,0.411,334
+Murrumbidgee LHD,Lachlan,2015,0.32,0.229,0.411,101
+Murrumbidgee LHD,Leeton,2015,0.326,0.289,0.363,619
+Murrumbidgee LHD,Lockhart,2015,0.31,0.247,0.374,203
+Murrumbidgee LHD,Murray,2015,0.464,0.426,0.502,659
+Murrumbidgee LHD,Murrumbidgee,2015,0.356,0.279,0.433,149
+Murrumbidgee LHD,Murrumbidgee LHD,2015,0.381,0.373,0.388,16351
+Murrumbidgee LHD,Narrandera,2015,0.351,0.302,0.399,368
+Murrumbidgee LHD,Temora,2015,0.37,0.32,0.421,351
+Murrumbidgee LHD,Tumbarumba,2015,0.389,0.326,0.451,234
+Murrumbidgee LHD,Tumut Shire,2015,0.394,0.36,0.429,771
+Murrumbidgee LHD,Urana,2015,0.253,0.162,0.344,87
+Murrumbidgee LHD,Wagga Wagga,2015,0.362,0.345,0.379,3034
+Murrumbidgee LHD,Wakool,2015,0.412,0.351,0.474,245
+Murrumbidgee LHD,Young,2015,0.364,0.33,0.398,775
+NSW,NSW,2015,0.36,0.358,0.361,429415
+Nepean Blue Mountains LHD,Blue Mountains,2015,0.393,0.38,0.406,5377
+Nepean Blue Mountains LHD,Hawkesbury,2015,0.343,0.328,0.358,3836
+Nepean Blue Mountains LHD,Lithgow,2015,0.37,0.344,0.396,1351
+Nepean Blue Mountains LHD,Nepean Blue Mountains LHD,2015,0.341,0.335,0.348,20906
+Nepean Blue Mountains LHD,Penrith,2015,0.309,0.301,0.318,10342
+Northern NSW LHD,Ballina,2015,0.413,0.395,0.431,2835
+Northern NSW LHD,Byron,2015,0.369,0.35,0.389,2373
+Northern NSW LHD,Clarence Valley,2015,0.41,0.395,0.426,3781
+Northern NSW LHD,Kyogle,2015,0.376,0.339,0.413,660
+Northern NSW LHD,Lismore,2015,0.381,0.363,0.398,3040
+Northern NSW LHD,Northern NSW LHD,2015,0.391,0.385,0.398,20056
+Northern NSW LHD,Richmond Valley,2015,0.397,0.372,0.423,1427
+Northern NSW LHD,Urbenville,2015,0.289,0.137,0.441,34
+Northern NSW LHD,Tweed,2015,0.384,0.372,0.397,5906
+Northern Sydney LHD,Hornsby,2015,0.384,0.375,0.393,10398
+Northern Sydney LHD,Hunters Hill,2015,0.369,0.337,0.401,889
+Northern Sydney LHD,Ku-ring-gai,2015,0.382,0.371,0.392,7784
+Northern Sydney LHD,Lane Cove,2015,0.395,0.373,0.418,1851
+Northern Sydney LHD,Manly,2015,0.411,0.391,0.431,2353
+Northern Sydney LHD,Mosman,2015,0.36,0.338,0.382,1775
+Northern Sydney LHD,North Sydney,2015,0.389,0.373,0.404,3688
+Northern Sydney LHD,Northern Sydney LHD,2015,0.383,0.379,0.387,52325
+Northern Sydney LHD,Pittwater,2015,0.4,0.386,0.415,4370
+Northern Sydney LHD,Ryde,2015,0.361,0.349,0.373,6259
+Northern Sydney LHD,Warringah,2015,0.393,0.383,0.403,8753
+Northern Sydney LHD,Willoughby,2015,0.363,0.348,0.377,4205
+South Eastern Sydney LHD,Botany Bay,2015,0.316,0.297,0.335,2310
+South Eastern Sydney LHD,Hurstville,2015,0.348,0.335,0.362,5028
+South Eastern Sydney LHD,Kogarah,2015,0.339,0.323,0.355,3443
+South Eastern Sydney LHD,Randwick,2015,0.333,0.322,0.344,6950
+South Eastern Sydney LHD,Rockdale,2015,0.301,0.29,0.313,5875
+South Eastern Sydney LHD,South Eastern Sydney LHD,2015,0.335,0.331,0.34,46980
+South Eastern Sydney LHD,Sutherland Shire,2015,0.372,0.364,0.381,13419
+South Eastern Sydney LHD,Sydney,2015,0.3,0.284,0.315,3314
+South Eastern Sydney LHD,Unincorporated NSW,2015,0.406,0.281,0.531,60
+South Eastern Sydney LHD,Waverley,2015,0.308,0.292,0.324,3218
+South Eastern Sydney LHD,Woollahra,2015,0.3,0.285,0.316,3363
+South Western Sydney LHD,Bankstown,2015,0.323,0.314,0.332,10946
+South Western Sydney LHD,Camden,2015,0.337,0.321,0.353,3253
+South Western Sydney LHD,Campbelltown,2015,0.303,0.293,0.312,8941
+South Western Sydney LHD,Fairfield,2015,0.335,0.327,0.344,12592
+South Western Sydney LHD,Liverpool,2015,0.289,0.28,0.298,10216
+South Western Sydney LHD,South Western Sydney LHD,2015,0.323,0.319,0.327,51782
+South Western Sydney LHD,Wingecarribee,2015,0.381,0.364,0.398,3123
+South Western Sydney LHD,Wollondilly,2015,0.382,0.363,0.4,2711
+Southern NSW LHD,Bega Valley,2015,0.448,0.429,0.467,2648
+Southern NSW LHD,Bombala,2015,0.463,0.383,0.543,149
+Southern NSW LHD,Cooma-Monaro,2015,0.401,0.363,0.438,644
+Southern NSW LHD,Eurobodalla,2015,0.419,0.401,0.437,2866
+Southern NSW LHD,Goulburn Mulwaree,2015,0.395,0.373,0.417,1887
+Southern NSW LHD,Palerang,2015,0.42,0.388,0.452,922
+Southern NSW LHD,Queanbeyan,2015,0.364,0.343,0.384,2124
+Southern NSW LHD,Snowy River,2015,0.392,0.343,0.441,380
+Southern NSW LHD,Southern NSW LHD,2015,0.41,0.401,0.418,12905
+Southern NSW LHD,Upper Lachlan Shire,2015,0.397,0.353,0.441,466
+Southern NSW LHD,Yass Valley,2015,0.409,0.375,0.443,819
+Sydney LHD,Ashfield,2015,0.334,0.315,0.353,2372
+Sydney LHD,Burwood,2015,0.329,0.309,0.35,1970
+Sydney LHD,Canada Bay,2015,0.351,0.337,0.365,4484
+Sydney LHD,Canterbury,2015,0.299,0.289,0.309,8401
+Sydney LHD,Leichhardt,2015,0.35,0.334,0.367,3267
+Sydney LHD,Marrickville,2015,0.334,0.32,0.349,4255
+Sydney LHD,Strathfield,2015,0.314,0.294,0.334,2009
+Sydney LHD,Sydney,2015,0.3,0.286,0.313,4448
+Sydney LHD,Sydney LHD,2015,0.322,0.317,0.327,31206
+Western NSW LHD,Bathurst Regional,2015,0.382,0.362,0.402,2236
+Western NSW LHD,Blayney,2015,0.382,0.335,0.429,411
+Western NSW LHD,Bogan,2015,0.286,0.217,0.354,168
+Western NSW LHD,Bourke,2015,0.212,0.143,0.28,137
+Western NSW LHD,Brewarrina,2015,0.167,0.081,0.253,72
+Western NSW LHD,Cabonne,2015,0.393,0.356,0.43,662
+Western NSW LHD,Cobar,2015,0.251,0.195,0.307,231
+Western NSW LHD,Coonamble,2015,0.299,0.24,0.358,231
+Western NSW LHD,Cowra,2015,0.408,0.373,0.442,763
+Western NSW LHD,Dubbo,2015,0.342,0.322,0.362,2192
+Western NSW LHD,Forbes,2015,0.41,0.366,0.453,488
+Western NSW LHD,Gilgandra,2015,0.365,0.307,0.423,266
+Western NSW LHD,Lachlan,2015,0.32,0.266,0.374,286
+Western NSW LHD,Mid-Western Regional,2015,0.369,0.344,0.393,1483
+Western NSW LHD,Narromine,2015,0.334,0.287,0.381,383
+Western NSW LHD,Oberon,2015,0.375,0.326,0.424,373
+Western NSW LHD,Orange,2015,0.386,0.366,0.406,2232
+Western NSW LHD,Parkes,2015,0.376,0.344,0.408,875
+Western NSW LHD,Walgett,2015,0.28,0.234,0.325,372
+Western NSW LHD,Warren,2015,0.349,0.272,0.426,149
+Western NSW LHD,Warrumbungle Shire,2015,0.341,0.303,0.38,574
+Western NSW LHD,Weddin,2015,0.358,0.292,0.424,204
+Western NSW LHD,Wellington,2015,0.345,0.301,0.389,455
+Western NSW LHD,Western NSW LHD,2015,0.362,0.355,0.37,15243
+Western Sydney LHD,Auburn,2015,0.315,0.301,0.33,3827
+Western Sydney LHD,Blacktown,2015,0.287,0.28,0.294,16711
+Western Sydney LHD,Holroyd,2015,0.318,0.305,0.33,5523
+Western Sydney LHD,Parramatta,2015,0.321,0.311,0.33,9215
+Western Sydney LHD,The Hills Shire,2015,0.378,0.369,0.387,11443
+Western Sydney LHD,Western Sydney LHD,2015,0.322,0.318,0.326,46719
+Central Coast LHD,Central Coast LHD,2016,0.377,0.372,0.383,28678
+Central Coast LHD,Gosford,2016,0.382,0.374,0.39,15128
+Central Coast LHD,Wyong,2016,0.372,0.364,0.38,13550
+Far West LHD,Balranald,2016,0.375,0.302,0.448,168
+Far West LHD,Broken Hill,2016,0.354,0.33,0.378,1534
+Far West LHD,Central Darling,2016,0.261,0.18,0.343,111
+Far West LHD,Far West LHD,2016,0.369,0.35,0.388,2570
+Far West LHD,Unincorporated NSW,2016,0.359,0.285,0.434,159
+Far West LHD,Wentworth,2016,0.428,0.388,0.468,598
+Hunter New England LHD,Armidale Dumaresq,2016,0.437,0.414,0.46,1858
+Hunter New England LHD,Cessnock,2016,0.389,0.374,0.404,4130
+Hunter New England LHD,Dungog,2016,0.45,0.415,0.485,782
+Hunter New England LHD,Glen Innes Severn,2016,0.381,0.349,0.414,847
+Hunter New England LHD,Gloucester,2016,0.484,0.442,0.525,548
+Hunter New England LHD,Great Lakes,2016,0.467,0.452,0.482,4053
+Hunter New England LHD,Greater Taree,2016,0.455,0.441,0.469,5006
+Hunter New England LHD,Gunnedah,2016,0.37,0.339,0.402,915
+Hunter New England LHD,Guyra,2016,0.442,0.39,0.494,353
+Hunter New England LHD,Gwydir,2016,0.421,0.372,0.47,390
+Hunter New England LHD,Hunter New England LHD,2016,0.42,0.416,0.423,72919
+Hunter New England LHD,Inverell,2016,0.382,0.356,0.409,1274
+Hunter New England LHD,Lake Macquarie,2016,0.438,0.431,0.446,17332
+Hunter New England LHD,Liverpool Plains,2016,0.384,0.346,0.422,633
+Hunter New England LHD,Maitland,2016,0.418,0.405,0.431,5411
+Hunter New England LHD,Moree Plains,2016,0.304,0.274,0.333,935
+Hunter New England LHD,Muswellbrook,2016,0.377,0.348,0.405,1091
+Hunter New England LHD,Narrabri,2016,0.336,0.306,0.365,1004
+Hunter New England LHD,Newcastle,2016,0.405,0.397,0.414,11599
+Hunter New England LHD,Port Stephens,2016,0.436,0.424,0.448,6187
+Hunter New England LHD,Singleton,2016,0.361,0.337,0.385,1516
+Hunter New England LHD,Tamworth Regional,2016,0.406,0.392,0.42,4623
+Hunter New England LHD,Tenterfield,2016,0.337,0.297,0.376,558
+Hunter New England LHD,Upper Hunter Shire,2016,0.399,0.37,0.429,1055
+Hunter New England LHD,Uralla,2016,0.441,0.399,0.483,540
+Hunter New England LHD,Walcha,2016,0.437,0.379,0.495,279
+Illawarra Shoalhaven LHD,Illawarra Shoalhaven LHD,2016,0.411,0.406,0.416,33019
+Illawarra Shoalhaven LHD,Kiama,2016,0.439,0.418,0.461,2026
+Illawarra Shoalhaven LHD,Shellharbour,2016,0.408,0.394,0.421,5418
+Illawarra Shoalhaven LHD,Shoalhaven,2016,0.442,0.432,0.452,9645
+Illawarra Shoalhaven LHD,Wollongong,2016,0.39,0.382,0.398,15930
+Mid North Coast LHD,Bellingen,2016,0.427,0.401,0.453,1395
+Mid North Coast LHD,Coffs Harbour,2016,0.419,0.407,0.431,6462
+Mid North Coast LHD,Kempsey,2016,0.396,0.378,0.414,2815
+Mid North Coast LHD,Mid North Coast LHD,2016,0.418,0.411,0.425,20248
+Mid North Coast LHD,Nambucca,2016,0.41,0.389,0.432,2038
+Mid North Coast LHD,Port Macquarie-Hastings,2016,0.427,0.415,0.438,7538
+Murrumbidgee LHD,Albury,2016,0.427,0.411,0.442,4028
+Murrumbidgee LHD,Berrigan,2016,0.44,0.405,0.475,766
+Murrumbidgee LHD,Bland,2016,0.372,0.327,0.417,444
+Murrumbidgee LHD,Boorowa,2016,0.426,0.359,0.493,209
+Murrumbidgee LHD,Carrathool,2016,0.37,0.298,0.442,173
+Murrumbidgee LHD,Conargo,2016,0.407,0.222,0.593,27
+Murrumbidgee LHD,Coolamon,2016,0.396,0.343,0.449,328
+Murrumbidgee LHD,Cootamundra,2016,0.458,0.422,0.494,740
+Murrumbidgee LHD,Corowa Shire,2016,0.435,0.405,0.465,1048
+Murrumbidgee LHD,Deniliquin,2016,0.435,0.387,0.483,407
+Murrumbidgee LHD,Greater Hume Shire,2016,0.385,0.351,0.419,792
+Murrumbidgee LHD,Griffith,2016,0.369,0.346,0.391,1755
+Murrumbidgee LHD,Gundagai,2016,0.368,0.31,0.426,266
+Murrumbidgee LHD,Harden,2016,0.38,0.327,0.432,324
+Murrumbidgee LHD,Hay,2016,0.392,0.331,0.453,250
+Murrumbidgee LHD,Jerilderie,2016,0.377,0.285,0.47,106
+Murrumbidgee LHD,Junee,2016,0.385,0.338,0.432,408
+Murrumbidgee LHD,Lachlan,2016,0.31,0.228,0.392,122
+Murrumbidgee LHD,Leeton,2016,0.38,0.346,0.414,792
+Murrumbidgee LHD,Lockhart,2016,0.402,0.343,0.462,261
+Murrumbidgee LHD,Murray,2016,0.448,0.416,0.48,944
+Murrumbidgee LHD,Murrumbidgee,2016,0.418,0.345,0.491,177
+Murrumbidgee LHD,Murrumbidgee LHD,2016,0.408,0.402,0.415,22349
+Murrumbidgee LHD,Narrandera,2016,0.38,0.337,0.423,492
+Murrumbidgee LHD,Temora,2016,0.419,0.374,0.464,463
+Murrumbidgee LHD,Tumbarumba,2016,0.373,0.319,0.426,314
+Murrumbidgee LHD,Tumut Shire,2016,0.414,0.383,0.446,944
+Murrumbidgee LHD,Urana,2016,0.392,0.306,0.478,125
+Murrumbidgee LHD,Wagga Wagga,2016,0.398,0.384,0.413,4325
+Murrumbidgee LHD,Wakool,2016,0.439,0.385,0.494,314
+Murrumbidgee LHD,Young,2016,0.427,0.396,0.457,1005
+NSW,NSW,2016,0.378,0.377,0.379,573924
+Nepean Blue Mountains LHD,Blue Mountains,2016,0.41,0.399,0.421,7628
+Nepean Blue Mountains LHD,Hawkesbury,2016,0.354,0.34,0.367,5014
+Nepean Blue Mountains LHD,Lithgow,2016,0.386,0.364,0.408,1892
+Nepean Blue Mountains LHD,Nepean Blue Mountains LHD,2016,0.366,0.361,0.372,27947
+Nepean Blue Mountains LHD,Penrith,2016,0.343,0.335,0.351,13413
+Northern NSW LHD,Ballina,2016,0.419,0.403,0.434,3894
+Northern NSW LHD,Byron,2016,0.381,0.364,0.398,3129
+Northern NSW LHD,Clarence Valley,2016,0.419,0.406,0.432,5245
+Northern NSW LHD,Kyogle,2016,0.405,0.372,0.437,877
+Northern NSW LHD,Lismore,2016,0.394,0.379,0.409,3979
+Northern NSW LHD,Northern NSW LHD,2016,0.403,0.397,0.409,26966
+Northern NSW LHD,Richmond Valley,2016,0.387,0.365,0.408,1961
+Northern NSW LHD,Urbenville,2016,0.337,0.194,0.48,42
+Northern NSW LHD,Tweed,2016,0.402,0.391,0.413,7839
+Northern Sydney LHD,Hornsby,2016,0.392,0.384,0.4,13523
+Northern Sydney LHD,Hunters Hill,2016,0.385,0.357,0.413,1167
+Northern Sydney LHD,Ku-ring-gai,2016,0.397,0.388,0.407,10347
+Northern Sydney LHD,Lane Cove,2016,0.393,0.374,0.412,2448
+Northern Sydney LHD,Manly,2016,0.422,0.405,0.439,3240
+Northern Sydney LHD,Mosman,2016,0.37,0.351,0.388,2487
+Northern Sydney LHD,North Sydney,2016,0.372,0.358,0.385,4933
+Northern Sydney LHD,Northern Sydney LHD,2016,0.395,0.391,0.398,69393
+Northern Sydney LHD,Pittwater,2016,0.415,0.402,0.428,5747
+Northern Sydney LHD,Ryde,2016,0.386,0.375,0.396,8377
+Northern Sydney LHD,Warringah,2016,0.407,0.398,0.416,11566
+Northern Sydney LHD,Willoughby,2016,0.381,0.368,0.394,5558
+South Eastern Sydney LHD,Botany Bay,2016,0.324,0.307,0.34,3072
+South Eastern Sydney LHD,Hurstville,2016,0.367,0.355,0.379,6625
+South Eastern Sydney LHD,Kogarah,2016,0.369,0.355,0.383,4609
+South Eastern Sydney LHD,Randwick,2016,0.336,0.326,0.345,9295
+South Eastern Sydney LHD,Rockdale,2016,0.329,0.318,0.339,7805
+South Eastern Sydney LHD,South Eastern Sydney LHD,2016,0.35,0.347,0.354,62601
+South Eastern Sydney LHD,Sutherland Shire,2016,0.386,0.379,0.393,18216
+South Eastern Sydney LHD,Sydney,2016,0.321,0.307,0.335,4247
+South Eastern Sydney LHD,Unincorporated NSW,2016,0.359,0.258,0.461,86
+South Eastern Sydney LHD,Waverley,2016,0.32,0.306,0.334,4201
+South Eastern Sydney LHD,Woollahra,2016,0.305,0.292,0.319,4445
+South Western Sydney LHD,Bankstown,2016,0.33,0.323,0.338,14066
+South Western Sydney LHD,Camden,2016,0.35,0.336,0.364,4307
+South Western Sydney LHD,Campbelltown,2016,0.314,0.306,0.323,11674
+South Western Sydney LHD,Fairfield,2016,0.369,0.362,0.376,16218
+South Western Sydney LHD,Liverpool,2016,0.315,0.307,0.323,13054
+South Western Sydney LHD,South Western Sydney LHD,2016,0.343,0.339,0.346,67158
+South Western Sydney LHD,Wingecarribee,2016,0.404,0.389,0.419,4362
+South Western Sydney LHD,Wollondilly,2016,0.385,0.369,0.401,3477
+Southern NSW LHD,Bega Valley,2016,0.466,0.449,0.482,3573
+Southern NSW LHD,Bombala,2016,0.459,0.389,0.529,194
+Southern NSW LHD,Cooma-Monaro,2016,0.407,0.375,0.439,914
+Southern NSW LHD,Eurobodalla,2016,0.445,0.43,0.46,4205
+Southern NSW LHD,Goulburn Mulwaree,2016,0.405,0.385,0.424,2405
+Southern NSW LHD,Palerang,2016,0.426,0.399,0.453,1260
+Southern NSW LHD,Queanbeyan,2016,0.362,0.344,0.379,2831
+Southern NSW LHD,Snowy River,2016,0.44,0.396,0.484,486
+Southern NSW LHD,Southern NSW LHD,2016,0.423,0.415,0.43,17700
+Southern NSW LHD,Upper Lachlan Shire,2016,0.425,0.389,0.462,708
+Southern NSW LHD,Yass Valley,2016,0.386,0.358,0.415,1124
+Sydney LHD,Ashfield,2016,0.351,0.334,0.368,3099
+Sydney LHD,Burwood,2016,0.325,0.307,0.344,2506
+Sydney LHD,Canada Bay,2016,0.363,0.351,0.375,6180
+Sydney LHD,Canterbury,2016,0.32,0.311,0.328,10866
+Sydney LHD,Leichhardt,2016,0.37,0.356,0.384,4462
+Sydney LHD,Marrickville,2016,0.345,0.332,0.357,5480
+Sydney LHD,Strathfield,2016,0.322,0.303,0.34,2512
+Sydney LHD,Sydney,2016,0.321,0.309,0.333,5699
+Sydney LHD,Sydney LHD,2016,0.338,0.334,0.343,40804
+Western NSW LHD,Bathurst Regional,2016,0.411,0.393,0.429,3015
+Western NSW LHD,Blayney,2016,0.398,0.358,0.437,581
+Western NSW LHD,Bogan,2016,0.344,0.28,0.408,212
+Western NSW LHD,Bourke,2016,0.188,0.132,0.243,192
+Western NSW LHD,Brewarrina,2016,0.196,0.123,0.27,112
+Western NSW LHD,Cabonne,2016,0.434,0.402,0.466,908
+Western NSW LHD,Cobar,2016,0.331,0.279,0.384,308
+Western NSW LHD,Coonamble,2016,0.35,0.296,0.403,309
+Western NSW LHD,Cowra,2016,0.409,0.378,0.439,1013
+Western NSW LHD,Dubbo,2016,0.371,0.353,0.389,2820
+Western NSW LHD,Forbes,2016,0.404,0.369,0.44,742
+Western NSW LHD,Gilgandra,2016,0.36,0.31,0.41,353
+Western NSW LHD,Lachlan,2016,0.31,0.261,0.359,346
+Western NSW LHD,Mid-Western Regional,2016,0.417,0.394,0.439,1857
+Western NSW LHD,Narromine,2016,0.371,0.328,0.413,502
+Western NSW LHD,Oberon,2016,0.393,0.349,0.437,476
+Western NSW LHD,Orange,2016,0.401,0.383,0.418,2998
+Western NSW LHD,Parkes,2016,0.407,0.378,0.437,1071
+Western NSW LHD,Walgett,2016,0.249,0.215,0.283,623
+Western NSW LHD,Warren,2016,0.367,0.308,0.426,256
+Western NSW LHD,Warrumbungle Shire,2016,0.39,0.357,0.423,828
+Western NSW LHD,Weddin,2016,0.419,0.365,0.472,327
+Western NSW LHD,Wellington,2016,0.33,0.292,0.368,591
+Western NSW LHD,Western NSW LHD,2016,0.386,0.379,0.393,20440
+Western Sydney LHD,Auburn,2016,0.329,0.316,0.343,4651
+Western Sydney LHD,Blacktown,2016,0.315,0.309,0.321,21918
+Western Sydney LHD,Holroyd,2016,0.343,0.332,0.354,7034
+Western Sydney LHD,Parramatta,2016,0.331,0.323,0.34,12134
+Western Sydney LHD,The Hills Shire,2016,0.393,0.385,0.4,15395
+Western Sydney LHD,Western Sydney LHD,2016,0.342,0.338,0.346,61132
+Central Coast LHD,Central Coast LHD,2017,0.366,0.361,0.372,33023
+Central Coast LHD,Gosford,2017,0.374,0.367,0.381,17386
+Central Coast LHD,Wyong,2017,0.358,0.35,0.365,15637
+Far West LHD,Balranald,2017,0.404,0.337,0.471,208
+Far West LHD,Broken Hill,2017,0.351,0.33,0.373,1827
+Far West LHD,Central Darling,2017,0.222,0.152,0.292,135
+Far West LHD,Far West LHD,2017,0.36,0.343,0.377,2956
+Far West LHD,Unincorporated NSW,2017,0.324,0.252,0.396,163
+Far West LHD,Wentworth,2017,0.409,0.371,0.448,623
+Hunter New England LHD,Armidale Dumaresq,2017,0.408,0.387,0.428,2206
+Hunter New England LHD,Cessnock,2017,0.361,0.348,0.375,4971
+Hunter New England LHD,Dungog,2017,0.415,0.384,0.446,980
+Hunter New England LHD,Glen Innes Severn,2017,0.359,0.328,0.39,900
+Hunter New England LHD,Gloucester,2017,0.464,0.424,0.503,608
+Hunter New England LHD,Great Lakes,2017,0.447,0.433,0.462,4472
+Hunter New England LHD,Greater Taree,2017,0.428,0.416,0.441,5705
+Hunter New England LHD,Gunnedah,2017,0.353,0.326,0.381,1126
+Hunter New England LHD,Guyra,2017,0.388,0.341,0.434,423
+Hunter New England LHD,Gwydir,2017,0.375,0.332,0.418,496
+Hunter New England LHD,Hunter New England LHD,2017,0.396,0.393,0.399,86826
+Hunter New England LHD,Inverell,2017,0.39,0.366,0.414,1615
+Hunter New England LHD,Lake Macquarie,2017,0.412,0.405,0.419,20769
+Hunter New England LHD,Liverpool Plains,2017,0.405,0.37,0.441,745
+Hunter New England LHD,Maitland,2017,0.385,0.373,0.397,6457
+Hunter New England LHD,Moree Plains,2017,0.291,0.265,0.317,1206
+Hunter New England LHD,Muswellbrook,2017,0.329,0.303,0.354,1314
+Hunter New England LHD,Narrabri,2017,0.316,0.29,0.341,1283
+Hunter New England LHD,Newcastle,2017,0.388,0.38,0.397,14011
+Hunter New England LHD,Port Stephens,2017,0.418,0.407,0.43,7147
+Hunter New England LHD,Singleton,2017,0.365,0.344,0.385,2086
+Hunter New England LHD,Tamworth Regional,2017,0.375,0.363,0.388,5648
+Hunter New England LHD,Tenterfield,2017,0.36,0.321,0.398,590
+Hunter New England LHD,Upper Hunter Shire,2017,0.37,0.343,0.397,1226
+Hunter New England LHD,Uralla,2017,0.409,0.37,0.449,591
+Hunter New England LHD,Walcha,2017,0.39,0.33,0.451,251
+Illawarra Shoalhaven LHD,Illawarra Shoalhaven LHD,2017,0.392,0.387,0.396,38879
+Illawarra Shoalhaven LHD,Kiama,2017,0.426,0.407,0.446,2380
+Illawarra Shoalhaven LHD,Shellharbour,2017,0.378,0.367,0.39,6460
+Illawarra Shoalhaven LHD,Shoalhaven,2017,0.428,0.418,0.437,11072
+Illawarra Shoalhaven LHD,Wollongong,2017,0.371,0.364,0.377,18967
+Mid North Coast LHD,Bellingen,2017,0.409,0.385,0.432,1690
+Mid North Coast LHD,Coffs Harbour,2017,0.414,0.403,0.425,7874
+Mid North Coast LHD,Kempsey,2017,0.374,0.358,0.391,3322
+Mid North Coast LHD,Mid North Coast LHD,2017,0.406,0.399,0.412,23680
+Mid North Coast LHD,Nambucca,2017,0.415,0.395,0.435,2356
+Mid North Coast LHD,Port Macquarie-Hastings,2017,0.407,0.396,0.417,8438
+Murrumbidgee LHD,Albury,2017,0.427,0.413,0.441,4856
+Murrumbidgee LHD,Berrigan,2017,0.413,0.381,0.446,893
+Murrumbidgee LHD,Bland,2017,0.365,0.324,0.405,540
+Murrumbidgee LHD,Boorowa,2017,0.414,0.35,0.479,222
+Murrumbidgee LHD,Carrathool,2017,0.299,0.24,0.358,231
+Murrumbidgee LHD,Conargo,2017,0.432,0.273,0.592,37
+Murrumbidgee LHD,Coolamon,2017,0.359,0.313,0.405,418
+Murrumbidgee LHD,Cootamundra,2017,0.431,0.399,0.464,904
+Murrumbidgee LHD,Corowa Shire,2017,0.447,0.42,0.474,1287
+Murrumbidgee LHD,Deniliquin,2017,0.374,0.331,0.417,489
+Murrumbidgee LHD,Greater Hume Shire,2017,0.43,0.399,0.461,984
+Murrumbidgee LHD,Griffith,2017,0.341,0.321,0.36,2276
+Murrumbidgee LHD,Gundagai,2017,0.351,0.297,0.405,299
+Murrumbidgee LHD,Harden,2017,0.32,0.27,0.371,328
+Murrumbidgee LHD,Hay,2017,0.366,0.315,0.418,336
+Murrumbidgee LHD,Jerilderie,2017,0.341,0.258,0.425,123
+Murrumbidgee LHD,Junee,2017,0.357,0.315,0.4,490
+Murrumbidgee LHD,Lachlan,2017,0.316,0.241,0.39,150
+Murrumbidgee LHD,Leeton,2017,0.352,0.322,0.381,1012
+Murrumbidgee LHD,Lockhart,2017,0.411,0.357,0.465,319
+Murrumbidgee LHD,Murray,2017,0.49,0.461,0.519,1159
+Murrumbidgee LHD,Murrumbidgee,2017,0.417,0.355,0.479,242
+Murrumbidgee LHD,Murrumbidgee LHD,2017,0.396,0.39,0.402,27193
+Murrumbidgee LHD,Narrandera,2017,0.353,0.314,0.391,587
+Murrumbidgee LHD,Temora,2017,0.381,0.341,0.421,575
+Murrumbidgee LHD,Tumbarumba,2017,0.408,0.353,0.463,309
+Murrumbidgee LHD,Tumut Shire,2017,0.414,0.386,0.443,1146
+Murrumbidgee LHD,Urana,2017,0.364,0.278,0.449,121
+Murrumbidgee LHD,Wagga Wagga,2017,0.38,0.367,0.394,5221
+Murrumbidgee LHD,Wakool,2017,0.427,0.377,0.477,370
+Murrumbidgee LHD,Young,2017,0.385,0.358,0.411,1269
+NSW,NSW,2017,0.368,0.366,0.369,686325
+Nepean Blue Mountains LHD,Blue Mountains,2017,0.394,0.384,0.404,8810
+Nepean Blue Mountains LHD,Hawkesbury,2017,0.347,0.335,0.359,6172
+Nepean Blue Mountains LHD,Lithgow,2017,0.367,0.346,0.387,2049
+Nepean Blue Mountains LHD,Nepean Blue Mountains LHD,2017,0.352,0.347,0.357,33509
+Nepean Blue Mountains LHD,Penrith,2017,0.33,0.322,0.337,16478
+Northern NSW LHD,Ballina,2017,0.411,0.396,0.425,4492
+Northern NSW LHD,Byron,2017,0.365,0.349,0.381,3585
+Northern NSW LHD,Clarence Valley,2017,0.395,0.383,0.408,5917
+Northern NSW LHD,Kyogle,2017,0.417,0.387,0.448,1023
+Northern NSW LHD,Lismore,2017,0.374,0.36,0.388,4667
+Northern NSW LHD,Northern NSW LHD,2017,0.389,0.383,0.394,31567
+Northern NSW LHD,Richmond Valley,2017,0.378,0.359,0.397,2426
+Northern NSW LHD,Urbenville,2017,0.36,0.218,0.501,44
+Northern NSW LHD,Tweed,2017,0.391,0.381,0.401,9413
+Northern Sydney LHD,Hornsby,2017,0.386,0.378,0.393,16477
+Northern Sydney LHD,Hunters Hill,2017,0.389,0.363,0.414,1389
+Northern Sydney LHD,Ku-ring-gai,2017,0.392,0.383,0.4,12419
+Northern Sydney LHD,Lane Cove,2017,0.383,0.366,0.4,3020
+Northern Sydney LHD,Manly,2017,0.429,0.413,0.445,3793
+Northern Sydney LHD,Mosman,2017,0.37,0.353,0.387,2960
+Northern Sydney LHD,North Sydney,2017,0.391,0.379,0.404,5756
+Northern Sydney LHD,Northern Sydney LHD,2017,0.39,0.386,0.393,83366
+Northern Sydney LHD,Pittwater,2017,0.407,0.396,0.419,6925
+Northern Sydney LHD,Ryde,2017,0.371,0.362,0.381,9974
+Northern Sydney LHD,Warringah,2017,0.396,0.388,0.404,13968
+Northern Sydney LHD,Willoughby,2017,0.38,0.368,0.391,6685
+South Eastern Sydney LHD,Botany Bay,2017,0.322,0.306,0.337,3654
+South Eastern Sydney LHD,Hurstville,2017,0.372,0.362,0.383,8056
+South Eastern Sydney LHD,Kogarah,2017,0.359,0.346,0.371,5573
+South Eastern Sydney LHD,Randwick,2017,0.337,0.328,0.346,11292
+South Eastern Sydney LHD,Rockdale,2017,0.327,0.317,0.336,9155
+South Eastern Sydney LHD,South Eastern Sydney LHD,2017,0.345,0.342,0.349,74222
+South Eastern Sydney LHD,Sutherland Shire,2017,0.373,0.366,0.379,21014
+South Eastern Sydney LHD,Sydney,2017,0.328,0.315,0.341,5117
+South Eastern Sydney LHD,Unincorporated NSW,2017,0.324,0.226,0.422,88
+South Eastern Sydney LHD,Waverley,2017,0.306,0.293,0.319,4974
+South Eastern Sydney LHD,Woollahra,2017,0.301,0.289,0.313,5300
+South Western Sydney LHD,Bankstown,2017,0.333,0.326,0.34,17253
+South Western Sydney LHD,Camden,2017,0.354,0.342,0.367,5247
+South Western Sydney LHD,Campbelltown,2017,0.317,0.31,0.325,14075
+South Western Sydney LHD,Fairfield,2017,0.356,0.35,0.363,20185
+South Western Sydney LHD,Liverpool,2017,0.306,0.299,0.313,16168
+South Western Sydney LHD,South Western Sydney LHD,2017,0.338,0.335,0.341,82253
+South Western Sydney LHD,Wingecarribee,2017,0.398,0.385,0.412,4994
+South Western Sydney LHD,Wollondilly,2017,0.374,0.359,0.388,4331
+Southern NSW LHD,Bega Valley,2017,0.474,0.458,0.489,4070
+Southern NSW LHD,Bombala,2017,0.452,0.39,0.514,248
+Southern NSW LHD,Cooma-Monaro,2017,0.406,0.376,0.436,1037
+Southern NSW LHD,Eurobodalla,2017,0.435,0.421,0.45,4627
+Southern NSW LHD,Goulburn Mulwaree,2017,0.388,0.37,0.405,2935
+Southern NSW LHD,Palerang,2017,0.434,0.41,0.458,1613
+Southern NSW LHD,Queanbeyan,2017,0.364,0.348,0.38,3417
+Southern NSW LHD,Snowy River,2017,0.362,0.324,0.4,611
+Southern NSW LHD,Southern NSW LHD,2017,0.417,0.41,0.424,20730
+Southern NSW LHD,Upper Lachlan Shire,2017,0.401,0.367,0.436,780
+Southern NSW LHD,Yass Valley,2017,0.397,0.372,0.423,1392
+Sydney LHD,Ashfield,2017,0.35,0.335,0.365,3767
+Sydney LHD,Burwood,2017,0.344,0.328,0.361,3102
+Sydney LHD,Canada Bay,2017,0.358,0.347,0.369,7211
+Sydney LHD,Canterbury,2017,0.314,0.306,0.322,13152
+Sydney LHD,Leichhardt,2017,0.363,0.35,0.376,5333
+Sydney LHD,Marrickville,2017,0.347,0.336,0.358,6902
+Sydney LHD,Strathfield,2017,0.302,0.286,0.319,2988
+Sydney LHD,Sydney,2017,0.328,0.317,0.339,6866
+Sydney LHD,Sydney LHD,2017,0.336,0.332,0.34,49321
+Western NSW LHD,Bathurst Regional,2017,0.387,0.371,0.404,3464
+Western NSW LHD,Blayney,2017,0.355,0.319,0.391,678
+Western NSW LHD,Bogan,2017,0.391,0.332,0.451,258
+Western NSW LHD,Bourke,2017,0.256,0.196,0.316,203
+Western NSW LHD,Brewarrina,2017,0.151,0.088,0.213,126
+Western NSW LHD,Cabonne,2017,0.393,0.364,0.423,1075
+Western NSW LHD,Cobar,2017,0.341,0.294,0.389,381
+Western NSW LHD,Coonamble,2017,0.286,0.242,0.33,405
+Western NSW LHD,Cowra,2017,0.37,0.344,0.396,1349
+Western NSW LHD,Dubbo,2017,0.339,0.324,0.354,3654
+Western NSW LHD,Forbes,2017,0.366,0.335,0.397,921
+Western NSW LHD,Gilgandra,2017,0.368,0.323,0.413,435
+Western NSW LHD,Lachlan,2017,0.316,0.272,0.36,423
+Western NSW LHD,Mid-Western Regional,2017,0.388,0.369,0.408,2394
+Western NSW LHD,Narromine,2017,0.31,0.275,0.345,671
+Western NSW LHD,Oberon,2017,0.375,0.333,0.417,520
+Western NSW LHD,Orange,2017,0.372,0.356,0.387,3679
+Western NSW LHD,Parkes,2017,0.359,0.334,0.384,1416
+Western NSW LHD,Walgett,2017,0.278,0.242,0.314,601
+Western NSW LHD,Warren,2017,0.304,0.248,0.361,253
+Western NSW LHD,Warrumbungle Shire,2017,0.406,0.374,0.437,932
+Western NSW LHD,Weddin,2017,0.389,0.341,0.438,388
+Western NSW LHD,Wellington,2017,0.29,0.258,0.322,769
+Western NSW LHD,Western NSW LHD,2017,0.36,0.354,0.366,24995
+Western Sydney LHD,Auburn,2017,0.327,0.316,0.339,6307
+Western Sydney LHD,Blacktown,2017,0.305,0.299,0.31,26464
+Western Sydney LHD,Holroyd,2017,0.331,0.321,0.342,8459
+Western Sydney LHD,Parramatta,2017,0.333,0.325,0.34,14468
+Western Sydney LHD,The Hills Shire,2017,0.395,0.388,0.402,18107
+Western Sydney LHD,Western Sydney LHD,2017,0.337,0.334,0.341,73805

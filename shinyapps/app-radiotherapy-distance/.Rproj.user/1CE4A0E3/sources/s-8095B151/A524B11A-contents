@@ -1,0 +1,269 @@
+#Removing all objects in memory
+rm(list=setdiff(ls(), "x"))
+
+#Loading packages
+library(shiny)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(data.table)
+library(readr)
+library(shinythemes)
+library(scales)
+library(ggbeeswarm)
+library(networkD3)
+library(lubridate)
+library(DT)
+library(Cairo)
+options(shiny.usecairo=T)
+
+#Loading data
+# data <- read.csv('SurgicalActivity.csv')
+data <- readRDS(file = "./data/SurgicalActivityAppDF.2.Rda")
+data$Count=1
+data <- data %>% mutate(ResidentLHDName = case_when(is.na(ResidentLHDName) ~ "Not In NSW",
+                                               TRUE ~ ResidentLHDName))
+###Building Shiny App
+# .nav-tabs {border-bottom: 1px solid rgb(106,66,137);} table.dataTable {line-height:0.7}
+
+##1. Shiny UI ns
+#Setting ui as a fluidPage: FluidPage enables Shiny Apps to adjust to screens of varying resolution
+ui <- fluidPage(title="Surgical Activity App", 
+#CSS styling
+  tags$style(HTML("
+.tabbable > .nav > li > a {background-color: rgb(255,255,255);  color:black}
+.nav-tabs>li>a {border: 0px}
+.nav-tabs>li.active> a {background-color: rgb(106,66,137);  color:white;}
+.nav-tabs>li.active>a:focus {background-color: rgb(106,66,137);  color:white}
+.nav-tabs>li.active> a {background-color: rgb(106,66,137);  color:white}
+.nav-tabs>li.active>a:hover {background-color: rgb(106,66,137);  color:white}
+.nav-tabs {border-bottom: 1px solid rgb(106,66,137);}
+.irs-bar {background: rgb(106,66,137); border-top: 1px solid rgb(106,66,137); border-bottom: 1px rgb(106,66,137);}
+.irs-bar-edge {background: rgb(106,66,137); border: 1px solid rgb(106,66,137); height: 25px; border-radius: 0px; width: 20px;}
+.irs-to {background: rgb(106,66,137);}
+.irs-from {background: rgb(106,66,137);}
+table.dataTable > thead > tr {color: white; background-color:rgb(106,66,137); text-align: center;}
+table.dataTable > thead > tr > [class='dt-right dt-center sorting'] {text-align: center;}
+table.dataTable > thead > tr > [class='dt-right dt-center sorting_asc'] {text-align: center;}
+table.dataTable > thead > tr > [class='dt-right dt-center sorting_desc'] {text-align: center;}
+Table {padding-top: 15px;}"
+        )
+  ),
+tags$head(tags$style(HTML("#ActivityFootnote {font-size: 10px; margin-top: -10px;}"))),
+#                           #ActivityPlotText1 {font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; 
+#                           border: solid rgb(106,66,137) 2px;
+#                           padding-top: 10px;
+#                           padding-bottom: 10px;
+#                           padding-left: 10px;
+#                           padding-right: 10px;}
+#                           #ActivityFootnote {font-size: 10px; margin-top: -10px;}"))),
+tags$head(tags$style(HTML("@media screen and (max-width: 800px) {#logo {
+                                          display: none;}}"))),
+  #Adding in titlePanel
+  titlePanel(div(HTML("<strong><font style = 'color: rgb(106, 66, 137)'>Surgical Activity App</strong></font>"),
+                 img(id= "logo", src="CILogo.jpg", align ="right", height=55))),
+  #Setting overall layout to be sidebar layout
+  sidebarLayout(
+    #Inputs to visualisation
+    #Sidebar panel
+    sidebarPanel(
+      #Select input field for LHD
+      selectInput(input = "LHD",
+                  label = "Local health district:",
+                  choices = sort(unique(data$FacilityLHDName))
+      ),
+      #Select input field for Facility
+      selectInput(input = "Facility",
+                  label = "Facility:",
+                  choices = sort(unique(data$FacilityName))
+      ),
+      #Select input field for Cancer
+      selectInput(input = "Cancer",
+                  label = "Cancer:",
+                  choices = sort(unique(data$Cancer))
+      ),
+      #Select input slider for year
+      sliderInput(input = "YearSlider",
+                  label = "Year:",
+                  min = min(data$ProcedureYear),
+                  max = max(data$ProcedureYear),
+                  value = c(min(data$ProcedureYear), max(data$ProcedureYear)),
+                  step = 1,
+                  sep = ""
+    )
+    ),
+    #Main panel
+    mainPanel(
+      #Creating tabs for main panel
+      tabsetPanel(type = "tabs",
+                  #Tab 1: Activity
+                  tabPanel("Activity", 
+                           #Rendering ActivityPlot
+                           plotOutput("ActivityPlot"),
+                           textOutput("ActivityFootnote"),
+                           br(),
+                           # fluidRow(column(width = 6,
+                           #                 dataTableOutput("Table")),                                 
+                           #          column(width = 6,
+                           #          div(
+                           #              #Rendering Text
+                           #              htmlOutput("ActivityPlotText1"))))
+                           htmlOutput("ActivityPlotText1")
+                               ),
+                  # #Tab 2: Volume
+                  # tabPanel("Volume",
+                  #          #Rendering CumulativePlot
+                  #          plotOutput("CumulativePlot")),
+                  #Tab 3: Flow
+                  tabPanel("Flow",
+                           #Rendering SankeyPlot
+                           sankeyNetworkOutput("SankeyPlot")),
+                  #Tab 4: Data
+                  tabPanel("Data",
+                           dataTableOutput("Table"),
+                           downloadButton('downloadData', 'Download table')),
+                  #Tab 5 Notes
+                  tabPanel("Notes",
+                           htmlOutput("NotesText"))
+    )
+  )
+)
+)
+
+##2. Shiny server
+#Setting up Shiny server
+server <- function(input, output, session) {
+  
+  #Setting observeEvent to update Facility select input as user selects LHD
+  observeEvent(input$LHD, {
+    #Updatin
+    updateSelectInput(session, "Facility",
+                      choices = sort(unique(data$FacilityName[data$FacilityLHDName == input$LHD])))
+  })
+  #Setting observeEvent to update Cancer select input as user selects LHD and Facility
+  observeEvent(input$Facility, {
+    updateSelectInput(session, "Cancer",
+                      choices = sort(unique(data$Cancer[data$FacilityName == input$Facility])))
+  })  
+  #Generating react dataframe for DFTitanic
+  rdfTab1Data <- reactive({
+    subset(data, FacilityLHDName == input$LHD & FacilityName == input$Facility & Cancer == input$Cancer & ProcedureYear >= input$YearSlider[1] & ProcedureYear <= input$YearSlider[2])
+  })
+  
+  #Generating plots
+  #TAB 1: Activity
+  output$ActivityPlot <- renderPlot({
+  ggplot(data=rdfTab1Data(), aes(x=ProcedureGroup2, y=ProcedureDate)) +
+    geom_beeswarm(priority='density',cex=1, colour="#0000004D") +
+    scale_y_date(date_breaks ='1 years', date_labels = "%b\n%Y") +
+    ggtitle(paste0(input$Facility, ": ", input$Cancer), 
+            subtitle = input$LHD) + 
+    xlab("") + ylab("") +
+    theme(panel.grid.minor = element_blank(),
+          plot.title = element_text(size = 18, face = "bold"),
+          plot.subtitle = element_text(size = 14, face = "bold")) +
+    coord_flip()
+  })
+  #Text for Acitivty Plot
+  output$ActivityFootnote <- renderText({paste("Each dot represents the index surgical episode")})
+  output$ActivityPlotText1 <-renderText({paste("<b>Observations</b> <br>",
+                                               "Time period = ", input$YearSlider[1], " to ", input$YearSlider[2], sep ="","<br>",
+                                               "Number of surgeries = ", nrow(rdfTab1Data()),"<br>",
+                                               "Number of procedure types = ", length(unique(rdfTab1Data()$ProcedureGroup2)),"<br>","<br>",
+                                               "<b>Insights</b> <br>",
+                                               "Any insights listed here…")})
+  #Tab 2: Cumulative Plot
+  output$CumulativePlot <- renderPlot({
+    ggplot(data=rdfTab1Data() %>% 
+             mutate(ProcedureMonthDay = format(as.Date(ProcedureDate, "%m/%d/%y"), "%m/%d"),
+                    CommonProcedureDate =  as.Date(parse_date_time(ProcedureMonthDay, c('md', 'dmy')))) %>%
+             group_by(CommonProcedureDate, ProcedureYear, ProcedureGroup2) %>%
+             summarize(Count = n()) %>%
+             ungroup() %>%
+             group_by(ProcedureYear, ProcedureGroup2) %>%
+             arrange(CommonProcedureDate) %>% 
+             mutate(Cumulative = cumsum(Count)),
+           aes(x=as.Date(CommonProcedureDate, "%m/%d"), y=Cumulative)) + geom_step() + facet_grid(ProcedureYear~ProcedureGroup2) + scale_x_date(labels = function(x) format(x, "%d-%b"),
+                                                                                                                                  limits = as.Date(c('0000-01-01','0000-12-31'))) +
+      theme(panel.grid.minor = element_blank(),
+            plot.title = element_text(size = 18, face = "bold"),
+            plot.subtitle = element_text(size = 14, face = "bold")) + 
+      ggtitle(paste0(input$Facility, ": ", input$Cancer), 
+              subtitle = input$LHD) + 
+      xlab("") + ylab("")
+  })
+  
+  #Tab 3: Flow
+  #Setting up Sankey Nodes
+  nodes <- reactive({rdfTab1Data() %>%
+    select(FacilityName) %>%
+    distinct(FacilityName) %>%
+    rename("name" = "FacilityName") %>%
+    {. ->> dftarget} %>%
+    rbind(rdfTab1Data() %>%
+            select(ResidentLHDName) %>%
+            distinct(ResidentLHDName) %>%
+            rename("name" = "ResidentLHDName")) %>%
+    mutate(id=seq(n())-1)})
+  
+  #Setting up Sankey Links
+  links <- reactive({rdfTab1Data() %>%
+      group_by(FacilityName, ResidentLHDName) %>%
+      summarize(Count = n()) %>%
+      ungroup() %>%
+      left_join(nodes(), by=c("FacilityName"="name"), all.x=TRUE) %>%
+      rename("id_target" = "id") %>%
+      left_join(nodes(), by=c("ResidentLHDName"="name"), all.x=TRUE) %>%
+      rename("id_source" = "id",
+           "source" = "ResidentLHDName",
+           "target" = "FacilityName",
+           "value" = "Count")})
+  # vector=as.vector(links()$target)
+  # 
+  # my_color <- 'd3.scaleOrdinal() .domain(["Central Coast", "Hunter New England", "South Eastern Sydney", "Berkeley Vale Private Hospital"]) .range(["rgb(106,66,137)", "blue", "blue", "blue"])'
+  # 
+  # vector=as.vector(links()$target)
+  
+  #Plotting Sankey Plot
+  output$SankeyPlot <- renderSankeyNetwork({
+     sankeyNetwork(Links = links(),
+                   Nodes = nodes(),
+                   Source = "id_source", Target = "id_target",
+                   Value = "value", NodeID = "name",
+                   fontSize= 12, nodeWidth = 30)
+  })
+  
+  #Tab 4: Data
+  output$DataText <- renderText(paste("Data goes here – if appropriate"))
+  #Table outputremove_rownames %>% column_to_rownames(var="ProcedureYear")}
+  output$Table <- renderDataTable({rdfTab1Data() %>%
+      group_by(ProcedureYear)%>%
+      summarize(Count = n()) %>%
+      ungroup() %>%
+      rename("Procedure Year" = ProcedureYear)}, options = list(searching = FALSE, lengthChange = FALSE, info = FALSE, paging = FALSE, 
+                                                                columnDefs = list(list(className = 'dt-center', targets = '_all')), processing=FALSE), rownames = FALSE)
+  output$downloadData <- downloadHandler(
+    filename = function() {
+      paste(rdfTab1Data()$FacilityName,rdfTab1Data()$Cancer,Sys.Date(),'.csv', sep='_')
+    },
+    content = function(con) {
+      write.csv({rdfTab1Data() %>%
+          group_by(ProcedureYear)%>%
+          summarize(Count = n()) %>%
+          ungroup() %>%
+          rename("Procedure Year" = ProcedureYear)}, con)
+    }
+  )
+  
+  
+  # , colourScale=my_color
+  
+  #Tab 5: Notes
+  output$NotesText <- renderText(paste("Lorem ipsum dolor amet mlkshk ugh sartorial shabby chic schlitz XOXO portland fam ethical sriracha swag af. Plaid try-hard forage lomo sustainable. Fam fixie distillery succulents +1 crucifix tacos, keffiyeh aesthetic cardigan. Activated charcoal godard air plant, helvetica chambray bicycle rights YOLO pickled squid. Marfa affogato twee humblebrag."))
+}
+
+#Run App
+shinyApp(ui, server)
+
+
+

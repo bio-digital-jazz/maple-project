@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1534741125113.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3189853293",
+    "id" : "78E3F6BA",
+    "lastKnownWriteTime" : 1535071828,
+    "last_content_update" : 1535071828,
+    "path" : "C:/JamiesFiles/Analytics/RShinyTestingServer/shinyapps/app-resources/www/partials/r-resources.html",
+    "project_path" : "www/partials/r-resources.html",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0",
+        "source_window_id" : ""
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

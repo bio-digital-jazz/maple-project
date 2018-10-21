@@ -1,0 +1,37 @@
+---
+title: ""
+output: html_document
+---
+``` {r }
+
+library(httr)
+library(jsonlite)
+library(DT)
+library(data.table)
+
+
+```
+
+
+```{r setup, include=TRUE}
+
+data <- GET("http://localhost:7000/data-api/v1/data/")
+content = content(data, 'text')
+contentJson <- fromJSON(content, flatten = TRUE)
+df <- as.data.frame(contentJson)
+
+```
+
+<h4>This is an API Test</h4>
+
+```{r }
+head(df)
+```
+
+## Including Plots
+
+```{r pressure, echo=FALSE}
+hist(df$ClumpThickness)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

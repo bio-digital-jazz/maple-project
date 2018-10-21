@@ -1,0 +1,627 @@
+Dictionary ID,In Landing,Cancer Institute Name,Cancer Institute Category,Definition,Type,Null values permitted,Accepted Values
+DE425,1,ABSDeathCauseCode,Needs category,,varchar(4),1.0,Code
+DE517,1,ABSDeathCauseCode,Needs category,,varchar(4),1.0,Code
+DE518,1,AccommTypeId,Needs category,,Integer,1.0,Code
+DE404,1,ActualDose,Needs category,,Float,1.0,Numeric Value (NNN.NN)
+DE426,1,ActualFractions,Needs category,,Integer,1.0,Numeric Value
+DE341,1,CAdjacentDCISNotification,Needs category,"An indicator of whether DCIS is present in the breast tissue adjacent to the invasive tumour, as represented by a code.",varchar(50),1.0,Code
+DE385,0,CBehaviourCode,Case,"Derived from NSWCR source system CRC002, CRC003",,,
+DE556,1,CBestBasisRecurrenceID,Case,"The most valid basis of diagnosis of the first recurrence of a cancer or distant metastasis in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE235,1,CBestDiagnosisBasisID,Case,"The most valid basis of diagnosis in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE140,1,CBestDiagnosisBasisIDNotification,Case,"The most valid basis of diagnosis in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE371,1,CBestRecurenceBasisID,Case,"Thre is no corresponding NSWCR dict it, but looks to be based on NOT133",,,
+DE172,1,CBestRecurrenceBasisIDNotification,Case,"The most valid basis of diagnosis of the first recurrence of a cancer or distant metastasis in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE344,1,CBreastDateLastContactNotification,Needs category,The date of last contact with the patient.,varchar(50),1.0,DDMMYYYY
+DE343,1,CBreastSiteDistantMetsNotification,Needs category,"The location of distant metastasis in a person with cancer, as represented by a code.",varchar(50),1.0,Code
+DE345,1,CBreastStatusLastContactNotification,Needs category,Records the presence or absence of clinical evidence of the patient?s tumour as applying at the date of last contact.,varchar(50),1.0,Code
+DE289,1,CBreastTumourCellsDiameterNotification,Case,The maximum diameter in millimetres of the furthest points of extension of the tumour cells.,Float,1.0,Numeric Value (NNN.NN)
+DE380,0,CCancerGroup,Case,Derived from NSWCR source system CRC002. This appears to be 1 - 1,,,
+DE201,1,CCancerSiteCodeID,Case,"The site in which the tumour originated in a person with cancer, as opposed to the secondary or metastatic sites, as represented by a code",Integer,1.0,Code
+DE68,1,CCancerSiteCodeIDNotification,Case,"The site in which the tumour originated in a person with cancer, as opposed to the secondary or metastatic sites, as represented by a code.",Integer,1.0,ICD Code
+DE257,1,CClassOfCaseID,Case,An indicator of the state/territory in which a person with cancer was diagnosed and treated. ,Integer,1.0,Code
+DE142,1,CClassOfCaseIDNotification,Case,An indicator of the state/territory in which a person with cancer was diagnosed and treated. ,Integer,1.0,Code
+DE405,1,CClinicalCancerSiteCodeID,Case,,Integer,1.0,Code
+DE309,1,CColorectalTumourDimensionsNotification,Case,"The largest dimension of a solid tumour, measured in millimetres.",Float,1.0,Numeric Value (NNN.NN)
+DE348,1,CCRCRecurrDateNotification,Needs category,"The date on which a patient is diagnosed with the first recurrence of a cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE347,1,CCRCRecurrSiteNotification,Needs category,The anatomical position of the tumour expressed as a diagnosis at first distant recurrence.,varchar(50),1.0,Code
+DE339,1,CDateOfDistantMetastisisDiagnosisNotification,Case,The date a medical practitioner confirms the diagnosis of the distant metastasis recorded at last contact.,Date,1.0,DDMMYYYY
+DE357,1,CDegreeOfSpreadClinicalID,Case,,Integer,1.0,Code
+DE346,1,CDegreeOfSpreadID,Case,"A measure of the progression/extent of cancer at diagnosis, as represented by a code.",Integer,1.0,Code
+DE378,0,CDiagnosisAge,Case,"Derived from NSWCR source system CRP005, CRC001, CRP006",,,
+DE536,1,CDiagnosisClass,Case,,,,
+DE190,1,CDiagnosisDate,Case,"The date on which the patient was first diagnosed with cancer (whether at its primary site or as a metastasis), expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE445,1,CDiagnosisDateNotification,Case,"The date on which the patient was first diagnosed with cancer (whether at its primary site or as a metastasis), expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE400,1,CDiagnosisDateValidityCode,Case,Flag identifying if diagnosis is estimated,varchar(5),1.0,Code
+DE181,1,CDiagnosisDateValidityCodeNotification,Case,"An indicator of the accuracy of the components of a reported date, as represented by a code.",varchar(5),1.0,Code
+DE377,0,CDiagnosisMonth,Case,Derived from NSWCR source system CRC001,,,
+DE376,0,CDiagnosisYear,Case,Derived from NSWCR source system CRC001,,,
+DE290,1,CDiseaseGradeSchemeID,Case,"The disease specific (histopathological) grading system used to record a specific measure of the aggressiveness of the cancer, as represented by a code. ",Integer,1.0,Code
+DE145,1,CDiseaseGradeSchemeIDNotification,Case,"The disease specific (histopathological) grading system used to record a specific measure of the aggressiveness of the cancer, as represented by a code. ",Integer,1.0,Code
+DE301,1,CDiseaseGradeSchemeVersion,Case,The version number of the disease specific (histopathological) grading system used to record a specific measure of the aggressiveness of the cancer.,Integer,1.0,Code
+DE406,1,CDiseaseGradeSchemeVersion,Case,,Integer,1.0,Code
+DE147,1,CDiseaseGradeSchemeVersionNotification,Case,The version number of the disease specific (histopathological) grading system used to record a specific measure of the aggressiveness of the cancer.,Integer,1.0,Edition Code
+DE312,1,CDiseaseGradeScore,Case,"The disease specific grade, score or measurement is calculated by the pathologist and reported according to the disease specific grading system being used, as represented by a code.",Integer,1.0,Code
+DE148,1,CDiseaseGradeScoreNotification,Case,"The disease specific grade, score or measurement is calculated by the pathologist and reported according to the disease specific grading system being used, as represented by a code.",Integer,1.0,Code
+DE407,1,CDistanceFromAnalVerge,Case,,Float,1.0,Numeric Value (NNN.NN)
+DE319,1,CDistanceFromAnalVergeNotification,Case,"The distal level of rectal cancer from the anal verge, measured in centimetres (cm).",Float,1.0,Numeric Value (NNN.NN)
+DE408,1,CERStatusID ,Case,,Integer,1.0,Code
+DE299,1,CERStatusIDNotification,Case,"The result of oestrogen receptor assay at the time of diagnosis of the primary breast tumour, as represented by a code.",Integer,1.0,Code
+DE11,1,CFirstCancerConsultationDate,Case,"The date of the first consultation between a person with cancer and the cancer specialist (oncologist, haematologist or surgeon) during this course of treatment.",Date,1.0,DDMMYYYY
+DE196,1,CFirstCancerConsultationDateNotification,Case,"The date of the first consultation between a person with cancer and the cancer specialist (oncologist, haematologist or surgeon) during this course of treatment.",Date,1.0,DDMMYYYY
+DE409,1,CGleasonRadicalID,Case,,Integer,1.0,Code
+DE330,1,CGleasonRadicalIDNotification,Case,"
+1+1=2
+1+2=3
+1+3=4
+1+4=5
+1+5=6
+2+1=3
+2+2=4
+2+3=5
+2+4=6
+2+5=7
+3+1=4
+3+2=5
+3+3=6
+3+4=7
+3+5=8
+4+1=5
+4+2=6
+4+3=7
+4+4=8
+4+5=9
+5+1=6
+5+2=7
+5+3=8
+5+4=9
+5+5=10
+n+n=10
+n+n=2
+n+n=3
+n+n=4
+n+n=5
+n+n=6
+n+n=7
+n+n=8
+n+n=9
+Unknown",Integer,1.0,Code
+DE366,1,CGroupID,Case,Identifier that allows multiple rows to be grouped into one report,,,
+DE279,1,CHaematologyCellTypeID ,Case,"The specific presentation of a lymphoid neoplasm, as represented by a code.",Integer,1.0,Code
+DE144,1,CHaematologyCellTypeIDNotification,Case,"The specific presentation of a lymphoid neoplasm, as represented by a code.",Integer,1.0,Code
+DE410,1,CHER2StatusID,Case,,Integer,1.0,Code
+DE302,1,CHER2StatusIDNotification,Case,"The result of a person's human epidermal growth factor receptor-2 (HER2) test, as
+represented by a code.",Integer,1.0,Code
+DE303,1,CHER2TestIDNotification,Case,"The type of test used to determine the results of human epidermal growth factor receptor-2 (HER2) at the time of diagnosis of the primary tumour, as represented by a code.",Integer,1.0,Code
+DE268,1,CHistoPathologicalGradeID,Case,"The histopathological grade or differentiation in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE143,1,CHistoPathologicalGradeIDNotification,Case,"The histopathological grade or differentiation in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE383,0,CICD03MorphologyCode3Digit,Case,"Derived from NSWCR source system CRC002, CRC003",,,
+DE384,0,CICD03MorphologyCode4Digit,Case,"Derived from NSWCR source system CRC002, CRC003",,,
+DE381,0,CICD03TopographyCode,Case,Derived from NSWCR source system CRC002. ,,,
+DE382,0,CICD10AMTopographyCode,Case,Derived from NSWCR source system CRC002. ,,,
+DE278,1,CICDCodes,Case,Additional diagnosis,varchar(80),1.0,ICD Code
+DE411,1,CInvasiveTumoursCount,Case,,Integer,1.0,Code
+DE304,1,CInvasiveTumoursCountNotification,Case,"The number of invasive tumours in one breast, as represented by a code.",Integer,1.0,Code
+DE105,1,CLastPatientContactDate,Case,"The date of last contact with the patient, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE134,1,CLastPatientContactDateNotification,Case,"The date of last contact with the patient, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE224,1,CLaterality,Case,"The side of a paired organ or the side of the body that is the origin of the primary cancer in a person with cancer, as represented by a code.",varchar(1),1.0,Code
+DE139,1,CLateralityNotification,Case,"The side of a paired organ or the side of the body that is the origin of the primary cancer in a person with cancer, as represented by a code.",varchar(1),1.0,Code
+DE427,1,ClinicalSize,Needs category,,Float,1.0,Numeric Value (NNN.NN)
+DE428,1,ClinicalSize,Needs category,,Float,1.0,Numeric Value (NNN.NN)
+DE294,1,CLymphovascularInvasionIdNotification,Case,"The presence or absence of the invasion of cancer cells into blood vessel(s) and/or the lymphatic system, as represented by a code.",Integer,1.0,Code
+DE326,1,CLymphovascularInvasionIDNotification,Case,"The presence or absence of the invasion of cancer cells into blood vessel(s) and/or the lymphatic system, as represented by a code.",Integer,1.0,Code
+DE557,1,CMDTConsultationDate,Case,"The date of first consultation with a multidisciplinary team of health professionals regarding the diagnosis, treatment and care of the person with cancer.",Date,1.0,DDMMYYYY
+DE173,1,CMDTConsultationDateNotification,Case,"The date of first consultation with a multidisciplinary team of health professionals regarding the diagnosis, treatment and care of the person with cancer.",Date,1.0,DDMMYYYY
+DE413,1,CMMRDStatusID ,Case,,Integer,1.0,Code
+DE322,1,CMMRDStatusIDNotification,Case,"The result of Mismatch Repair Enzyme Testing, as represented by a code. ",Integer,1.0,Code
+DE212,1,CMorphologyCodeID,Case,"The histological classification of the cancer tissue (histopathological type) in a person with cancer, and a description of the course of development that a tumour is likely to take: benign or malignant (behaviour), as represented by a code.",Integer,1.0,Code
+DE35,1,CMorphologyCodeIDNotification,Case,"The histological classification of the cancer tissue (histopathological type) in a person with cancer, and a description of the course of development that a tumour is likely to take: benign or malignant (behaviour), as represented by a code.",Integer,1.0,Morphology ICD Code such as ANNNN/N OR NNNNN
+DE364,1,CMorphologyCodeIDVersionNotification,Case,,,,
+DE370,1,CMorphologyCodeVersion,Case,Version number of ICD03 reference used to classify the morphology of the tumour,,,
+DE423,1,CMStage2ID,Case,"The absence or presence of distant metastasis in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE522,1,CMStageID  ,Case,"The absence or presence of distant metastasis in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE158,1,CMStageIDNotication,Case,"The absence or presence of distant metastasis in a person with cancer, as represented by a code.",Integer,1.0,M Stage Code
+DE434,1,CMStagingBasis2ID,Case,"The evidence basis for the M stage value for a cancer, as represented by a code.",Integer,1.0,Code
+DE523,1,CMStagingBasisID ,Case,"The evidence basis for the M stage value for a cancer, as represented by a code.",Integer,1.0,Code
+DE159,1,CMStagingBasisIDNotification,Case,"The evidence basis for the M stage value for a cancer, as represented by a code.",Integer,1.0,Staging Basis Code
+DE414,1,CNecrosisID  ,Case,,Integer,1.0,Code
+DE306,1,CNecrosisIDNotification,Case,,Integer,1.0,Code
+DE527,1,CNonTNMStagingValuesDate,Case,The date of non-TNM staging values for cancer.,Date,1.0,DDMMYYYY
+DE163,1,CNonTNMStagingValuesDateNotification,Case,The date of non-TNM staging values for cancer.,Date,1.0,DDMMYYYY
+DE401,1,CNStage2ID,Case,"The absence or presence and extent of regional lymph node metastasis in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE501,1,CNStageID ,Case,"The absence or presence and extent of regional lymph node metastasis in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE155,1,CNStageIDNotification,Case,"The absence or presence and extent of regional lymph node metastasis in a person with cancer, as represented by a code.",Integer,1.0,N Stage Code
+DE412,1,CNStagingBasis2ID,Case,"The evidence basis for the N stage value for a cancer, as represented by a code.",Integer,1.0,Code
+DE512,1,CNStagingBasisID,Case,"The evidence basis for the N stage value for a cancer, as represented by a code.",Integer,1.0,Code
+DE156,1,CNStagingBasisIDNotification,Case,"The evidence basis for the N stage value for a cancer, as represented by a code.",Integer,1.0,Staging Basis Code
+DE530,1,COtherStagingBasisID ,Case,"The timing and evidence for cancer stage values, as represented by a code.",Integer,1.0,Code
+DE166,1,COtherStagingBasisIDNotification,Case,"The timing and evidence for cancer stage values, as represented by a code.",Integer,1.0,Staging Basis Code
+DE528,1,COtherStagingGroupingID,Case,"The reference which describes in detail the methods of staging and the definitions for the classification system used in determining the extent of cancer, as represented by a code.",Integer,1.0,Code
+DE529,1,COtherStagingGroupingID,Case,"The anatomical extent of disease in a person with cancer based on stage categories of a staging classification other than the standard TNM classification, as represented by a code.",Integer,1.0,Code
+DE551,1,COtherStagingGroupingID,Case,"The anatomical extent of disease in a person with cancer based on stage categories of a staging classification other than the standard TNM classification, as represented by a code.",Integer,1.0,Code
+DE550,1,COtherStagingSchemeID,Case,"The reference which describes in detail the methods of staging and the definitions for the classification system used in determining the extent of cancer, as represented by a code.",Integer,1.0,Code
+DE531,1,COtherStagingVersionID,Case,"The edition number or year of the cancer staging scheme used to determine the extent or stage of the cancer, as represented by a code.",Integer,1.0,Code
+DE552,1,COtherStagingVersionID,Case,"The edition number or year of the cancer staging scheme used to determine the extent or stage of the cancer, as represented by a code.",Integer,1.0,Code
+DE246,1,CPathologicalDiagnosisDate,Case,The date on which a diagnosis of cancer was first confirmed by pathological investigation. ,Date,1.0,DDMMYYYY
+DE141,1,CPathologicalDiagnosisDateNotification,Case,The date on which a diagnosis of cancer was first confirmed by pathological investigation. ,Date,1.0,DDMMYYYY
+DE559,1,CPerformanceStatusDate,Case,"The date on which the appraisal of the individual?s ability to manage activities of daily living was conducted.
+",Date,1.0,DDMMYYYY
+DE174,1,CPerformanceStatusDateNotification,Case,"The date on which the appraisal of the individual?s ability to manage activities of daily living was conducted.
+",Date,1.0,DDMMYYYY
+DE560,1,CPerformanceStatusID ,Case,"The result of the appraisal of the individual?s ability to manage activities of daily living, conducted at the time of diagnosis of cancer, as represented by a code.
+",Integer,1.0,Code
+DE175,1,CPerformanceStatusIDNotification,Case,"The result of the appraisal of the individual?s ability to manage activities of daily living, conducted at the time of diagnosis of cancer, as represented by a code.
+",Integer,1.0,Code
+DE321,1,CPerineuralInvasionID,Case,"An indication of whether perineural invasion was present , as represented by a code",Integer,1.0,Code
+DE277,1,CPlaceOfResidenceAtTimeOfDiagnosisNotification,Case,The place the person usually resided in at the time of diagnosis.,Integer,1.0,Code
+DE288,1,CPresentationBreastIDNotification,Case,Description of the principal method by which the cancer was detected at initial presentation. ,Integer,1.0,Code
+DE308,1,CPresentationColorectalIDNotification,Case,"The presentation of the patient who has been admitted for a scheduled appointment/ surgery/ screening for bowel cancer, as represented by a code.",Integer,1.0,Code
+DE179,1,CPrimarySiteCancerCodeVersionNotification,Case,,,,
+DE27,1,CPrincipalFlag,Case,Indicates the main procedure the person with cancer was admitted for.,Boolean,1.0,Check - Yes; Uncheck - No
+DE300,1,CPRStatusIdNotification,Case,"The results of progesterone receptor assay at the time or diagnosis of the primary breast tumour, as represented by a code.",Integer,1.0,Code
+DE329,1,CPSAIDNotification,Case,,Float,1.0,Numeric Value (NNN.NN)
+DE316,1,CReadmitReasonIDNotification,Case,The reason that a patient was readmitted to hospital following treatment for colorectal cancer.,Integer,1.0,Code
+DE315,1,CReadmitWithin28DaysIDNotification,Case,"An indication of whether the patient was readmitted as an admitted patient within 28 days of last being admitted and, if so, whether the admission was to the facility reporting the current episode, or another facility, as represented by a code.
+",Integer,1.0,Code
+DE216,1,CReasonAdmitNotification,Case,,Integer,1.0,Code
+DE16,1,CReasonForNoTreatmentId,Case,"The primary reason why no active cancer treatment is specified within a Cancer Care Plan, as represented by a code. ",Integer,1.0,Code
+DE198,1,CReasonForNoTreatmentIDNotification,Case,"The primary reason why no active cancer treatment is specified within a Cancer Care Plan, as represented by a code. ",Integer,1.0,Code
+DE415,1,CRectalLevelCancerID ,Case,,Integer,1.0,Code
+DE320,1,CRectalLevelCancerIDNotification,Case,"The level of rectal cancer in relation to the anal verge, as represented by a code.",Integer,1.0,Code
+DE553,1,CRecurrenceDate,Case,"The date on which a patient is diagnosed with the first recurrence of a cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE169,1,CRecurrenceDateNotification,Case,"The date on which a patient is diagnosed with the first recurrence of a cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE183,1,CRecurrenceDateValidityCodeNotification,Case,"An indicator of the accuracy of the components of a reported date, as represented by a code.",varchar(5),1.0,Code
+DE554,1,CRecurrenceSiteID  ,Case,"The site of first recurrence of cancer in a person with cancer, after a disease-free period, as represented by a code.",Integer,1.0,Code
+DE170,1,CRecurrenceSiteIDNotification,Case,"The site of first recurrence of cancer in a person with cancer, after a disease-free period, as represented by a code.",Integer,1.0,ICD-03 or ICD-10 Code
+DE365,1,CRecurrenceSiteVersionNotification,Case,,,,
+DE555,1,CRecurrenceTypeID ,Case,"The type of first recurrence of primary cancer after a disease free intermission or remission, as represented by a code.",Integer,1.0,Code
+DE171,1,CRecurrenceTypeIDNotification,Case,"The type of first recurrence of primary cancer after a disease free intermission or remission, as represented by a code.",Integer,1.0,Code
+DE10,1,CReferralDate,Case,"The date that a person with cancer was referred to a cancer specialist (oncologist, haematologist or surgeon). ",Date,1.0,DDMMYYYY
+DE195,1,CReferralDateNotification,Case,"The date that a person with cancer was referred to a cancer specialist (oncologist, haematologist or surgeon). ",Date,1.0,DDMMYYYY
+DE561,1,CReferralToPalliativeCareDate,Case,"The date a person with cancer was referred to a palliative care physician or team during their course of treatment.
+",Date,1.0,DDMMYYYY
+DE176,1,CReferralToPalliativeCareDateNotification,Case,"The date a person with cancer was referred to a palliative care physician or team during their course of treatment.
+",Date,1.0,DDMMYYYY
+DE295,1,CRegionalNodesExaminedCountNotification,Case,Theÿtotal number of regional lymph nodes examined byÿa pathologistÿinÿa person with cancer.,Integer,1.0,Numeric Value
+DE324,1,CRegionalNodesExaminedCountNotification_d,Case,Theÿtotal number of regional lymph nodes examined byÿa pathologistÿinÿa person with cancer.,Integer,1.0,Numeric Value
+DE296,1,CRegionalNodesPositiveCountNotification,Case,The total number of regional lymph nodes reported to contain tumour in a person with cancer.,Integer,1.0,Numeric Value
+DE325,1,CRegionalNodesPositiveCountNotification_d,Case,The total number of regional lymph nodes reported to contain tumour in a person with cancer.,Integer,1.0,Numeric Value
+DE318,1,CResectionMarginNotification,Case,"The distance from the tumour to the radial resection margin, measured in millimetres (mm).",Float,1.0,Numeric Value (NNN.NN)
+DE317,1,CResidualTumourStatusIDNotification,Case,A code set describing whether residual tumour is present or absent after the initial course of treatment for cancer.,Integer,1.0,Code
+DE331,1,CRiskStratificationIDNotification,Case,"1 ? Low Risk
+2 ? Intermediate Risk
+3 ? High Risk       
+9 ? Unknown Risk
+",Integer,1.0,Code
+DE416,1,CSentinelNodesExaminedCount   ,Case,,Integer,1.0,Numeric Value
+DE297,1,CSentinelNodesExaminedCountNotification,Case,The total number of a person's sentinel lymph nodes examined by the pathologist.,Integer,1.0,Numeric Value
+DE298,1,CSentinelNodesPositiveCountNotification,Case,The total number of sentinel lymph nodes reported as containing tumour after examination by a pathologist.,Integer,1.0,Numeric Value
+DE335,1,CSize,Case,"The largest dimension of a solid tumour, measured in millimetres.",Float,1.0,Numeric Value (NNN.NN)
+DE149,1,CSizeNotification,Needs category,"The largest dimension of a solid tumour, measured in millimetres.",Float,1.0,Numeric Value (NNN.NN)
+DE340,1,CSLNMethodNotification,Needs category,"The method used to identify the sentinel lymph node, as represented by a code.",varchar(50),1.0,Code
+DE293,1,CSurgicalMarginInvolvementNotification,Case,"The extent of carcinoma in the surgical resection margin, in millimetres.",Float,1.0,Numeric Value (NNN.NN)
+DE292,1,CSurgicalMarginNotification,Case,"The distance of the closest surgical margin from the invasive or in situ
+carcinoma in millimetres (mm).",Float,1.0,Numeric Value (NNN.NN)
+DE323,1,CThickness,Case,The measured thickness of a melanoma in millimetres.,Float,1.0,Numeric Value (NNN.NN)
+DE182,1,CThicknessNotification,Needs category,The measured thickness of a melanoma in millimetres.,Float,1.0,Numeric Value (NNN.NN)
+DE457,1,CTNMEditionNumber2ID,Case,"The edition number of the TNM staging scheme used to determine the extent or stage of the cancer, as represented by a code.",Integer,1.0,Code
+DE526,1,CTNMEditionNumberID ,Case,"The edition number of the TNM staging scheme used to determine the extent or stage of the cancer, as represented by a code.",Integer,1.0,Code
+DE162,1,CTNMEditionNumberIDNotification,Case,"The edition number of the TNM staging scheme used to determine the extent or stage of the cancer, as represented by a code.",Integer,1.0,Edition Code
+DE368,1,CTNMStaging2Date,Case,The date of TNM staging values for cancer.,Date,1.0,DDMMYYYY
+DE161,1,CTNMStagingBasisIdNotification,Case,"The timing and evidence for cancer stage values, as represented by a code.",Integer,1.0,Staging Basis Code
+DE468,1,CTNMStagingDate,Case,The date of TNM staging values for cancer.,Date,1.0,DDMMYYYY
+DE151,1,CTNMStagingDateNotification,Case,The date of TNM staging values for cancer.,Date,1.0,DDMMYYYY
+DE446,1,CTNMStagingGrouping2ID,Case,"The anatomical extent of disease in a person with cancer based on the previously coded T, N and M stage categories, as represented by a code.",Integer,1.0,Code
+DE524,1,CTNMStagingGroupingID ,Case,"The anatomical extent of disease in a person with cancer based on the previously coded T, N and M stage categories, as represented by a code.",Integer,1.0,Code
+DE160,1,CTNMStagingGroupingIDNotification,Case,"The anatomical extent of disease in a person with cancer based on the previously coded T, N and M stage categories, as represented by a code.",Integer,1.0,TNM Stage Code
+DE152,1,CTNMStagingTimingIDNotification,Case,An indictor of whether the staging was at diagnosis or not at diagnosis.,Integer,1.0,Code
+DE305,1,CTotalExtentNotification,Case,The maximum diameter in millimetres of the furthest points of extension of the whole lesion including DCIS which extends beyond the invasive component,Float,1.0,Numeric Value (NNN.NN)
+DE379,1,CTStage2ID,Case,"The size and extent of the primary tumour in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE479,1,CTStageID,Case,"The size and extent of the primary tumour in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE390,1,CTStagingBasis2ID,Case,"The evidence basis for the T stage value for a cancer, as represented by a code.",Integer,1.0,Code
+DE490,1,CTStagingBasisID,Case,"The evidence basis for the T stage value for a cancer, as represented by a code.",Integer,1.0,Code
+DE153,1,CTumourStageID,Case,"The size and extent of the primary tumour in a person with cancer, as represented by a code.",Integer,1.0,T Stage Code
+DE154,1,CTumourStagingBasisIDNotification,Case,"The evidence basis for the T stage value for a cancer, as represented by a code.",Integer,1.0,Staging Basis Code
+DE429,1,DateOfDeath,Needs category,,Date,1.0,DDMMYYYY
+DE430,1,DateReceived,Needs category,,Date,1.0,DDMMYYYY
+DE431,1,DCNumber,Needs category,,char(12),1.0,Code
+DE432,1,DCStateID,Needs category,,Integer,1.0,Code
+DE433,1,DCYear,Needs category,,char(4),1.0,YYYY
+DE403,1,DeathCaseID,Needs category,,Integer,1.0,Numeric Value
+DE435,1,DeathCauseText,Needs category,,varchar(4000),1.0,Alphanumeric Value
+DE436,1,DegreeOfSpreadId,Needs category,,Integer,1.0,Code
+DE437,1,DiseaseGradeSchemeId,Needs category,,Integer,1.0,Code
+DE438,1,DiseaseGradeScore,Needs category,,Integer,1.0,Code
+DE261,1,EActualRadiationDoseNotification,Episode,The received dose of radiation delivered to the Radiotherapy Site measured in the Radiation Dose Unit.,Float,1.0,Numeric Value (NNN.NN)
+DE33,1,EAntiNeoplasticCyclesCount,Episode,The number of treatment cycles that an agent was administered in the course of treatment.,Integer,1.0,Numeric value
+DE124,1,EAntiNeoplasticCyclesCountNotification,Episode,The number of treatment cycles that an agent was administered in the course of treatment.,Integer,1.0,Numeric Value
+DE1,1,EAntineoPlasticIndicator,Episode,,,,
+DE336,1,EAttemptSLNNotification,Needs category,Whether or not identification of sentinel lymph node attempted,varchar(15),1.0,Code
+DE342,1,EBreastRTSiteNotification,Needs category,"The target site of radiotherapy administered during the initial course of treatment for breast cancer, as represented by a code.",varchar(50),1.0,Code
+DE112,1,ECalculatedDose,Episode,,,,
+DE28,1,ECancerProcedure,Episode,Indicates that the procedure code is cancer-related,Boolean,1.0,Check - Yes; Uncheck - No
+DE215,1,ECancerProcedureNotification,Episode,Indicates that the procedure code is cancer-related,Boolean,1.0,"Check - Yes, cancer  procedure; Uncheck - No"
+DE41,1,EChemotherapyEndDate,Episode,The date the chemotherapy regimen ended,Date,1.0,DDMMYYYY
+DE222,1,EChemotherapyEndDateNotification,Episode,The date the chemotherapy regimen ended,Date,1.0,DDMMYYYY
+DE40,1,EChemotherapyStartDate,Needs category,The date the chemotherapy regimen commenced,Date,1.0,DDMMYYYY
+DE562,1,EClinicalTrialEnrolmentDate,Episode,"The date a person with cancer was enrolled in a clinical trial.
+",Date,1.0,DDMMYYYY
+DE177,1,EClinicalTrialEnrolmentDateNotification,Episode,"The date a person with cancer was enrolled in a clinical trial.
+",Date,1.0,DDMMYYYY
+DE332,1,EClinicalTrialEnrolmentStatusNotification,Episode,Whether or not the patient is/or is to be enrolled in a clinical trial as part of the anti-cancer treatment.,varchar(100),1.0,Code
+DE563,1,EClinicalTrialName,Episode,The name of the clinical trial indicates which clinical trial the patient is enrolled in.,varchar(100),1.0,Alphanumeric Value
+DE178,1,EClinicalTrialNameNotification,Episode,The name of the clinical trial indicates which clinical trial the patient is enrolled in.,varchar(100),1.0,Alphanumeric Value as documented in OMIS
+DE333,1,EClinicalTrialRegistrationNumberNotification,Episode,The unique trial number recorded for the trial on the Australian Clinical Trials Registry.,varchar(40),1.0,Code
+DE417,1,EColorectalEmergergencySurgeryID,Episode,,Integer,1.0,Code
+DE311,1,EColorectalEmergergencySurgeryIDNotification,Episode,"The reason that emergency surgery was performed for colorectal cancer, as represented by a code.",Integer,1.0,Code
+DE418,1,EColorectalSurgeryMethodCode,Episode,,Integer,1.0,Code
+DE310,1,EColorectalSurgeryMethodCodeNotification,Episode,"The method of surgery performed, as represented by a code.",Integer,1.0,Code
+DE419,1,EComplicationFollowingSurgeryCode,Episode,,Integer,1.0,Code
+DE314,1,EComplicationFollowingSurgeryCodeNotification,Episode,"The type of complication following surgery for colorectal cancer, as represented by a code.",Integer,1.0,Code
+DE420,1,ECycle  ,Episode,,Integer,1.0,Numeric value
+DE113,1,ECycleNotification,Episode,,Integer,1.0,Numeric Value
+DE537,1,EDegreeOfSpreadID,Episode,"A measure of the progression/extent of cancer at this episode of care, as represented by a code.",Integer,1.0,Code
+DE150,1,EDegreeOfSpreadIDNotification,Episode,"A measure of the progression/extent of cancer at this episode of care, as represented by a code.",Integer,1.0,Code
+DE327,1,EDistanceFromCarcenomaResectionMarginNotification,Episode,"The distance of carcinoma from the surgical resection margin, in millimetres.",Float,1.0,Numeric Value (NNN.NN)
+DE558,1,EDosePercentage,Episode,,,,
+DE2,1,EDoseUnit,Episode,,,,
+DE20,1,EEndDate  ,Episode,Date on which an admitted patient completes an episode of care.,Date,1.0,DDMMYYYY
+DE207,1,EEndDateNotification,Episode,Date on which an admitted patient completes an episode of care.,Date,1.0,DDMMYYYY. If Unknown set to '01/01/9999'.
+DE5,1,EInitialTreatmentFlag,Episode,"An indicator of whether treatment for cancer was administered during the initial course of treatment, or following the initial course due to disease progression and recurrence, as represented by a code.",Boolean,1.0,Check - Yes; Uncheck - No
+DE202,1,EInitialTreatmentFlagNotification,Episode,"An indicator of whether treatment for cancer was administered during the initial course of treatment, or following the initial course due to disease progression and recurrence, as represented by a code.",Boolean,1.0,Check - Yes; Uncheck - No
+DE76,1,EIntendedChemoTherapyFlag ,Episode,Indicates that systemic agent therapy was an intended treatment for the patient,Boolean,1.0,Check - Yes; Uncheck - No
+DE267,1,EIntendedChemoTherapyFlagNotification,Episode,Indicates that systemic agent therapy was an intended treatment for the patient,Boolean,1.0,Check - Yes; Uncheck - No
+DE80,1,EIntendedNoTreatmentFlag,Episode,Indicates that no treatment was intended for the patient,Boolean,1.0,Check - Yes; Uncheck - No
+DE271,1,EIntendedNoTreatmentFlagNotification,Episode,Indicates that no treatment was intended for the patient,Boolean,1.0,Check - Yes; Uncheck - No
+DE77,1,EIntendedOtherTreatmentFlag,Episode,"Indicates that a treatment other than radiotherpy, systemic agent therapy or surgery was an intended treatment for the patient",Boolean,1.0,Check - Yes; Uncheck - No
+DE269,1,EIntendedOtherTreatmentFlagNotification,Episode,"Indicates that a treatment other than radiotherpy, systemic agent therapy or surgery was an intended treatment for the patient",Boolean,1.0,Check - Yes; Uncheck - No
+DE75,1,EIntendedRadiotherapyFlagNotification,Episode,Indicates that radiotherapy was an intended treatment for the patient,Boolean,1.0,Check - Yes; Uncheck - No
+DE266,1,EIntendedRadiotherapyFlagNotification,Episode,Indicates that radiotherapy was an intended treatment for the patient,Boolean,1.0,Check - Yes; Uncheck - No
+DE78,1,EIntendedSurgeryFlag,Episode,Indicates that surgery was an intended treatment for the patient,Boolean,1.0,Check - Yes; Uncheck - No
+DE270,1,EIntendedSurgeryFlagNotification,Episode,Indicates that surgery was an intended treatment for the patient,Boolean,1.0,Check - Yes; Uncheck - No
+DE106,1,ELastContactFacilityCode,Episode,"An identifier for the establishment in which the most recent episode or event occurred.
+",varchar(7),1.0,Code
+DE568,1,EModalityID ,Episode,"The type of treatment administered during the initial course of treatment for cancer, as represented by a code.",Integer,1.0,Code
+DE187,1,EModalityIDNotification,Episode,"The type of treatment administered during the initial course of treatment for cancer, as represented by a code.",Integer,1.0,Code
+DE543,1,EMStageID,Episode,"The absence or presence of distant metastasis in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE544,1,EMStagingBasisID,Episode,"The evidence basis for the M stage value for a cancer, as represented by a code.",Integer,1.0,Code
+DE549,1,ENonTNMStagingValuesDate,Episode,The date of non-TNM staging values for cancer.,Date,1.0,DDMMYYYY
+DE205,1,ENotificationWorkflowStatusIDNotification,Episode,Status of completion of episode information in the NSWCR for this treatment.,Integer,1.0,Code
+DE541,1,ENStageID,Episode,"The absence or presence and extent of regional lymph node metastasis in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE542,1,ENStagingBasisID,Episode,"The evidence basis for the N stage value for a cancer, as represented by a code.",Integer,1.0,Code
+DE165,1,EOtherStagingGroupingIDNotification,Episode,"The anatomical extent of disease in a person with cancer based on stage categories of a staging classification other than the standard TNM classification, as represented by a code.",Integer,1.0,Stage Grouping Codes other than the standard UICC TNM Codes
+DE164,1,EOtherStagingSchemeIDNotification,Episode,"The reference which describes in detail the methods of staging and the definitions for the classification system used in determining the extent of cancer, as represented by a code.",Integer,1.0,Code
+DE167,1,EOtherStagingVersionIDNotification,Episode,"The edition number or year of the cancer staging scheme used to determine the extent or stage of the cancer, as represented by a code.",Integer,1.0,Edition Code
+DE4,1,EOutcomeOfTreatmentId,Episode,"The response of the tumour at the completion of the treatment modalities, as represented by a code.",Integer,1.0,Code
+DE260,1,EPrescribedRadiationDoseNotification,Episode,The prescribed dose of radiation that was to be delivered to the Radiotherapy Site measured in the Radiation Dose Unit.,Float,1.0,Numeric Value (NNN.NN)
+DE263,1,EPrescribedRadiotherapyFractionCountNotification,Episode,Number of radiotherapy fractions that were prescribed to be delivered to the Radiotherapy Site.,Integer,1.0,Numeric Value
+DE214,1,EPrincipalFlagNotification,Episode,Indicates the main procedure the person with cancer was admitted for.,Boolean,1.0,"Check - Yes, principal procedure; Uncheck - No"
+DE25,1,EProcedureCodeID ,Episode,The surgical procedure(s) for the initial management of the cancer.,Integer,1.0,Code
+DE211,1,EProcedureCodeIDNotification,Episode,The surgical procedure(s) for the initial management of the cancer.,Integer,1.0,ICD-10-AM procedure code
+DE26,1,EProcedureDate,Episode,"The date on which a cancer-directed surgical procedure was performed during the initial course of treatment for cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE213,1,EProcedureDateNotification,Episode,"The date on which a cancer-directed surgical procedure was performed during the initial course of treatment for cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE272,1,EProtocol1IDNotification,Episode,The eviQ protocol identifier for the systemic therapy agent protocol intended for the patient,Integer,1.0,Protocol Code
+DE274,1,EProtocol2IDNotification,Episode,The eviQ protocol identifier for the radiation therapy protocol intended for the patient,Integer,1.0,Protocol Code
+DE273,1,EProtocol3IDNotification,Episode,The eviQ protocol identifier for the systemic therapy agent protocol intended for the patient,Integer,1.0,Protocol Code
+DE36,1,EProtocolConsent,Episode,An indicator that a patient consented to the treatment protocol,Boolean,1.0,Check - Yes; Uncheck - No
+DE32,1,EProtocolID   ,Episode,The eviQ protocol identifier for the systemic therapy agent protocol administered during the initial course of treatment for cancer.,Integer,1.0,Code
+DE101,1,EProtocolIDNotification,Episode,The eviQ protocol identifier for the systemic therapy agent protocol administered during the initial course of treatment for cancer.,Integer,1.0,Protocol Code
+DE34,1,EProtocolModified,Episode,"An indicator of a change, alteration or adjustment to a specified treatment protocol, as represented by a code.",Boolean,1.0,Check - Yes; Uncheck - No
+DE219,1,EProtocolModifiedNotification,Episode,"An indicator of a change, alteration or adjustment to a specified treatment protocol, as represented by a code.",Boolean,1.0,Check - Yes; Uncheck - No
+DE421,1,ERadiationDoseTotal,Episode,,Float,1.0,Numeric Value (NNN.NN)
+DE252,1,ERadiationDoseTotalNotification,Episode,The total received dose of radiation delivered at initial treatment measured in the Radiation Dose Unit specified.,Float,1.0,Numeric Value (NNN.NN)
+DE74,1,ERadiationDoseUnitID,Needs category,The classification used to measure the radiation dose,Integer,1.0,Code
+DE262,1,ERadiationDoseUnitIDNotification,Needs category,The classification used to measure the radiation dose,Integer,1.0,Code
+DE255,1,ERadiotherapyCourseNotification,Episode,The radiotherapy course name as recorded by the source system.,varchar(512),1.0,Alphanumeric Value
+DE253,1,ERadiotherapyDoseUnitIDNotification,Episode,The classification used to measure the radiation dose.,Integer,1.0,Code
+DE72,1,ERadiotherapyEndDate,Episode,"The completion date of the radiotherapy administered during the initial course of treatment for cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE249,1,ERadiotherapyEndDateNotification,Episode,"The completion date of the radiotherapy administered during the initial course of treatment for cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY. If Unknown set to '01/01/9999'.
+DE264,1,ERadiotherapyFractionsRecievedCountNotification,Episode,Number of radiotherapy fractions delivered to the Radiotherapy Site.,Integer,1.0,Numeric Value
+DE422,1,ERadiotherapyFractionsTotal,Episode,,Integer,1.0,Numeric Value (NNN.NN)
+DE254,1,ERadiotherapyFractionsTotalNotification,Episode,Total number of radiotherapy fractions delivered in the initial course of radiation.,Integer,1.0,Numeric Value
+DE256,1,ERadiotherapyPriorityIDNotification,Episode,The priority code of the Radiotherapy Course.,Integer,1.0,Code
+DE71,1,ERadiotherapyStartDate,Episode,"The start date of the radiotherapy administered during the initial course of treatment for cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE248,1,ERadiotherapyStartDateNotification,Episode,"The start date of the radiotherapy course administered during the initial course of treatment for cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY. If Unknown set to '01/01/9999' except for Inpatient.
+DE73,1,ERadiotherapyTypeID,Needs category,"The type of radiation therapy used in the primary treatment of the cancer, as represented by a code.",Integer,1.0,Code
+DE250,1,ERadiotherapyTypeIDNotification,Episode,"The type of radiation therapy used in the primary treatment of the cancer, as represented by a code.",Integer,1.0,Code
+DE50,1,EReasonVariationFrequencyCycle,Needs category,The reason that a treatment cycle was not administered according to the frequency specified in the eviQ protocol.,Integer,1.0,Reason Code
+DE229,1,EReasonVariationFrequencyCycleNotification,Episode,The reason that a treatment cycle was not administered according to the frequency specified in the eviQ protocol.,Integer,1.0,Reason Code
+DE39,1,ERouteId,Episode,"The mode of introduction of a particular systemic therapy agent into the body of a person with cancer, as represented by a code. ",Integer,1.0,Route Code
+DE79,1,ERouteIDNotification,Episode,"The mode of introduction of a particular systemic therapy agent into the body of a person with cancer, as represented by a code. ",Integer,1.0,Route Code
+DE259,1,ESiteEndDateNotification,Episode,"The completion date of the radiotherapy administered to the radiotherapy site during the initial course of treatment for cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE251,1,ESiteIDNotification,Episode,"The target site of radiotherapy administered during the initial course of treatment for cancer, as represented by a code.",Integer,1.0,Code
+DE258,1,ESiteStartDateNotification,Episode,"The start date of the radiotherapy administered to the radiotherapy site during the initial course of treatment for cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE338,1,ESLNExtentNotification,Needs category,"The maximum extent of tumour in a sentinel lymph node, as represented by a code.",varchar(100),1.0,Code
+DE337,1,ESLNIDNotification,Needs category,"Whether or not sentinel lymph node(s) identified and removed intraoperatively, according to nodal site.",varchar(50),1.0,Code
+DE19,1,EStartDate,Episode,Date on which an admitted patient commences an episode of care.,Date,1.0,DDMMYYYY
+DE206,1,EStartDateNotification,Episode,Date on which an admitted patient commences an episode of care.,Date,1.0,DDMMYYYY. If Unknown set to '01/01/9999' except for Inpatient.
+DE221,1,EStartDateNotification,Episode,The date the chemotherapy regimen commenced,Date,1.0,DDMMYYYY
+DE21,1,EStatusSeparationId,Episode,"The indication of whether the person was alive or dead at the time the patient last received active treatment, or obtained a pathology test, for a notifiable cancer. ",Integer,1.0,Code
+DE208,1,EStatusSeperationIDNotification,Episode,"The indication of whether the person was alive or dead at the time the patient last received active treatment, or obtained a pathology test, for a notifiable cancer. ",Integer,1.0,Code
+DE209,1,EStatusSeperationIDNotification,Needs category,,Integer,1.0,Code
+DE210,1,EStatusSeperationIDNotification_d,Episode,"The indication of whether the person was alive or dead at the time the patient last received active treatment, or obtained a pathology test, for a notifiable cancer. ",Integer,1.0,Code
+DE313,1,EStomaTypeID,Episode,"The type of stoma created for a patient with colorectal cancer, as represented by a code. ",Integer,1.0,Code
+DE17,1,ESuggestedTreatmentCommencementDate,Episode,"The date on which a cancer specialist (oncologist, haematologist or surgeon) indicated treatment of a person with cancer should commence.",Date,1.0,DDMMYYYY
+DE199,1,ESuggestedTreatmentCommencementDateNotification,Episode,"The date on which a cancer specialist (oncologist, haematologist or surgeon) indicated treatment of a person with cancer should commence.",Date,1.0,DDMMYYYY
+DE42,1,ESystemicTherapyAgentFrequencyCode,Episode,"The frequency with which a particular systemic therapy agent was administered, during the course of treatment for a cancer, as represented by a code number",Integer,1.0,Numeric value
+DE225,1,ESystemicTherapyAgentFrequencyCodeNotification,Episode,"The frequency with which a particular systemic therapy agent was administered, during the course of treatment for a cancer, as represented by a number",Integer,1.0,Numeric Value
+DE43,1,ESystemicTherapyAgentFrequencyUnitCode,Episode,"The unit of measure used to express the frequency with which a particular systemic therapy agent was administered, during the course of treatment for a cancer, as represented by a code.",Integer,1.0,Code
+DE226,1,ESystemicTherapyAgentFrequencyUnitCodeNotification,Episode,"The unit of measure used to express the frequency with which a particular systemic therapy agent was administered, during the course of treatment for a cancer, as represented by a code.",Integer,1.0,Code
+DE48,1,ESystemicTherapyCycleEndDate,Needs category,The final day of a systemic therapy cycle according to the protocol.,Date,1.0,DDMMYYYY
+DE227,1,ESystemicTherapyCycleEndDateNotification,Episode,The final day of a systemic therapy cycle according to the protocol.,Date,1.0,DDMMYYYY
+DE47,1,ESystemicTherapyCycleStartDate,Needs category,The date that Day 1 of a systemic therapy cycle is administered according to the protocol.,Date,1.0,DDMMYYYY
+DE334,1,ESystemicTherapyCycleStartDateNotification,Episode,The date that Day 1 of a systemic therapy cycle is administered according to the protocol.,Date,1.0,DDMMYYYY
+DE38,1,ESystemicTherapyDoseQuantity,Episode,"The quantity of a particular systemic therapy agent prescription administered, taken or absorbed at one time.",varchar(20),1.0,Alphanumeric Value
+DE547,1,ESystemicTherapyDoseQuantityNotification,Episode,"The quantity of a particular systemic therapy agent prescription administered, taken or absorbed at one time.",varchar(20),1.0,Alphanumeric Value
+DE37,1,ESystemicTherapyDrugIDCode,Episode,"The name of the systemic therapy agent administered during the course of treatment for a cancer, as represented by a code.",Integer,1.0,Drug Code
+DE90,1,ESystemicTherapyDrugIDCodeNotification,Episode,"The name of the systemic therapy agent administered during the course of treatment for a cancer, as represented by a code.",Integer,1.0,Drug Code
+DE30,1,ESystemicTherapyEndDate,Episode,"The completion date of systemic agent therapy  administered during the initial course of treatment for cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE217,1,ESystemicTherapyEndDateNotification,Episode,"The completion date of systemic agent therapy  administered during the initial course of treatment for cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY. If Unknown set to '01/01/9999'.
+DE218,1,ESystemicTherapyIDNotification,Episode,"The type of systemic agent therapy  administered during the course of treatment for cancer, as represented by a code.",Integer,1.0,Code
+DE223,1,ESystemicTherapyProtocolCycleCountNotification,Episode,The number of the eviQ systemic therapy cycle administered to the patient during this reporting period.,varchar(20),1.0,Numeric Value
+DE45,1,ESystemicTherapyProtocolCycleNumber,Needs category,The number of the eviQ systemic therapy cycle administered to the patient during this reporting period.,varchar(20),1.0,Numeric value
+DE29,1,ESystemicTherapyStartDate,Episode,"The start date of systemic agent therapy administered during the initial course of treatment for cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY
+DE135,1,ESystemicTherapyStartDateNotification,Episode,"The start date of systemic agent therapy administered during the initial course of treatment for cancer, expressed as DDMMYYYY.",Date,1.0,DDMMYYYY. If Unknown set to '01/01/9999' except for Inpatient.
+DE44,1,ESystemicTherapyTreatmentCycleDay,Episode,The day of the systemic therapy treatment cycle on which a particular dose was administered.,varchar(15),1.0,Alphanumeric Value
+DE525,1,ESystemicTherapyTreatmentCycleDayNotification,Episode,The day of the systemic therapy treatment cycle on which a particular dose was administered.,varchar(15),1.0,Alphanumeric Value
+DE31,1,ESystemicTherapyTypeID,Episode,"The type of systemic agent therapy  administered during the course of treatment for cancer, as represented by a code.",Integer,1.0,Code
+DE538,1,ETMNStagingDate,Episode,The date of TNM staging values for cancer.,Date,1.0,DDMMYYYY
+DE548,1,ETNMEditionNumberID,Episode,"The edition number of the TNM staging scheme used to determine the extent or stage of the cancer, as represented by a code.",Integer,1.0,Code
+DE546,1,ETNMStagingBasisIdID,Episode,"The timing and evidence for cancer stage values, as represented by a code.",Integer,1.0,Code
+DE545,1,ETNMStagingGroupingID,Episode,"The anatomical extent of disease in a person with cancer based on the previously coded T, N and M stage categories, as represented by a code.",Integer,1.0,Code
+DE59,1,EToxicityConstipationCode,Needs category,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE236,1,EToxicityConstipationCodeNotification,Episode,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE60,1,EToxicityDiarrhoeaCode,Needs category,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE237,1,EToxicityDiarrhoeaCodeNotification,Episode,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE61,1,EToxicityFatigueCode,Needs category,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE238,1,EToxicityFatigueCodeNotification,Episode,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE62,1,EToxicityHypersensitivityCode,Needs category,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE239,1,EToxicityHypersensitivityCodeNotification,Episode,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE63,1,EToxicityMucositisCode,Needs category,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE240,1,EToxicityMucositisCodeNotification,Episode,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE64,1,EToxicityNauseaCode,Needs category,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE241,1,EToxicityNauseaCodeNotification,Episode,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE65,1,EToxicityNeuropathyCode,Needs category,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE242,1,EToxicityNeuropathyCodeNotification,Episode,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE70,1,EToxicityNeutrophilCount,Needs category,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE247,1,EToxicityNeutrophilCountNotification,Episode,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE67,1,EToxicityRashCode,Needs category,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE244,1,EToxicityRashCodeNotification,Episode,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE66,1,EToxicitySkinReactionCode,Needs category,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE243,1,EToxicitySkinReactionCodeNotation,Episode,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE69,1,EToxicityVomitingCode,Needs category,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE245,1,EToxicityVomitingCodeNotification,Episode,An indication of the severity of the toxicity caused by the cancer treatment as indicated by the CTCAE grade.,Integer,1.0,Code
+DE3,1,ETreatmentIntention,Episode,"The intention of the initial treatment for cancer for the particular patient, as represented by a code.",Integer,1.0,Code
+DE188,1,ETreatmentIntentionNotification,Episode,"The intention of the initial treatment for cancer for the particular patient, as represented by a code.",Integer,1.0,Code
+DE189,1,ETreatmentOutcomeIDNotification,Episode,"The response of the tumour at the completion of the treatment modalities, as represented by a code.",Integer,1.0,Code
+DE220,1,ETreatmentProtocolConsentNotification,Episode,An indicator that a patient consented to the treatment protocol,Boolean,1.0,Check - Yes; Uncheck - No
+DE18,1,ETreatmentType,Episode,"The type of treatment administered during this episode of treatment for cancer, as represented by a code.",Integer,1.0,Code
+DE200,1,ETreatmentTypeNotification,Episode,"The type of treatment administered during this episode of treatment for cancer, as represented by a code.",Integer,1.0,Code
+DE539,1,ETStageID,Episode,"The size and extent of the primary tumour in a person with cancer, as represented by a code.",Integer,1.0,Code
+DE540,1,ETStagingBasisID,Episode,"The evidence basis for the T stage value for a cancer, as represented by a code.",Integer,1.0,Code
+DE328,1,EUlcerationOfMelanomaIdNotification,Episode,,Integer,1.0,Code
+DE51,1,EVariationDrugDoseFlag,Needs category,"Whether the drug dose of an eviQ protocol was administered according to that specified in the eviQ protocol, as represented by code.",Boolean,1.0,Check - Yes; Uncheck - No
+DE146,1,EVariationDrugDoseFlagNotification,Episode,"Whether the drug dose of an eviQ protocol was administered according to that specified in the eviQ protocol, as represented by code.",Boolean,1.0,Check - Yes; Uncheck - No
+DE13,1,EVariationDrugDoseReason1Notification,Episode,The reason for a change to the drug dose specified in the eviQ protocol as represented by code.,Integer,1.0,Reason Code
+DE230,1,EVariationDrugDoseReason2Notification,Episode,The reason for a change to the drug dose specified in the eviQ protocol as represented by code.,Integer,1.0,Reason Code
+DE231,1,EVariationDrugDoseReason3Notification,Episode,The reason for a change to the drug dose specified in the eviQ protocol as represented by code.,Integer,1.0,Reason Code
+DE232,1,EVariationDrugDoseReason4Notification,Episode,The reason for a change to the drug dose specified in the eviQ protocol as represented by code.,Integer,1.0,Reason Code
+DE233,1,EVariationDrugDoseReason5Notification,Episode,The reason for a change to the drug dose specified in the eviQ protocol as represented by code.,Integer,1.0,Reason Code
+DE234,1,EVariationDrugDoseReason6Notification,Episode,The reason for a change to the drug dose specified in the eviQ protocol as represented by code.,Integer,1.0,Reason Code
+DE56,1,EVariationDrugDoseReasonFive,Needs category,The reason for a change to the drug dose specified in the eviQ protocol as represented by code.,Integer,1.0,Reason Code
+DE55,1,EVariationDrugDoseReasonFour,Needs category,The reason for a change to the drug dose specified in the eviQ protocol as represented by code.,Integer,1.0,Reason Code
+DE52,1,EVariationDrugDoseReasonOne,Needs category,The reason for a change to the drug dose specified in the eviQ protocol as represented by code.,Integer,1.0,Reason Code
+DE58,1,EVariationDrugDoseReasonSix,Needs category,The reason for a change to the drug dose specified in the eviQ protocol as represented by code.,Integer,1.0,Reason Code
+DE54,1,EVariationDrugDoseReasonThree,Needs category,The reason for a change to the drug dose specified in the eviQ protocol as represented by code.,Integer,1.0,Reason Code
+DE53,1,EVariationDrugDoseReasonTw,Needs category,The reason for a change to the drug dose specified in the eviQ protocol as represented by code.,Integer,1.0,Reason Code
+DE49,1,EVariationFrequencyCycleFlag,Needs category,"Whether an eviQ protocol treatment cycle was administered according to the frequency specified in the eviQ protocol, as represented by a code.",Boolean,1.0,Check - Yes; Uncheck - No
+DE157,1,EVariationReason,Episode,,,,
+DE440,1,"FatherSurname, FatherGivenName1",Needs category,,varchar(40),1.0,Alphanumeric value
+DE515,1,"FatherSurname, FatherGivenName1",Needs category,,varchar(40),1.0,Alphanumeric value
+DE441,1,GPAddress,Needs category,,varchar(256),1.0,Alphanumeric Value
+DE442,1,GPName,Needs category,,varchar(60),1.0,Alphanumeric value
+DE283,1,HDeathCertifierAddressNotification,HealthPractioner,The address of the doctor or coroner responsible for certifying the death.,varchar(256),1.0,Alphanumeric value
+DE282,1,HDeathCertifierNameNotification,HealthPractioner,The name of the certifying doctor or coroner. ,varchar(24),1.0,Alphanumeric value
+DE443,1,HER2TestId,Needs category,,Integer,1.0,Code
+DE6,1,HGPAmoRegistrationNumber,HealthPractioner,The Registration number of the General Practitioner treating the patient.,varchar(20),1.0,Alphanumeric Value
+DE191,1,HGPAmoRegistrationNumberNotification,HealthPractioner,The Registration number of the General Practitioner treating the patient.,varchar(20),1.0,Alphanumeric Value
+DE444,1,HistoPathologicalGradeId,Needs category,,Integer,1.0,Code
+DE9,1,HManagingDoctorName,HealthPractioner,The full name of the doctor in charge of the case.,varchar(250),1.0,Alphanumeric Value
+DE194,1,HManagingDoctorNameNotification,HealthPractioner,The full name of the doctor in charge of the case.,varchar(250),1.0,Alphanumeric Value
+DE564,1,HPsychoSocialReferral2Id,Health Practioner,"The health professional, support group or advisor to whom a person with cancer is initially referred for psycho-social support or intervention, as represented by a code.
+",Integer,1.0,Code
+DE184,1,HPsycoSocialReferral1IDNotification,HealthPractioner,"The health professional, support group or advisor to whom a person with cancer is initially referred for psycho-social support or intervention, as represented by a code.
+",Integer,1.0,Code
+DE185,1,HPsycoSocialReferral2IDNotification,HealthPractioner,"
+The health professional, support group or advisor to whom a person with cancer is initially referred for psycho-social support or intervention, as represented by a code.
+",Integer,1.0,Code
+DE186,1,HPsycoSocialReferral3IDNotification,HealthPractioner,"
+The health professional, support group or advisor to whom a person with cancer is initially referred for psycho-social support or intervention, as represented by a code.
+",Integer,1.0,Code
+DE180,1,HPsycoSocialReferralIDNotification,HealthPractioner,"The health professional, support group or advisor to whom a person with cancer is initially referred for psycho-social support or intervention, as represented by a code.
+",Integer,1.0,Code
+DE565,1,HPyschoSocialReferral1Id,Health Practioner,"The health professional, support group or advisor to whom a person with cancer is initially referred for psycho-social support or intervention, as represented by a code.
+",Integer,1.0,Code
+DE566,1,HPyschoSocialReferral3Id,Health Practioner,"The health professional, support group or advisor to whom a person with cancer is initially referred for psycho-social support or intervention, as represented by a code.
+",Integer,1.0,Code
+DE567,1,HPyschoSocialReferralId,Health Practioner,"The health professional, support group or advisor to whom a person with cancer is initially referred for psycho-social support or intervention, as represented by a code.
+",Integer,1.0,Code
+DE424,1,HReferringGPAddress,HealthPractioner,,varchar(256),1.0,Alphanumeric value
+DE203,1,HReferringGPAddressNotification,HealthPractioner,The address of the general practitioner who referred the patient to the hospital.,varchar(256),1.0,Alphanumeric Value
+DE7,1,HReferringGPName  ,HealthPractioner,The full name of the general practitioner who referred the patient to the hospital.,varchar(60),1.0,Alphanumeric Value
+DE192,1,HReferringGPNameNotification,HealthPractioner,The full name of the general practitioner who referred the patient to the hospital.,varchar(60),1.0,Alphanumeric Value
+DE8,1,HTreatingAmoRegistrationNumber,HealthPractioner,The Registration number of the doctor treating the patient for this episode of care.,varchar(20),1.0,Alphanumeric Value
+DE193,1,HTreatingAmoRegistrationNumberNotification?,HealthPractioner,The Registration number of the doctor treating the patient for this episode of care.,varchar(20),1.0,Alphanumeric Value
+DE204,1,HTreatingDoctorAddressNotification,Needs category,The address of the doctor in charge of the case.,varchar(MAX),1.0,Alphanumeric Value
+DE168,1,LDepartmentCode,Location,Department or unit in which the medical oncology event occurred,,,
+DE104,1,LFacilityCode,Location,"An identifier for the establishment in which the episode or event occurred.
+",varchar(7),1.0,Code
+DE439,1,LFacilityCode,Needs category,,varchar(7),1.0,Code
+DE24,1,LFacilityCodeNotification,Location,"An identifier for the establishment in which the episode or event occurred.
+",varchar(7),1.0,Code
+DE197,1,LHealthAreaCodeNotification,Location,"An identifier of recognised former NSW Area Health Services, or major NSW Health business unit, or interstate health jurisdictions, as represented by a code. ",varchar(20),1.0,Code
+DE12,1,LHelalthAreaCode,Location,"An identifier of recognised former NSW Area Health Services, or major NSW Health business unit, or interstate health jurisdictions, as represented by a code. ",varchar(20),1.0,Numeric Value
+DE447,1,Locality,Needs category,,varchar(40),1.0,Code
+DE448,1,Locality,Needs category,,varchar(40),1.0,Code
+DE369,1,LPathologyLaboratoryName ,Location,"Name where diagnostic is performed, related to lPathologyLaboratoryNameNotificatin, NOT451  but CR counter part does not exist",,,
+DE276,1,LPathologyLaboratoryNameNotification,Location,The name of the notifying Pathology Laboratory ,varchar(100),1.0,Alphanumeric Value
+DE265,1,LRISSiteNameNotification,Location,The radiotherapy site name as recorded by the source system.,varchar(512),1.0,Alphanumeric value
+DE449,1,LymphovascularInvasionId,Needs category,,Integer,1.0,Code
+DE450,1,LymphovascularInvasionId,Needs category,,Integer,1.0,Code
+DE349,1,METRIQ_AccessionNo,Needs category,number of radiotherapy fractions that were prescribed to be delivered to the Radiotherapy Site.,varchar(9),1.0,Alphanumeric Value
+DE350,1,METRIQ_ClassOfCase,Needs category,The extent to which the minimum dataset was completed or known at the reporting facility based on where the patient was diagnosed and received treatment.,varchar(200),1.0,Code
+DE356,1,METRIQ_DCISPattern,Needs category,The characteristic appearance of the lesion under the microscope. Architecture refers to the way in which the tumour cells grow in relation to each other and how closely the growth pattern resembles normal breast structures.,varchar(50),1.0,Code
+DE359,1,METRIQ_DxMethClin,Needs category,,varchar(50),1.0,Code
+DE363,1,METRIQ_DxMethCoreBiop,Needs category,,varchar(50),1.0,Code
+DE362,1,METRIQ_DxMethFNAB,Needs category,,varchar(50),1.0,Code
+DE360,1,METRIQ_DxMethMamm,Needs category,,varchar(50),1.0,Code
+DE361,1,METRIQ_DxMethUltra,Needs category,,varchar(50),1.0,Code
+DE351,1,METRIQ_FirstContactFacilityCode,Needs category,,varchar(100),1.0,Code
+DE355,1,METRIQ_ResectionDate,Needs category,,Date,1.0,DDMMYYYY
+DE353,1,METRIQ_RTBoostDs,Needs category,The received dose of radiation boost delivered at initial treatment measured in Gray (Gy) - ICRU,Integer,1.0,Numeric Value 
+DE352,1,METRIQ_RTSite,Needs category,"The target site of radiotherapy administered during the initial course of treatment for cancer, as represented by a code.",varchar(100),1.0,Code
+DE354,1,METRIQ_RTVolume,Needs category,,Integer,1.0,Code
+DE358,1,METRIQ_ScintDate,Needs category,,Date,1.0,DDMMYYYY
+DE451,1,NotificationSourceId,Needs category,,Integer,1.0,Code
+DE452,1,NotificationTypeId,Needs category,,Integer,1.0,Code
+DE453,1,NumberOfRegionalNodesExamined,Needs category,,Integer,1.0,Numeric Value
+DE454,1,NumberOfRegionalNodesExamined,Needs category,,Integer,1.0,Numeric Value
+DE455,1,NumberOfRegionalNodesPositive,Needs category,,Integer,1.0,Numeric Value
+DE456,1,NumberOfRegionalNodesPositive,Needs category,,Integer,1.0,Numeric Value
+DE458,1,NumberSentinelNodesPositive,Needs category,,Integer,1.0,Numeric Value
+DE459,1,OMISDrugName,Needs category,,varchar(512),1.0,Alphanumeric Value
+DE460,1,OtherStagingBasisId,Needs category,,Integer,1.0,Code
+DE461,1,OwnedById,Needs category,,Integer,1.0,Code
+DE307,1,PAccomodationTypeIDNotification,Person,Accommodation chargeable status elected by patient on admission.,Integer,1.0,Code
+DE95,1,Paddress,Person,The address at which the client usually resides,varchar(512),1.0,Alphanumeric Value
+DE396,0,PARIA,Person,Derived from the NSWCR source system CRP012,,,
+DE89,1,PBirthDate,Person,The date of birth of the person.,Date,1.0,DDMMYYYY
+DE119,1,PBirthDateNofication,Person,The date of birth of the person.,Date,1.0,DDMMYYYY
+DE91,1,PBirthDateValidityCode,Person,"An indicator of the accuracy of the components of a reported date, as represented by a code.",varchar(5),1.0,Code
+DE120,1,PBirthDateValidityCodeNotification,Person,"An indicator of the accuracy of the components of a reported date, as represented by a code.",varchar(5),1.0,Code
+DE375,0,PBirthDay,Person,Derived from NSWCR source system CRP005,,,
+DE374,0,PBirthMonth,Person,Derived from NSWCR source system CRP005,,,
+DE373,0,PBirthYear,Person,Derived from NSWCR source system CRP005,,,
+DE519,1,PClinicalDetailsOptOut,Person,,Boolean,1.0,Check - Yes; Uncheck - No
+DE138,1,PClinicalDetailsOptOutNotification,Person,,Boolean,1.0,Check - Yes; Uncheck - No
+DE92,1,PCOBCode,Person,"The country in which the person was born, as represented by a code.",varchar(4),1.0,Code
+DE121,1,PCOBCodeNotification,Person,"The country in which the person was born, as represented by a code.",varchar(4),1.0,Code
+DE391,0,PDeathAge,Person,Derived from the NSWCR source system CRD004,,,
+DE520,1,PDeathCaseText,Person,,varchar(4000),1.0,Alphanumeric value
+DE402,1,PDeathCauseID   ,Person,"Derived from the NSWCR source system. There is no dict it, appears to be drawn from NOT504",Integer,1.0,Code
+DE284,1,PDeathCauseIDNotification,Person,"The disease or injury which initiated the train of morbid events leading directly to a person's death or the circumstances of the accident or violence which produced the fatal injury, as represented by a code (WHO 2004).",Integer,1.0,Code
+DE285,1,PDeathCauseTextNotification,Person,Text that is entered on a person's death certificate to further explain the cause of death.,varchar(4000),1.0,Alphanumeric value
+DE532,1,PDeathCertificateNumber,Person,The unique identifier within any one year for the death certificate record.,char(12),1.0,Numeric Value
+DE280,1,PDeathCertificateNumberNotification,Person,The unique identifier within any one year for the death certificate record.,char(12),1.0,Code
+DE534,1,PDeathCertificateStateID,Person,"The state/territory Registrar of Births, Deaths and Marriages responsible for issuing the Death Certificate.  ",Integer,1.0,Code
+DE287,1,PDeathCertificateStateIDNotification,Person,"The state/territory Registrar of Births, Deaths and Marriages responsible for issuing the Death Certificate.  ",Integer,1.0,Code
+DE533,1,PDeathCertificateYear,Person,The year that the person's death certificate was issued. ,char(4),1.0,YYYY
+DE286,1,PDeathCertificateYearNotification,Person,The year that the person's death certificate was issued. ,char(4),1.0,YYYY
+DE535,1,PDeathDate   ,Person,The date of death of the person.,Date,1.0,DDMMYYYY
+DE281,1,PDeathDateNotification,Person,The date of death of the person.,Date,1.0,DDMMYYYY
+DE389,0,PDeathDay,Person,Derived from the NSWCR source system CRD004,,,
+DE388,0,PDeathMonth,Person,Derived from the NSWCR source system CRD004,,,
+DE372,1,PDeathPlace,Person,Persons that been diagnosed with cancer in NSW and have subsequently…this is derived from NSWCR but there is no dict ID…its is PlaceOfDeath column name,varchar(512),1.0,Code
+DE387,0,PDeathYear,Person,Derived from the NSWCR source system CRD004,,,
+DE100,1,PDVANumber,Person,A unique personal identifier issued to a veteran by the Department of Veterans' Affairs.,varchar(15),1.0,DVANumber
+DE131,1,PDVANumberNotification,Person,A unique personal identifier issued to a veteran by the Department of Veterans' Affairs.,varchar(15),1.0,Alphanumeric Value
+DE462,1,PerineuralInvasionId,Needs category,,Integer,1.0,Code
+DE111,1,PFirstGivenNameNotification_d,Person,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",varchar(40),1.0,Alphanumeric Value
+DE116,1,PFirstGivenNameNotification_d,Person,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",varchar(40),1.0,Alphanumeric Value
+DE87,1,PFirstName,Person,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",varchar(40),1.0,Alphanumeric Value
+DE392,0,PICD03DeathCauseCode,Person,"Derived from the NSWCR source system. There is no dict it, appears to be drawn from NOT504",,,
+DE393,0,PICD10AMDeathCauseCode,Person,"Derived from the NSWCR source system. There is no dict it, appears to be drawn from NOT504",,,
+DE93,1,PIndigenousStatusID,Person,"Whether a person identifies as being of Aboriginal or Torres Strait Islander origin, as represented by a code. This is in accord with the first two of three components of the Commonwealth definition.",Integer,1.0,Code
+DE122,1,PIndigenousStatusIDNotification,Person,"Whether a person identifies as being of Aboriginal or Torres Strait Islander origin, as represented by a code. This is in accord with the first two of three components of the Commonwealth definition.",Integer,1.0,Code
+DE463,1,PlaceOfDeathText,Needs category,,varchar(512),1.0,Alphanumeric value
+DE516,1,PlaceOfDeathText,Needs category,,varchar(512),1.0,Alphanumeric value
+DE94,1,PLanguagePreferenceID,Person,"The language most preferred by the person for communication, as represented by a code.",Integer,1.0,State Code
+DE123,1,PLanguagePreferenceIDNotification,Person,"The language most preferred by the person for communication, as represented by a code.",Integer,1.0,Code
+DE394,0,PLGA2006,Person,Derived from the NSWCR source system CRP012,,,
+DE398,0,PLHD2011,Person,Derived from the NSWCR source system CRP012,,,
+DE96,1,PLocality,Person,"The name of the locality/suburb of the address, as represented by text.",varchar(40),1.0,Code
+DE126,1,PLocalityNotification,Person,"The name of the locality/suburb of the address, as represented by text.",varchar(40),1.0,Alphabetic Value
+DE99,1,PMedicareNumber   ,Person,"Person identifier, allocated by the Health Insurance Commission to eligible persons under the Medicare scheme, that appears on a Medicare card.",varchar(12),1.0,Numeric Value
+DE130,1,PMedicareNumberNotification,Person,"Person identifier, allocated by the Health Insurance Commission to eligible persons under the Medicare scheme, that appears on a Medicare card.",varchar(12),1.0,Numeric Value
+DE521,1,PMenopausalStatusID,Person,,Integer,1.0,Code
+DE291,1,PMenopausalStatusIDNotification,Case,The menopausal status of a person with cancer.,Integer,1.0,Code
+DE15,1,PMRN,Person,A patient identifier assigned by and unique to a hospital or health service provider.,varchar(20),1.0,Numeric Value
+DE46,1,PMRNNotification,Person,A patient identifier assigned by and unique to a hospital or health service provider.,varchar(20),1.0,Alphanumeric Value
+DE103,1,PNHINumber,Person,The numerical identifier that uniquely identifies each individual in the Australian healthcare system.,varchar(20),1.0,Numeric Value
+DE133,1,PNHINumberNotification,Person,The numerical identifier that uniquely identifies each individual in the Australian healthcare system.,varchar(20),1.0,Numeric Value
+DE464,1,Postcode,Needs category,,char(4),1.0,Postcode as defined in Australia Post's Postcode Database
+DE465,1,Postcode,Needs category,,char(4),1.0,Postcode as defined in Australia Post's Postcode Database
+DE81,1,PPlaceOfResidenceAtTimeOfDiagnosisId,Needs category,The place the person usually resided in at the time of diagnosis,Integer,1.0,Code
+DE97,1,PPostcode,Person,The postcode for the suburb of the patient's usual residential address.,char(4),1.0,Postcode as defined in Australia Post's Postcode Database
+DE127,1,PPostcodeNotification,Person,The postcode for the suburb of the patient's usual residential address.,char(4),1.0,Postcode as defined in Australia Post's Postcode Database
+DE386,0,PPrimarySites,Person,Derived from the dataset itself looking at multiple cases,,,
+DE399,0,PPrimayHealthNetwork2015,Person,Derived from the NSWCR source system CRP012,,,
+DE466,1,PrescribedDose,Needs category,,Float,1.0,Numeric Value (NNN.NN)
+DE467,1,PrescribedFractions,Needs category,,Integer,1.0,Numeric Value
+DE469,1,PresentationBreastId,Needs category,,Integer,1.0,Code
+DE470,1,PresentationColorectalId,Needs category,,Integer,1.0,Code
+DE471,1,Protocol1Id,Needs category,,Integer,1.0,Protocol Code
+DE472,1,Protocol2Id,Needs category,,Integer,1.0,Protcol Code
+DE473,1,Protocol3Id,Needs category,,Integer,1.0,Protocol Code
+DE474,1,PRStatusId,Needs category,,Integer,1.0,Code
+DE475,1,PsaId,Needs category,,Float,1.0,Numeric Value (NNN.NN)
+DE114,1,PSecondGivenNameNotification_d,Person,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",varchar(40),1.0,Alphanumeric Value
+DE117,1,PSecondGivenNameNotification_d,Person,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",varchar(40),1.0,Alphanumeric Value
+DE109,1,PSecondSurnameNotification,Person,"That part of a name a person usually has in common with some other members of his/her family, as distinguished from his/her given names, as represented by text.",varchar(40),1.0,Alphanumeric Value
+DE397,0,PSEIFA,Person,Derived from the NSWCR source system CRP012,,,
+DE88,1,PSex   ,Person,"The biological distinction between male and female, as represented by a code.",Integer,1.0,Code
+DE118,1,PSexNotification,Person,"The biological distinction between male and female, as represented by a code.",Integer,1.0,Code
+DE395,0,PSLA2006,Person,Derived from the NSWCR source system CRP012,,,
+DE98,1,PStateCode,Person,"The Australian state or territory where a person can be located, as represented by a code.",Integer,1.0,Code
+DE128,1,PStateNotification,Person,"The Australian state or territory where a person can be located, as represented by a code.",Integer,1.0,Code
+DE102,1,PSUPI  ,Needs category,A unique code assigned to the patient for unique identification of the patient at the State level. ,varchar(20),1.0,Alphanumeric Value
+DE132,1,PSUPINotification,Needs category,A unique code assigned to the patient for unique identification of the patient at the State level. ,varchar(20),1.0,Alphanumeric Value
+DE83,1,PSurname,Needs category,"That part of a name a person usually has in common with some other members of his/her family, as distinguished from his/her given names, as represented by text.",varchar(40),0.0,Alphanumeric Value
+DE107,1,PSurnameNotification,Person,"That part of a name a person usually has in common with some other members of his/her family, as distinguished from his/her given names, as represented by text.",varchar(40),0.0,Alphabetic Value
+DE108,1,PSurnameNotification_d,Person,"That part of a name a person usually has in common with some other members of his/her family, as distinguished from his/her given names, as represented by text.",varchar(40),1.0,Alphanumeric Value
+DE115,1,PThirdGivenNameNotifiction_d,Person,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",varchar(40),1.0,Alphanumeric Value
+DE137,1,PThirdGivenNameNotifiction_d,Person,"The person's identifying name within the family group or by which the person is socially identified, as represented by text.",varchar(40),1.0,Alphanumeric Value
+DE110,1,PThirdSurnameNotification,Person,"That part of a name a person usually has in common with some other members of his/her family, as distinguished from his/her given names, as represented by text.",varchar(40),1.0,Alphanumeric Value
+DE82,1,PTitle,Needs category,"An honorific form of address, commencing a name, used when addressing a person by name, whether by mail, by phone, or in person, as represented by text.",varchar(20),1.0,Dr; Mrs; Miss; Dr etc.
+DE136,1,PTitleNotification,Needs category,,varchar(20),1.0,Code
+DE14,1,PUniqueIdentifier,Person,A unique code assigned to the patient for identification at the former Area Health Service level. ,varchar(20),1.0,Numeric Value
+DE57,1,PUniqueIdentifierNotification,Person,A unique code assigned to the patient for identification at the former Area Health Service level. ,varchar(20),1.0,Numeric Value
+DE129,1,PVitalStatusIDNotification,Person,The vital status of a person.,Integer,1.0,Code
+DE125,1,PWayfareAddressNotification,Person,The address at which the client usually resides.,varchar(512),1.0,Alphanumeric Value
+DE476,1,RadiationDoseUnitId,Needs category,,Integer,1.0,Code
+DE477,1,RadiotherapyCourse,Needs category,,varchar(512),1.0,Alphanumeric Value
+DE478,1,RadiotherapyPriorityId,Needs category,,Integer,1.0,Code
+DE480,1,ReadmitReasonId,Needs category,,Integer,1.0,Code
+DE481,1,ReadmitWithin28DaysId,Needs category,,Integer,1.0,Code
+DE482,1,ReasonAdmitId,Needs category,,Integer,1.0,Code
+DE483,1,RecurrenceDateValidityCode,Needs category,,varchar(5),1.0,Code
+DE367,1,RecurrenceSiteVersion,Person,Version number of ICD-10-AM reference used to classify recurrence site,,,
+DE484,1,ResectionMargin,Needs category,,Float,1.0,Numeric Value (NNN.NN)
+DE485,1,ResidualTumourStatusId,Needs category,,Integer,1.0,Code
+DE486,1,RiskStratificationId,Needs category,,Integer,1.0,Code
+DE487,1,RISSiteName,Needs category,,varchar(512),1.0,Code
+DE488,1,SimbCode,Needs category,,varchar(2),1.0,Code
+DE489,1,SiteEndDate,Needs category,,Date,1.0,DDMMYYYY
+DE491,1,SiteId,Needs category,,Integer,1.0,Code
+DE492,1,SiteStartDate,Needs category,,Date,1.0,DDMMYYYY
+DE493,1,Size,Needs category,,Float,1.0,Numeric Value (NNN.NN)
+DE494,1,SourceDeathCode,Needs category,,char(1),1.0,Code
+DE495,1,StatusSeparationId,Needs category,,Integer,1.0,Code
+DE496,1,StomaTypeId,Needs category,,Integer,1.0,Code
+DE497,1,SurgicalMargin,Needs category,,Float,1.0,Numeric Value (NNN.NN)
+DE498,1,SurgicalMargin,Needs category,,Float,1.0,Numeric Value (NNN.NN)
+DE499,1,SurgicalMarginInvolvement,Needs category,,Float,1.0,Numeric Value (NNN.NN)
+DE500,1,Thickness,Needs category,,Float,1.0,Numeric Value (NNN.NN)
+DE502,1,TNMStagingTiming2Id,Needs category,,Integer,1.0,Code
+DE503,1,TNMStagingTimingId,Needs category,,Integer,1.0,Code
+DE504,1,TNMStagingTimingId,Needs category,,Integer,1.0,Code
+DE505,1,TotalExtent,Needs category,,Float,1.0,Numeric Value (NNN.NN)
+DE506,1,TreatingDoctorAddress,Needs category,,varchar(MAX),1.0,Alphanumeric Value
+DE507,1,TumourGroup,Needs category,,Integer,1.0,Code
+DE508,1,UlcerationOfMelanomaId,Needs category,,Integer,1.0,Code
+DE228,1,VariationFrequencyCycleFlagNotification,Person,"Whether an eviQ protocol treatment cycle was administered according to the frequency specified in the eviQ protocol, as represented by a code.",Boolean,1.0,Check - Yes; Uncheck - No
+DE509,1,WayfareAddress,Needs category,,varchar(512),1.0,Alphanumeric Value
+DE510,1,WayfareAddress,Needs category,,varchar(512),1.0,Alphanumeric Value
+DE511,1,WayfareStateId,Needs category,,Integer,1.0,State Code
+DE513,1,WayfareStateId,Needs category,,Integer,1.0,State Code
+DE514,1,WorkflowStatusId,Needs category,,Integer,1.0,Code
+DE275,1,WProjectIDNotification,Needs category,The special project to which the person with cancer was allocated.,Integer,1.0,Code

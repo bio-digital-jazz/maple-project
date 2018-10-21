@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<div class="row"><br/>
+  <div class="col m3 s3 l3">
+    <div class="collection orange-text">
+       <a href="#!" class="collection-item #1e88e5 blue-text darken-1 accent-4">Automating RBCO Templates for web and print</a>
+       <a href="#!" class="collection-item #1e88e5 blue-text darken-1 accent-4">Fuzzy searching the GNAF Dataset</a>
+       <a href="#!" class="collection-item #1e88e5 blue-text darken-1 accent-4">Re-engineering PFM</a>
+       <a href="#!" class="collection-item #1e88e5 blue-text darken-1 accent-4">Building a Clinical Trials Dashboard</a>
+         <a href="#!" class="collection-item #1e88e5 blue-text darken-1 accent-4">Staging the APEDDR Dataset</a>
+        <a href="#!" class="collection-item #1e88e5 blue-text darken-1 accent-4">Exploring Survey Data</a>
+
+       
+       
+       
+     </div>
+  </div>
+    <div class="col m9 s9 l9">
+      
+       <h6>Overview</h6>
+       <div>
+         Each of the projects below takes about three months to complete, and leverages off diffent data science techniques and approaches, and utilise different R libraries and related technologies. The idea is to from small cross-institute project group (or around 4-6 people) and code the solution together and, along the way, undertake any training that is needed. Along the way, we can explore best practices like reproducible code, version control, good stuff. <br/><br/>
+         Who should joing into these projects? Everyone is welcome! If you are starting out with analytics, or coming in R it is a great opportunity to get a deep dive, and work in a data science team environment. The very first thing we will do is a skills audit and utilise DataCamp to ensure we all have the right skills to get started. Then its a few regular meetups to bring it together. The plan is to code together on our laptops so the projects are hands on. 
+         <br/>
+         If you would like to put up a project. If so, contact Jamie or Richard and we can put it up. 
+          </div>
+          <br/>
+     
+        <h6>Automating RBCO Templates for web and print</h6>
+       <div>
+          The SRI and Screening Divisions have been exploring the use of R to create RBCO reporing. In the lastest iteration of RBCO, Screening have also started used ggpplot to produce publish ready documents. The purpose of this project is to take that excellent work and develop standard templates that can be used to create the RBCO report, and make them easily available across the institute. This project will also focus on how to make this all scaleable, so as new visualisations for RBCO are considered, they can be created. The project will also look toward open sourcing these templates back to the R community and to other government organisations. The big focus on this project will be using visualisation and pdf libraries, but also writing reuseable code that can inform web based visualisations and publications. The end result of the project will be a code template repository and demonstration using Shiny app that allows users to print from web and ge the cameraa ready publication.   
+          </div>
+  
+          <br/>
+         
+        <h6>Fuzzy searching the GNAF Dataset</h6>
+       <div>
+          The GNAF dataset is an amazing resource that provides geocoding reference for every address in Australia. It is provided by Commonwealth Government, freely available and the foundation dataset for geocoding in Australia. The GNAF dataset has been onboarded into the Institute as a auxiliay dataset for use. The challenge of using GNAF is how to pass address strings. This project will demonstrate how to use different string matching algorithms. The project has lots of messy data science challenges, from doing complicated data staging, through to developing confidence scores derived from string parsing. THere will be heavy use of dplyr, stringr, and best software engineering practices. Optimise code for live searching, and using Docker and Postgres. 
+          </div>
+  
+          <br/>
+        <h6>Re-engineering PFM</h6>
+       <div>
+          The PFM is a fantastic resource of publically available data from the Insitute that you can find <a href="#">here</a>. Re-engineering the PRM website as a Shiny App is great challenge to explore, optimised querying, data preparation and interactive analytics. The big focus on this project wil be using interactive graphs in Shiny. D3 integretaed solution will also be used. THis project will also be used to explore analytics on how people use the PFM, what they download, patterns, and allow apply some unsupervised learning techniques. 
+          </div>
+  
+          <br/>
+        <h6>Building a Clinical Trials Dashboard</h6>
+       <div>
+          SRI has a rich data feed that is periodically byt the recently updated Clinical Trials Application. THis project will onboard this data into a name-conformed analytics dataset, and build a Dashboard in Shiny that can be used to answer adhoc queries around the performance of the Clinical Trials Program. The emphasis here will be buidling interactive web in Shiny for the purpose of dashboard, with use of the ggplot and R2D3 libraries. We are also analytics into this dashboard to track how it is used with a view to what information might be sought of it in the future. 
+          </div>
+  
+        
+          
+       <br/>
+        <h6>Staging the APEDDR Dataset</h6>
+       <div>
+          he APEDDR dataset holds Amitted Patient, Emergency, and Death Data. 
+          </div>
+          
+ <br/>
+        <h6>Exploring Survey Data</h6>
+       <div>
+          The Institute holds a rich and largely untapped repostory of suvey data across the divisions. This project will onboard the different survey data and build a data model 
+          </div>
+        
+      
+        
+        
+    
+        
+        
+        
+    
+      
+  </div>
+</div>

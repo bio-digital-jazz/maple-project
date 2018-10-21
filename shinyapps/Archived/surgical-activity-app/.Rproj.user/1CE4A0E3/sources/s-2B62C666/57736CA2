@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538635868441.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2736857382",
+    "id" : "57736CA2",
+    "lastKnownWriteTime" : 1538619109,
+    "last_content_update" : 1538619109,
+    "path" : "H:/Restricted Share/Metadata Repository Project/Projects/SurgicalActivityApp/SurgicalActivityApp.R",
+    "project_path" : "SurgicalActivityApp.R",
+    "properties" : {
+        "cursorPosition" : "100,41",
+        "docOutlineVisible" : "0",
+        "scrollLine" : "110",
+        "source_window_id" : ""
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

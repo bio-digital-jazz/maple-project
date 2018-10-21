@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "<!DOCTYPE HTML>\n<div class=\"row\"><br/>\n  <div class=\"col m3 s3 l3\">\n    <div class=\"collection orange-text\">\n       <a href=\"#!\" class=\"collection-item #1e88e5 blue-text darken-1 accent-4\">Getting access</a>\n       <a href=\"#!\" class=\"collection-item #1e88e5 blue-text darken-1 accent-4\">Accessing data via an ODBC connection in R</a>\n       <a href=\"#!\" class=\"collection-item #1e88e5 blue-text darken-1 accent-4\">Accessing data via a REST API</a>\n       <a href=\"#!\" class=\"collection-item #1e88e5 blue-text darken-1 accent-4\">Requesting a copy of a data asset</a>\n\n       \n       \n       \n     </div>\n  </div>\n    <div class=\"col m9 s9 l9\">\n      \n       <h6>Getting access</h6>\n       <div>\n         To access any of the data assets, you should request access through the <a href=\"a\">Data Governance Team</a>. In most cases, access is restricted to analytics data assets. For many data assets, there are extended usage notes which set out the conditions of internal and external use. \n          </div>\n          <br/>\n          <br/>\n        \n      \n        <h6>Accessing data via an ODBC connection in R</h6>\n       <div>\n          For R users, the simplest way to access the data is via on ODBC connection as per the code snippet below.\n          </div>\n          <br/>\n          <div>\n            <code># Note the the driver will be \"SQL Server\" and port will be 1433, as all CI data is currently \n              held on MS-SQL servers.<br/>\n              # You will need to know the names of the Server and Database<br/>\n              #<br/>\n              #<br/>\n              # Establish a connection to the SQL server<br/>\n              con &larr; DBI::dbConnect(odbc::odbc(),<br>\n              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Driver = \"SQL Server\",<br/>\n              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Server = \"nameOfTheServer\",<br/>\n              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Database = \"nameOfTheDB\",<br/>\n              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Port = 1433)<br/>\n              # <br/>\n              # Once a connection is established, access the db table using the table name. <br/>\n              # <br/>\n              tableFromDB = tbl(con, \"tableInDB\")\n            \n          </code>\n            \n            \n          </div>\n          \n        <br/>\n        <div>\n          \n          The DPLYR package can then be used for all data retreival tasks and SQL is not needed.\n          \n        </div>\n \n          <br/>\n        \n        <h6>Accessing data via a REST API</h6>\n        <div>\n          In some cases, R, Python, SAS, STATA, and PowerBI users can access data via Rest APIs. This allows filters on the data to be passed as parameters in a url, and all results are returned JSON format. Note that, during the CIDA project evaluation there will be limited availability for REST API data, as its predominant use case is for the external provision of data. If data is available via a REST API, this will be noted as part of the data asset's <a href=\"#\">metadata</a><br/>\n     \n        </div>\n        \n        \n    <br/>\n          <br/>\n        \n        <h6>Requesting a copy of a data asset</h6>\n        <div>\n          If it is not possible to access the data through the mechanisms about, you can request a copy of data as a .csv file. Note that, in most cases, you will be required to hold this data on a restricted share drive in the Cancer Institute. If you require data in this format, contact the <a href=\"#\">Data Governance Team</a>.\n        </div>\n        \n        \n        \n    \n      \n  </div>\n</div>\n",
+    "created" : 1534746367065.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "243236718",
+    "id" : "C7A5D0A8",
+    "lastKnownWriteTime" : 1534745955,
+    "last_content_update" : 1534745955,
+    "path" : "C:/JamiesFiles/Analytics/RShinyTestingServer/shinyapps/app-resources/www/partials/accessing-data.html",
+    "project_path" : "www/partials/accessing-data.html",
+    "properties" : {
+        "source_window_id" : ""
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

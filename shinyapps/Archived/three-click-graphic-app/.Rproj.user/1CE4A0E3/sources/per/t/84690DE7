@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538705255613.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2017874283",
+    "id" : "84690DE7",
+    "lastKnownWriteTime" : 1538699005,
+    "last_content_update" : 1538699005,
+    "path" : "H:/Restricted Share/Metadata Repository Project/Projects/RadiotherapyDistanceApp/RadiotherapyDistanceAppv1.r",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "182,2",
+        "scrollLine" : "211"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<div class="row"><br/>
+  <div class="col m3 s3 l3">
+    <div class="collection orange-text">
+       <a href="#!" class="collection-item #1e88e5 blue-text darken-1 accent-4">Governance framework</a>
+       <a href="#!" class="collection-item #1e88e5 blue-text darken-1 accent-4">Ethics and research governance</a>
+       <a href="#!" class="collection-item #1e88e5 blue-text darken-1 accent-4">Guidelines for internal analytics</a>
+       <a href="#!" class="collection-item #1e88e5 blue-text darken-1 accent-4">Guidelines for research publications</a>
+      
+
+       
+       
+       
+     </div>
+  </div>
+    <div class="col m9 s9 l9">
+      
+       <h6>Getting access</h6>
+       <div>
+         To access any of the data assets, you should request access through the <a href="a">Data Governance Team</a>. In most cases, access is restricted to analytics data assets. For many data assets, there are extended usage notes which set out the conditions of internal and external use. 
+          </div>
+          <br/>
+          <br/>
+        
+      
+        <h6>Accessing data via an ODBC connection in R</h6>
+       <div>
+          For R users, the simplest way to access the data is via on ODBC connection as per the code snippet below.
+          </div>
+          <br/>
+          <div>
+            <code># Note the the driver will be "SQL Server" and port will be 1433, as all CI data is currently 
+              held on MS-SQL servers.<br/>
+              # You will need to know the names of the Server and Database<br/>
+              #<br/>
+              #<br/>
+              # Establish a connection to the SQL server<br/>
+              con &larr; DBI::dbConnect(odbc::odbc(),<br>
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Driver = "SQL Server",<br/>
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Server = "nameOfTheServer",<br/>
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Database = "nameOfTheDB",<br/>
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Port = 1433)<br/>
+              # <br/>
+              # Once a connection is established, access the db table using the table name. <br/>
+              # <br/>
+              tableFromDB = tbl(con, "tableInDB")
+            
+          </code>
+            
+            
+          </div>
+          
+        <br/>
+        <div>
+          
+          The DPLYR package can then be used for all data retreival tasks and SQL is not needed.
+          
+        </div>
+ 
+          <br/>
+        
+        <h6>Accessing data via a REST API</h6>
+        <div>
+          In some cases, R, Python, SAS, STATA, and PowerBI users can access data via Rest APIs. This allows filters on the data to be passed as parameters in a url, and all results are returned JSON format. Note that, during the CIDA project evaluation there will be limited availability for REST API data, as its predominant use case is for the external provision of data. If data is available via a REST API, this will be noted as part of the data asset's metadata
+          <br/>
+     
+        </div>
+        
+        
+    <br/>
+          <br/>
+        
+        <h6>Requesting a copy of a data asset</h6>
+        <div>
+          If it is not possible to access the data through the mechanisms about, you can request a copy of data as a .csv file. Note that, in most cases, you will be required to hold this data on a restricted share drive in the Cancer Institute. If you require data in this format, contact the <a href="#">Data Governance Team</a>.
+        </div>
+        
+        
+        
+    
+      
+  </div>
+</div>

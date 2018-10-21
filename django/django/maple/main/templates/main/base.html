@@ -1,0 +1,47 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+  <!-- Compiled and minified CSS -->
+  
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/style.css' %}">
+
+</head>
+
+</head>
+
+<body>
+    
+ <nav>
+      <div class="nav-wrapper #424242 grey darken-3">
+        <a href="/maple" class="brand-logo">MAPLE</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/maple/metadata">Metadata</a></li>
+          <li><a href="badges.html">Dictionary</a></li>
+          <li><a href="collapsible.html">Analytics</a></li>
+      	  <li><a href="collapsible.html">Projects</a></li>
+       	  <li><a href="collapsible.html">Forms</a></li>
+        
+        </ul>
+      </div>
+    </nav>
+
+
+        {% block sidebar %}
+        {% endblock %}
+    
+
+    <div id="content">
+        {% block about_page %}{% endblock %}
+        {% block metadata %} {% endblock %}
+    </div>
+</body>
+</html>

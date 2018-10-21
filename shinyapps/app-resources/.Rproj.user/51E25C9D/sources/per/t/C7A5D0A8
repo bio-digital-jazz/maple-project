@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1534746367065.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3679282756",
+    "id" : "C7A5D0A8",
+    "lastKnownWriteTime" : 1534912005,
+    "last_content_update" : 1534912005,
+    "path" : "C:/JamiesFiles/Analytics/RShinyTestingServer/shinyapps/app-resources/www/partials/accessing-data.html",
+    "project_path" : "www/partials/accessing-data.html",
+    "properties" : {
+        "cursorPosition" : "82,0",
+        "scrollLine" : "0",
+        "source_window_id" : ""
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

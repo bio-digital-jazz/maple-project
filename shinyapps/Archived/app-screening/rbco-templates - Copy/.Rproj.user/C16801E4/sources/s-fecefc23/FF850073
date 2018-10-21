@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533602328946.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3388893208",
+    "id" : "FF850073",
+    "lastKnownWriteTime" : 1533602670,
+    "last_content_update" : 1533602670295,
+    "path" : "~/rbco-templates/23_BWS_1a_2_Cycle 8.R",
+    "project_path" : "23_BWS_1a_2_Cycle 8.R",
+    "properties" : {
+        "cursorPosition" : "19,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

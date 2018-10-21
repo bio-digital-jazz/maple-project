@@ -1,0 +1,114 @@
+---
+title: ""
+output: html_notebook
+---
+
+### Wisconsin Diagnostic Breast Cancer Dataset - Dictionary and Usage Notes
+
+#### Overview
+***
+This data has been made available as a sample dataset for Cancer Insitute Staff. The data is a commonly used machine learning dataset, well suited for training purposes. The data was originally released by the University of Wisconsin Hospitals, Madison, and made available for research on January 8, 1991. There are  699 observations in the data (as of 15 July 1992), and the data is made available from the following sources:  
+
+<br/>
+
+* Dr. WIlliam H. Wolberg (physician), University of Wisconsin Hospitals, Madison, Wisconsin, USA  
+* Donor: Olvi Mangasarian (mangasarian@cs.wisc.edu), received by David W. Aha (aha@cs.jhu.edu).   
+
+<br/>
+  
+  
+
+#### Attributes
+***
+The dataset has <b>699</b> observations, with each observation having <b>11</b> attributes. An additional attribute has been added to denote a version number for the dataset. Attributes are listed below:  
+
+
+        Data Element                 Accepted Value                                     Format
+------------------------------       ------------------------------------------       -------------
+   1.   Sample code number            7 digit ID number                                 Integer
+   2.   Clump Thickness               Integer between 1 and 10                          Integer
+   3.   Uniformity of Cell Size       Integer between 1 and 10                          Integer
+   4.   Uniformity of Cell Shape      Integer between 1 and 10                          Integer
+   5.   Marginal Adhesion             Integer between 1 and 10                          Integer
+   6.   Single Epithelial Cell Size   Integer between 1 and 10                          Integer
+   7.   Bare Nuclei                   Integer between 1 and 10                          Integer
+   8.   Bland Chromatin               Integer between 1 and 10                          Integer
+   9.   Normal Nucleoli               Integer between 1 and 10                          Integer
+  10.   Mitoses                       Integer between 1 and 10                          Integer
+  11.   Class:                        Integer (2 for benign, 4 for malignant)           Integer
+  12.   Version Number                Float                                             Float
+
+<br/>  
+
+#### Usage notes  
+<hr/>
+
+All obervations indicate samples that ahve arrive periodically as Dr. Wolberg reports his clinical cases. The database therefore reflects this chronological grouping of the data. This grouping information can be seen below, and it should be noted that the date of collection has not been included with the data.
+
+  Group               No. Instances          Date collected
+ ---------     ----------------------  -----------------------------------
+ Group 1:       367 instances             (January 1989)
+ Group 2:       70 instances              (October 1989)
+ Group 3:       31 instances              (February 1990)
+ Group 4:       17 instances              (April 1990)
+ Group 5:       48 instances              (August 1990)
+ Group 6:       49 instances              (Updated January 1991)
+ Group 7:       31 instances              (June 1991)
+ Group 8:       86 instances              (November 1991)
+ 
+ 
+    
+Note that some of the research from this set has been undertaken on a smaller subset of this data, using Group 1 above. That research used 369 observations, 2 of which have subsequently been removed. Revisions made over time to this data are summarised below. 
+
+<ul>
+
+<li>
+  Group 1 data released comprising367 points 200B 167M (January 1989)
+</li>
+<li>
+ Revised Jan 10, 1991: Replaced zero bare nuclei in 1080185 & 1187805
+</li>
+<li>
+ Revised Nov 22,1991: Removed 765878,4,5,9,7,10,10,10,3,8,1 no record
+</li>
+<li>
+ Removed 484201,2,7,8,8,4,3,10,3,4,1 zero epithelial
+</li>
+<li>
+ Changed 0 to 1 in field 6 of sample 1219406
+</li>
+<li>
+Changed 0 to 1 in field 8 of following sample: 1182404,2,3,1,1,1,2,0,1,1,1
+</li>
+</ul>
+
+              
+
+
+16 attribute values are missing from this dataset. There are 16 instances in Groups 1 to 6 that contain a single missing  (i.e., unavailable) attribute value, now denoted by an integer value of -1.  
+
+
+<br/>
+
+#### Use of this data for publishing results    
+<hr/>
+
+If you publish results when using this database, then please include this information in your acknowledgements. Also, please cite one of more of the following:  
+
+* O. L. Mangasarian and W. H. Wolberg: "Cancer diagnosis via linear programming", SIAM News, Volume 23, Number 5, September 1990, pp 1 & 18.  
+* William H. Wolberg and O.L. Mangasarian: "Multisurface method of pattern separation for medical diagnosis applied to breast cytology", Proceedings of the National Academy of Sciences, U.S.A., Volume 87, December 1990, pp 9193-9196.  
+* O. L. Mangasarian, R. Setiono, and W.H. Wolberg: "Pattern recognition via linear programming: Theory and application to medical diagnosis", in: "Large-scale numerical optimization", Thomas F. Coleman and Yuying Li, editors, SIAM Publications, Philadelphia 1990, pp 22-30.
+* K. P. Bennett & O. L. Mangasarian: "Robust linear programming discrimination of two linearly inseparable sets", Optimization Methods and Software 1, 1992, 23-34 (Gordon & Breach Science Publishers).
+
+
+
+
+
+  
+
+
+
+
+```{r}
+
+```

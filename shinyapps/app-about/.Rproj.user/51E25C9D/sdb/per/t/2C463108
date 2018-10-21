@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(shiny)\nlibrary(dplyr)\nlibrary(DT)\n\n\n\n\nui <- fluidPage(\n  tags$head(\n    tags$link(rel = \"stylesheet\", type = \"text/css\", href = \"materialize/css/materialize.min.css\"),\n    tags$link(rel = \"stylesheet\", type = \"text/css\", href = \"css/style.css\")\n  ),\n   \n  fluidRow(\n    column(12,    \n           br(), \n           tabsetPanel(type = \"tabs\",  \n                       tabPanel(\"Project overview\",  \n                                br(),   \n                                includeHTML('www/partials/overview.html') \n                       ),\n                       tabPanel(\"Architecture\", \n                                br(),\n                                includeHTML('www/partials/architecture.html')\n                                \n                       ) \n           )    \n    )  \n    \n    \n    \n    \n    \n  )\n  \n  \n)\n\nserver <- function(input, output) {\n  \n  \n  \n  \n  \n  \n  \n}\n\n\nshinyApp(ui = ui, server = server)\n\n",
+    "created" : 1534555778215.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "732185755",
+    "id" : "2C463108",
+    "lastKnownWriteTime" : 1534748419,
+    "last_content_update" : 1534748419763,
+    "path" : "C:/JamiesFiles/Analytics/RShinyServer/shinyapps/app-about/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

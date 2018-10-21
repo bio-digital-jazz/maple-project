@@ -1,0 +1,22 @@
+id,type,status,start_date,end_date,data_asset_id,user_id
+1,Data Stewart,Active,15/07/2018,,83,1
+2,Data Stewart,Active,19/07/2018,,84,1
+3,Data User,Active,19/07/2018,,84,2
+4,Data Stewart,Active,19/07/2018,,2,1
+5,Data User,Active,19/07/2018,,2,2
+8,Data Stewart,Active,21/07/2018,,85,1
+9,Data Stewart,Active,31/07/2018,,87,1
+10,Data Stewart,Active,31/07/2018,,86,1
+11,Data Stewart,Active,31/07/2018,,88,1
+12,Data Stewart,Active,28/08/2018,,15,1
+13,Data Stewart,Active,28/08/2018,,23,1
+14,Data Stewart,Active,28/08/2018,,24,1
+15,Data Sponsor,Active,28/08/2018,,15,3
+16,Data Sponsor,Active,28/08/2018,,23,3
+17,Data Sponsor,Active,28/08/2018,,24,3
+18,Data User,Active,28/08/2018,,15,4
+19,Data User,Active,28/08/2018,,23,4
+20,Data User,Active,28/08/2018,,24,4
+21,Data User,Active,28/08/2018,,15,5
+22,Data User,Active,28/08/2018,,23,5
+23,Data User,Active,28/08/2018,,24,5

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(shiny)\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(grid)\nlibrary(plotly)\nlibrary(DT)\nlibrary(tidyverse)\nlibrary(reshape2)\n\nsource('./app/components/dataElementsTab.R')\nsource('./app/components/dataElementUsesTab.R')\n \n\n####################################### TEMP ###################################################\ndataElements = as_tibble(read_csv('./data/preparedData/dataElements.csv'))\n##############################################################################################\n \nui = fluidPage(    \n  br(),         \n  tabsetPanel(type = \"tabs\",\n              tabPanel(\"Overview\", \n                       fluidRow(\n                         column(12,\n                                \n                                br(),  \n                                includeHTML(\"./app/www/partials/overview.html\")\n                         ) # end col  \n                       ) #end row \n              ), \n              dataElementsTab,\n              #dataElementUsesTab,\n              tabPanel(\"Data element uses\", \n                       \n                       fluidRow(\n                         column(12,\n                                \n                                br(),\n                                div(\"Coming soon\")\n                                \n                         ) # end col  \n                \n                       ) #end row \n              ), \n              tabPanel(\"Extended usage notes\", \n                       \n                       fluidRow(\n                         column(12,\n                                \n                                br(),\n                                div(\"Coming soon\")\n                                \n                         ) # end col  \n                         \n                       ) #end row \n              ), \n              tabPanel(\"Coverage and quality metrics\", \n                       \n                       fluidRow(\n                         column(12,\n                                \n                                br(),\n                                div(\"Coming soon\")\n                                \n                         ) # end col  \n                       ) #end row \n              ), \n\n              tabPanel(\"Dowload data dictionaries\", \n             fluidRow(\n               column(12,\n                      \n                      br(),\n                      div('Coming soon')\n                      \n               ) # end col  \n             ) #end row \n    )\n     \n    )\n\n)\n  \n\nserver = function(input, output) {\n  \n  output$dataElements = DT::renderDataTable({\n    \n    dataElements %>%\n      select(-dataElementID)\n    \n    \n  })\n  \n  output$rulesAndCoverage = DT::renderDataTable({\n    return(rulesAndCoverage)\n    \n  })\n  \n\n}\n\nshinyApp(ui, server)\n\n\n\n\n",
+    "created" : 1534816598924.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1529310314",
+    "id" : "9FD4B6E7",
+    "lastKnownWriteTime" : 1538715822,
+    "last_content_update" : 1538715822804,
+    "path" : "C:/JamiesFiles/Analytics/RShinyTestingServer/shinyapps/app-ci-interactive-dictionary/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+        "source_window_id" : ""
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,765 @@
+dictionaryID,Linkage ID,cancerInstituteName,cancerInstituteCategory,Source,transformationRules,Analytics Dataset
+DE140,DES1,CBestDiagnosisBasisIDNotification,Case,OSTOS Extract,OSTOS: Cancer best basis of diagnosis linked to NSWCR: NOT104,NSWCR Systemic Therapy Dataset
+DE172,DES2,CBestRecurrenceBasisIDNotification,Case,OSTOS Extract,OSTOS: Basis of diagnosis at recurrence linked to NSWCR: NOT133,NSWCR Systemic Therapy Dataset
+DE68,DES3,CCancerSiteCodeIDNotification,Case,OSTOS Extract,OSTOS: Primry site of cancer code linked to NSWCR: NOT101,NSWCR Systemic Therapy Dataset
+DE445,DES4,CDiagnosisDateNotification,Case,OSTOS Extract,OSTOS: Date of primary Diagnosis linked to NSWCR: NOT100,NSWCR Systemic Therapy Dataset
+DE196,DES5,CFirstCancerConsultationDateNotification,Case,OSTOS Extract,OSTOS: Date of first consultation with cancer specialist linked to NSWCR: NOT208,NSWCR Systemic Therapy Dataset
+DE366,DES6,CGroupID,Case,OSTOS Extract,,NSWCR Systemic Therapy Dataset
+DE143,DES7,CHistoPathologicalGradeIDNotification,Case,OSTOS Extract,OSTOS: Histopathological grade linked to NSWCR: NOT107,NSWCR Systemic Therapy Dataset
+DE139,DES8,CLateralityNotification,Case,OSTOS Extract,OSTOS: Laterality of primary cancer linked to NSWCR: NOT103,NSWCR Systemic Therapy Dataset
+DE173,DES9,CMDTConsultationDateNotification,Case,OSTOS Extract,OSTOS: Date of Multidiscipinary team consultation  linked to NSWCR: NOT134,NSWCR Systemic Therapy Dataset
+DE35,DES10,CMorphologyCodeIDNotification,Case,OSTOS Extract,OSTOS: Morphology of cancer code linked to NSWCR: NOT102,NSWCR Systemic Therapy Dataset
+DE364,DES11,CMorphologyCodeIDVersionNotification,Case,OSTOS Extract,,NSWCR Systemic Therapy Dataset
+DE158,DES12,CMStageIDNotication,Case,OSTOS Extract,OSTOS: M Stage linked to NSWCR: NOT120,NSWCR Systemic Therapy Dataset
+DE159,DES13,CMStagingBasisIDNotification,Case,OSTOS Extract,OSTOS: M Staging basis linked to NSWCR: NOT121,NSWCR Systemic Therapy Dataset
+DE163,DES14,CNonTNMStagingValuesDateNotification,Case,OSTOS Extract,OSTOS: Other Staging Date linked to NSWCR: NOT125,NSWCR Systemic Therapy Dataset
+DE155,DES15,CNStageIDNotification,Case,OSTOS Extract,OSTOS: N Stage linked to NSWCR: NOT118,NSWCR Systemic Therapy Dataset
+DE156,DES16,CNStagingBasisIDNotification,Case,OSTOS Extract,OSTOS: N Staging basis linked to NSWCR: NOT119,NSWCR Systemic Therapy Dataset
+DE166,DES17,COtherStagingBasisIDNotification,Case,OSTOS Extract,OSTOS: Other staging basis linked to NSWCR: NOT128,NSWCR Systemic Therapy Dataset
+DE174,DES18,CPerformanceStatusDateNotification,Case,OSTOS Extract,OSTOS: Performance status date linked to NSWCR: NOT135,NSWCR Systemic Therapy Dataset
+DE175,DES19,CPerformanceStatusIDNotification,Case,OSTOS Extract,OSTOS: Performance status    linked to NSWCR: NOT136,NSWCR Systemic Therapy Dataset
+DE179,DES20,CPrimarySiteCancerCodeVersionNotification,Case,OSTOS Extract,,NSWCR Systemic Therapy Dataset
+DE170,DES21,CRecurrenceSiteIDNotification,Case,OSTOS Extract,OSTOS: Site of recurrence linked to NSWCR: NOT131,NSWCR Systemic Therapy Dataset
+DE365,DES22,CRecurrenceSiteVersionNotification,Case,OSTOS Extract,,NSWCR Systemic Therapy Dataset
+DE171,DES23,CRecurrenceTypeIDNotification,Case,OSTOS Extract,OSTOS: Recurrence Type linked to NSWCR: NOT132,NSWCR Systemic Therapy Dataset
+DE195,DES24,CReferralDateNotification,Case,OSTOS Extract,OSTOS: Date of referall to cancer specialist linked to NSWCR: NOT207,NSWCR Systemic Therapy Dataset
+DE176,DES25,CReferralToPalliativeCareDateNotification,Case,OSTOS Extract,OSTOS: Date of referal to palliative care linked to NSWCR: NOT137,NSWCR Systemic Therapy Dataset
+DE162,DES26,CTNMEditionNumberIDNotification,Case,OSTOS Extract,OSTOS: TNM Stage Edition Number linked to NSWCR: NOT124,NSWCR Systemic Therapy Dataset
+DE161,DES27,CTNMStagingBasisIdNotification,Case,OSTOS Extract,OSTOS: TNM Staging Group Basis linked to NSWCR: NOT123,NSWCR Systemic Therapy Dataset
+DE151,DES28,CTNMStagingDateNotification,Case,OSTOS Extract,OSTOS: TNM Staging Date linked to NSWCR: NOT114,NSWCR Systemic Therapy Dataset
+DE152,DES29,CTNMStagingTimingIDNotification,Case,OSTOS Extract,OSTOS: TNM Staging Timing Code linked to NSWCR: NOT115,NSWCR Systemic Therapy Dataset
+DE153,DES30,CTumourStageID,Case,OSTOS Extract,OSTOS: T Stage linked to NSWCR: NOT116,NSWCR Systemic Therapy Dataset
+DE154,DES31,CTumourStagingBasisIDNotification,Case,OSTOS Extract,OSTOS: T Staging Basis linked to NSWCR: NOT117,NSWCR Systemic Therapy Dataset
+DE124,DES32,EAntiNeoplasticCyclesCountNotification,Episode,OSTOS Extract,OSTOS: Systemic therapy number of cycles linked to NSWCR: NOT304,NSWCR Systemic Therapy Dataset
+DE222,DES33,EChemotherapyEndDateNotification,Episode,OSTOS Extract,OSTOS: End Date linked to NSWCR: NOT311,NSWCR Systemic Therapy Dataset
+DE177,DES34,EClinicalTrialEnrolmentDateNotification,Episode,OSTOS Extract,OSTOS: Date of first clinical trial enrolment linked to NSWCR: NOT138,NSWCR Systemic Therapy Dataset
+DE113,DES35,ECycleNotification,Episode,OSTOS Extract,OSTOS: Systemic Therapy Cycle Number linked to NSWCR: NOT338,NSWCR Systemic Therapy Dataset
+DE150,DES36,EDegreeOfSpreadIDNotification,Episode,OSTOS Extract,OSTOS: Degree of Spread linked to NSWCR: NOT113,NSWCR Systemic Therapy Dataset
+DE202,DES37,EInitialTreatmentFlagNotification,Episode,OSTOS Extract,OSTOS: InitialTreatmentIndicator linked to NSWCR: NOT215,NSWCR Systemic Therapy Dataset
+DE267,DES38,EIntendedChemoTherapyFlagNotification,Episode,OSTOS Extract,OSTOS: Systemic therapy flag linked to NSWCR: NOT401,NSWCR Systemic Therapy Dataset
+DE271,DES39,EIntendedNoTreatmentFlagNotification,Episode,OSTOS Extract,OSTOS: no Treatment flag linked to NSWCR: NOT404,NSWCR Systemic Therapy Dataset
+DE269,DES40,EIntendedOtherTreatmentFlagNotification,Episode,OSTOS Extract,OSTOS: Other flag linked to NSWCR: NOT402,NSWCR Systemic Therapy Dataset
+DE266,DES41,EIntendedRadiotherapyFlagNotification,Episode,OSTOS Extract,OSTOS: Radiotherapy flag linked to NSWCR: NOT400,NSWCR Systemic Therapy Dataset
+DE270,DES42,EIntendedSurgeryFlagNotification,Episode,OSTOS Extract,OSTOS: Surgery flag linked to NSWCR: NOT403,NSWCR Systemic Therapy Dataset
+DE165,DES43,EOtherStagingGroupingIDNotification,Episode,OSTOS Extract,OSTOS: Other staging grouping linked to NSWCR: NOT127,NSWCR Systemic Therapy Dataset
+DE164,DES44,EOtherStagingSchemeIDNotification,Episode,OSTOS Extract,OSTOS: Other staging scheme source linked to NSWCR: NOT126,NSWCR Systemic Therapy Dataset
+DE167,DES45,EOtherStagingVersionIDNotification,Episode,OSTOS Extract,OSTOS: Other staging version ID linked to NSWCR: NOT129,NSWCR Systemic Therapy Dataset
+DE272,DES46,EProtocol1IDNotification,Episode,OSTOS Extract,OSTOS: Systemic therapy eviQ ID1 linked to NSWCR: NOT405,NSWCR Systemic Therapy Dataset
+DE274,DES47,EProtocol2IDNotification,Episode,OSTOS Extract,OSTOS: Radiotherapy Eviq ID linked to NSWCR: NOT407,NSWCR Systemic Therapy Dataset
+DE273,DES48,EProtocol3IDNotification,Episode,OSTOS Extract,OSTOS: Systemic therapy eviq ID2 linked to NSWCR: NOT406,NSWCR Systemic Therapy Dataset
+DE101,DES49,EProtocolIDNotification,Episode,OSTOS Extract,OSTOS: Systemic therapy protocol ID linked to NSWCR: NOT303,NSWCR Systemic Therapy Dataset
+DE219,DES50,EProtocolModifiedNotification,Episode,OSTOS Extract,OSTOS: Protocol modified linked to NSWCR: NOT305,NSWCR Systemic Therapy Dataset
+DE229,DES51,EReasonVariationFrequencyCycleNotification,Episode,OSTOS Extract,OSTOS: Reason for variation of frequency of treatment cycle linked to NSWCR: NOT319,NSWCR Systemic Therapy Dataset
+DE79,DES52,ERouteIDNotification,Episode,OSTOS Extract,OSTOS: Route linked to NSWCR: NOT309,NSWCR Systemic Therapy Dataset
+DE221,DES53,EStartDateNotification,Episode,OSTOS Extract,OSTOS: Start Date linked to NSWCR: NOT310,NSWCR Systemic Therapy Dataset
+DE225,DES54,ESystemicTherapyAgentFrequencyCodeNotification,Episode,OSTOS Extract,OSTOS: Frequency linked to NSWCR: NOT312,NSWCR Systemic Therapy Dataset
+DE226,DES55,ESystemicTherapyAgentFrequencyUnitCodeNotification,Episode,OSTOS Extract,OSTOS: Frequency Unit linked to NSWCR: NOT313,NSWCR Systemic Therapy Dataset
+DE227,DES56,ESystemicTherapyCycleEndDateNotification,Episode,OSTOS Extract,OSTOS: Cycle end date linked to NSWCR: NOT317,NSWCR Systemic Therapy Dataset
+DE334,DES57,ESystemicTherapyCycleStartDateNotification,Episode,OSTOS Extract,OSTOS: Cycle start date linked to NSWCR: NOT316,NSWCR Systemic Therapy Dataset
+DE547,DES58,ESystemicTherapyDoseQuantityNotification,Episode,OSTOS Extract,OSTOS: Dose linked to NSWCR: NOT308,NSWCR Systemic Therapy Dataset
+DE90,DES59,ESystemicTherapyDrugIDCodeNotification,Episode,OSTOS Extract,OSTOS: Systemic therapy drug name linked to NSWCR: NOT307,NSWCR Systemic Therapy Dataset
+DE217,DES60,ESystemicTherapyEndDateNotification,Episode,OSTOS Extract,OSTOS: Treatment end date linked to NSWCR: NOT301,NSWCR Systemic Therapy Dataset
+DE223,DES61,ESystemicTherapyProtocolCycleCountNotification,Episode,OSTOS Extract,OSTOS: Cycle number linked to NSWCR: NOT315,NSWCR Systemic Therapy Dataset
+DE135,DES62,ESystemicTherapyStartDateNotification,Episode,OSTOS Extract,OSTOS: Treatment start date linked to NSWCR: NOT300,NSWCR Systemic Therapy Dataset
+DE525,DES63,ESystemicTherapyTreatmentCycleDayNotification,Episode,OSTOS Extract,OSTOS: Day linked to NSWCR: NOT314,NSWCR Systemic Therapy Dataset
+DE236,DES64,EToxicityConstipationCodeNotification,Episode,OSTOS Extract,OSTOS: Grade of treatment toxicity - constipation code linked to NSWCR: NOT327,NSWCR Systemic Therapy Dataset
+DE237,DES65,EToxicityDiarrhoeaCodeNotification,Episode,OSTOS Extract,OSTOS: Grade of treatment toxicity - Diarrhoea code linked to NSWCR: NOT328,NSWCR Systemic Therapy Dataset
+DE238,DES66,EToxicityFatigueCodeNotification,Episode,OSTOS Extract,OSTOS: Grade of treatment toxicity - Fatigue code linked to NSWCR: NOT329,NSWCR Systemic Therapy Dataset
+DE239,DES67,EToxicityHypersensitivityCodeNotification,Episode,OSTOS Extract,OSTOS: Grade of treatment toxicity - Allergic reaction code linked to NSWCR: NOT330,NSWCR Systemic Therapy Dataset
+DE240,DES68,EToxicityMucositisCodeNotification,Episode,OSTOS Extract,OSTOS: Grade of treatment toxicity - Mucositis code linked to NSWCR: NOT331,NSWCR Systemic Therapy Dataset
+DE241,DES69,EToxicityNauseaCodeNotification,Episode,OSTOS Extract,OSTOS: Grade of treatment toxicity - Nausea code linked to NSWCR: NOT332,NSWCR Systemic Therapy Dataset
+DE242,DES70,EToxicityNeuropathyCodeNotification,Episode,OSTOS Extract,OSTOS: Grade of treatment toxicity - Neuropathy-sensory code linked to NSWCR: NOT333,NSWCR Systemic Therapy Dataset
+DE247,DES71,EToxicityNeutrophilCountNotification,Episode,OSTOS Extract,OSTOS: Grade of treatment toxicity - Neutrophil count decreased code linked to NSWCR: NOT337,NSWCR Systemic Therapy Dataset
+DE244,DES72,EToxicityRashCodeNotification,Episode,OSTOS Extract,"OSTOS: Grade of treatment toxicity - Skin reaction,rash macualar papular code linked to NSWCR: NOT335",NSWCR Systemic Therapy Dataset
+DE243,DES73,EToxicitySkinReactionCodeNotation,Episode,OSTOS Extract,"OSTOS: Grade of treatment toxicity - Skin reaction, palmar-plantar code linked to NSWCR: NOT334",NSWCR Systemic Therapy Dataset
+DE245,DES74,EToxicityVomitingCodeNotification,Episode,OSTOS Extract,OSTOS: Grade of treatment toxicity - Vomiting code linked to NSWCR: NOT336,NSWCR Systemic Therapy Dataset
+DE188,DES75,ETreatmentIntentionNotification,Episode,OSTOS Extract,OSTOS: Intention of treatment linked to NSWCR: NOT201,NSWCR Systemic Therapy Dataset
+DE189,DES76,ETreatmentOutcomeIDNotification,Episode,OSTOS Extract,OSTOS: Outcome of treatment linked to NSWCR: NOT202,NSWCR Systemic Therapy Dataset
+DE220,DES77,ETreatmentProtocolConsentNotification,Episode,OSTOS Extract,OSTOS: Protocol consent linked to NSWCR: NOT306,NSWCR Systemic Therapy Dataset
+DE146,DES78,EVariationDrugDoseFlagNotification,Episode,OSTOS Extract,OSTOS: Variabion of dose indicator linked to NSWCR: NOT320,NSWCR Systemic Therapy Dataset
+DE13,DES79,EVariationDrugDoseReason1Notification,Episode,OSTOS Extract,OSTOS: First reason for variation of drug dose linked to NSWCR: NOT321,NSWCR Systemic Therapy Dataset
+DE230,DES80,EVariationDrugDoseReason2Notification,Episode,OSTOS Extract,OSTOS: Second reason for variation of drug dose linked to NSWCR: NOT322,NSWCR Systemic Therapy Dataset
+DE231,DES81,EVariationDrugDoseReason3Notification,Episode,OSTOS Extract,OSTOS: Third reason for variation of drug dose linked to NSWCR: NOT323,NSWCR Systemic Therapy Dataset
+DE232,DES82,EVariationDrugDoseReason4Notification,Episode,OSTOS Extract,OSTOS: Fourth reason for variation of drug dose linked to NSWCR: NOT324,NSWCR Systemic Therapy Dataset
+DE233,DES83,EVariationDrugDoseReason5Notification,Episode,OSTOS Extract,OSTOS: Fifth reason for variation of drug dose linked to NSWCR: NOT325,NSWCR Systemic Therapy Dataset
+DE234,DES84,EVariationDrugDoseReason6Notification,Episode,OSTOS Extract,OSTOS: Six reason for variation of drug dose linked to NSWCR: NOT326,NSWCR Systemic Therapy Dataset
+DE191,DES85,HGPAmoRegistrationNumberNotification,HealthPractioner,OSTOS Extract,OSTOS: AMO/AHRA Registratoin Number of the Treating Doctor linked to NSWCR: NOT203,NSWCR Systemic Therapy Dataset
+DE168,DES86,LDepartmentCode,Location,OSTOS Extract,,NSWCR Systemic Therapy Dataset
+DE24,DES87,LFacilityCodeNotification,Location,OSTOS Extract,OSTOS: Hospital Facility Identifier linked to NSWCR: NOT025,NSWCR Systemic Therapy Dataset
+DE276,DES88,LPathologyLaboratoryNameNotification,Location,OSTOS Extract,OSTOS: Name of pathology laboratory linked to NSWCR: NOT451,NSWCR Systemic Therapy Dataset
+DE119,DES89,PBirthDateNofication,Person,OSTOS Extract,OSTOS: Date of birth linked to NSWCR: NOT011,NSWCR Systemic Therapy Dataset
+DE121,DES90,PCOBCodeNotification,Person,OSTOS Extract,OSTOS: Country of birth SACC linked to NSWCR: NOT013,NSWCR Systemic Therapy Dataset
+DE122,DES91,PIndigenousStatusIDNotification,Person,OSTOS Extract,OSTOS: Indigenous status linked to NSWCR: NOT014,NSWCR Systemic Therapy Dataset
+DE127,DES92,PPostcodeNotification,Person,OSTOS Extract,OSTOS: URA Postcode linked to NSWCR: NOT018,NSWCR Systemic Therapy Dataset
+DE118,DES93,PSexNotification,Person,OSTOS Extract,OSTOS: Sex linked to NSWCR: NOT010,NSWCR Systemic Therapy Dataset
+DE128,DES94,PStateNotification,Person,OSTOS Extract,OSTOS: URA State linked to NSWCR: NOT019,NSWCR Systemic Therapy Dataset
+DE125,DES95,PWayfareAddressNotification,Person,OSTOS Extract,OSTOS: Place of residence at time of diagnosis linked to NSWCR: NOT016,NSWCR Systemic Therapy Dataset
+DE228,DES96,VariationFrequencyCycleFlagNotification,Person,OSTOS Extract,OSTOS: Variation of frequency of treatment cycle indicator linked to NSWCR: NOT318,NSWCR Systemic Therapy Dataset
+DE140,DES97,CBestDiagnosisBasisIDNotification,Case,EROD Extract,ORODS: Cancer best basis of diagnosis linked to NSWCR: NOT104,NSWCR Outpatient Radiation Oncology Dataset
+DE68,DES98,CCancerSiteCodeIDNotification,Case,EROD Extract,ORODS: Primry site of cancer code linked to NSWCR: NOT101,NSWCR Outpatient Radiation Oncology Dataset
+DE445,DES99,CDiagnosisDateNotification,Case,EROD Extract,ORODS: Date of primary Diagnosis linked to NSWCR: NOT100,NSWCR Outpatient Radiation Oncology Dataset
+DE196,DES100,CFirstCancerConsultationDateNotification,Case,EROD Extract,ORODS: Date of first consultation with cancer specialist linked to NSWCR: NOT208,NSWCR Outpatient Radiation Oncology Dataset
+DE143,DES101,CHistoPathologicalGradeIDNotification,Case,EROD Extract,ORODS: Histopathological grade linked to NSWCR: NOT107,NSWCR Outpatient Radiation Oncology Dataset
+DE139,DES102,CLateralityNotification,Case,EROD Extract,ORODS: Laterality of primary cancer linked to NSWCR: NOT103,NSWCR Outpatient Radiation Oncology Dataset
+DE173,DES103,CMDTConsultationDateNotification,Case,EROD Extract,ORODS: Date of multidisciplinary team consultation linked to NSWCR: NOT134,NSWCR Outpatient Radiation Oncology Dataset
+DE158,DES104,CMStageIDNotication,Case,EROD Extract,ORODS: M Stage linked to NSWCR: NOT120,NSWCR Outpatient Radiation Oncology Dataset
+DE155,DES105,CNStageIDNotification,Case,EROD Extract,ORODS: N Stage linked to NSWCR: NOT118,NSWCR Outpatient Radiation Oncology Dataset
+DE174,DES106,CPerformanceStatusDateNotification,Case,EROD Extract,ORODS: Performance status date linked to NSWCR: NOT135,NSWCR Outpatient Radiation Oncology Dataset
+DE175,DES107,CPerformanceStatusIDNotification,Case,EROD Extract,ORODS: Performance status    linked to NSWCR: NOT136,NSWCR Outpatient Radiation Oncology Dataset
+DE329,DES108,CPSAIDNotification,Case,EROD Extract,ORODS: PSA Score linked to NSWCR: NOTP001,NSWCR Outpatient Radiation Oncology Dataset
+DE195,DES109,CReferralDateNotification,Case,EROD Extract,ORODS: Date of referall to cancer specialist linked to NSWCR: NOT207,NSWCR Outpatient Radiation Oncology Dataset
+DE176,DES110,CReferralToPalliativeCareDateNotification,Case,EROD Extract,ORODS: Date of referal to palliative care linked to NSWCR: NOT137,NSWCR Outpatient Radiation Oncology Dataset
+DE161,DES111,CTNMStagingBasisIdNotification,Case,EROD Extract,ORODS: TNM Staging Group Basis linked to NSWCR: NOT123,NSWCR Outpatient Radiation Oncology Dataset
+DE160,DES112,CTNMStagingGroupingIDNotification,Case,EROD Extract,ORODS: TNM Stage Group linked to NSWCR: NOT122,NSWCR Outpatient Radiation Oncology Dataset
+DE153,DES113,CTumourStageID,Case,EROD Extract,ORODS: T Stage linked to NSWCR: NOT116,NSWCR Outpatient Radiation Oncology Dataset
+DE261,DES114,EActualRadiationDoseNotification,Episode,EROD Extract,ORODS: Actual Dose linked to NSWCR: NOT362,NSWCR Outpatient Radiation Oncology Dataset
+DE263,DES115,EPrescribedRadiotherapyFractionCountNotification,Episode,EROD Extract,ORODS: Prescribed Fractions linked to NSWCR: NOT364,NSWCR Outpatient Radiation Oncology Dataset
+DE255,DES116,ERadiotherapyCourseNotification,Episode,EROD Extract,ORODS: Course Name linked to NSWCR: NOT357,NSWCR Outpatient Radiation Oncology Dataset
+DE264,DES117,ERadiotherapyFractionsRecievedCountNotification,Episode,EROD Extract,ORODS: Actual Fractions linked to NSWCR: NOT365,NSWCR Outpatient Radiation Oncology Dataset
+DE256,DES118,ERadiotherapyPriorityIDNotification,Episode,EROD Extract,ORODS: Priority Code linked to NSWCR: NOT358,NSWCR Outpatient Radiation Oncology Dataset
+DE259,DES119,ESiteEndDateNotification,Episode,EROD Extract,ORODS: Site End Date linked to NSWCR: NOT360,NSWCR Outpatient Radiation Oncology Dataset
+DE258,DES120,ESiteStartDateNotification,Episode,EROD Extract,ORODS: Site Start Date linked to NSWCR: NOT359,NSWCR Outpatient Radiation Oncology Dataset
+DE199,DES121,ESuggestedTreatmentCommencementDateNotification,Episode,EROD Extract,ORODS: Ready for care date linked to NSWCR: NOT213,NSWCR Outpatient Radiation Oncology Dataset
+DE188,DES122,ETreatmentIntentionNotification,Episode,EROD Extract,ORODS: Intention of treatment linked to NSWCR: NOT201,NSWCR Outpatient Radiation Oncology Dataset
+DE191,DES123,HGPAmoRegistrationNumberNotification,HealthPractioner,EROD Extract,ORODS: AMO/AHRA Registratoin Number of the Treating Doctor linked to NSWCR: NOT203,NSWCR Outpatient Radiation Oncology Dataset
+DE168,DES124,LDepartmentCode,Location,EROD Extract,,NSWCR Outpatient Radiation Oncology Dataset
+DE24,DES125,LFacilityCodeNotification,Location,EROD Extract,ORODS: Hospital Facility Identifier linked to NSWCR: NOT025,NSWCR Outpatient Radiation Oncology Dataset
+DE265,DES126,LRISSiteNameNotification,Location,EROD Extract,ORODS: Radiotherapy Information System Site name linked to NSWCR: NOT366,NSWCR Outpatient Radiation Oncology Dataset
+DE119,DES127,PBirthDateNofication,Person,EROD Extract,ORODS: Date of birth linked to NSWCR: NOT011,NSWCR Outpatient Radiation Oncology Dataset
+DE122,DES128,PIndigenousStatusIDNotification,Person,EROD Extract,ORODS: Indigenous status linked to NSWCR: NOT014,NSWCR Outpatient Radiation Oncology Dataset
+DE127,DES129,PPostcodeNotification,Person,EROD Extract,ORODS: URA Postcode linked to NSWCR: NOT018,NSWCR Outpatient Radiation Oncology Dataset
+DE118,DES130,PSexNotification,Person,EROD Extract,ORODS: Sex linked to NSWCR: NOT010,NSWCR Outpatient Radiation Oncology Dataset
+DE128,DES131,PStateNotification,Person,EROD Extract,ORODS: URA State linked to NSWCR: NOT019,NSWCR Outpatient Radiation Oncology Dataset
+DE68,DES132,CCancerSiteCodeIDNotification,Case,OCSIP Extract,OCSIP: Primary site of cancer code linked to NSWCR: NOT101,OCSIP Dataset
+DE536,DES133,CDiagnosisClass,Case,OCSIP Extract,,OCSIP Dataset
+DE445,DES134,CDiagnosisDateNotification,Case,OCSIP Extract,OCSIP: Date of primary diagnosis linked to NSWCR: NOT100,OCSIP Dataset
+DE35,DES135,CMorphologyCodeIDNotification,Case,OCSIP Extract,OCSIP: Morphology of Cancer code linked to NSWCR: NOT102,OCSIP Dataset
+DE179,DES136,CPrimarySiteCancerCodeVersionNotification,Case,OCSIP Extract,,OCSIP Dataset
+DE124,DES137,EAntiNeoplasticCyclesCountNotification,Episode,OCSIP Extract,OCSIP: Systmic therapy number of cycles linked to NSWCR: NOT304,OCSIP Dataset
+DE1,DES138,EAntineoPlasticIndicator,Episode,OCSIP Extract,,OCSIP Dataset
+DE112,DES139,ECalculatedDose,Episode,OCSIP Extract,,OCSIP Dataset
+DE113,DES140,ECycleNotification,Episode,OCSIP Extract,OCSIP: Systemic therapy protocal ID linked to NSWCR: NOT338,OCSIP Dataset
+DE558,DES141,EDosePercentage,Episode,OCSIP Extract,,OCSIP Dataset
+DE2,DES142,EDoseUnit,Episode,OCSIP Extract,,OCSIP Dataset
+DE101,DES143,EProtocolIDNotification,Episode,OCSIP Extract,OCSIP: Systemic therapy protocal ID linked to NSWCR: NOT303,OCSIP Dataset
+DE79,DES144,ERouteIDNotification,Episode,OCSIP Extract,OCSIP: Route linked to NSWCR: NOT309,OCSIP Dataset
+DE334,DES145,ESystemicTherapyCycleStartDateNotification,Episode,OCSIP Extract,OCSIP: Cycle start date linked to NSWCR: NOT316,OCSIP Dataset
+DE547,DES146,ESystemicTherapyDoseQuantityNotification,Episode,OCSIP Extract,OCSIP: Dose    linked to NSWCR: NOT308,OCSIP Dataset
+DE90,DES147,ESystemicTherapyDrugIDCodeNotification,Episode,OCSIP Extract,OCSIP: Systemic Therapy Drug Name linked to NSWCR: NOT307,OCSIP Dataset
+DE223,DES148,ESystemicTherapyProtocolCycleCountNotification,Episode,OCSIP Extract,OCSIP: Cycle number linked to NSWCR: NOT315,OCSIP Dataset
+DE135,DES149,ESystemicTherapyStartDateNotification,Episode,OCSIP Extract,OCSIP: Treatment start date linked to NSWCR: NOT300,OCSIP Dataset
+DE525,DES150,ESystemicTherapyTreatmentCycleDayNotification,Episode,OCSIP Extract,OCSIP: Day linked to NSWCR: NOT314,OCSIP Dataset
+DE146,DES151,EVariationDrugDoseFlagNotification,Episode,OCSIP Extract,OCSIP: Variation of dose indicator linked to NSWCR: NOT320,OCSIP Dataset
+DE13,DES152,EVariationDrugDoseReason1Notification,Episode,OCSIP Extract,OCSIP: First reason for variation of drug dose linked to NSWCR: NOT321,OCSIP Dataset
+DE157,DES153,EVariationReason,Episode,OCSIP Extract,,OCSIP Dataset
+DE168,DES154,LDepartmentCode,Location,OCSIP Extract,,OCSIP Dataset
+DE24,DES155,LFacilityCodeNotification,Location,OCSIP Extract,OCSIP: Hospital Facility Identifier linked to NSWCR: NOT025,OCSIP Dataset
+DE46,DES156,PMRNNotification,Person,OCSIP Extract,OCSIP: MRN linked to NSWCR: NOT211,OCSIP Dataset
+DE57,DES157,PUniqueIdentifierNotification,Person,OCSIP Extract,OCSIP: Patient Area Unique linked to NSWCR: NOT210,OCSIP Dataset
+DE140,DES158,CBestDiagnosisBasisIDNotification,Case,NSWCR Source System,NSWCR: NOT104,NSWCR Minimum Clinical Dataset
+DE172,DES159,CBestRecurrenceBasisIDNotification,Case,NSWCR Source System,NSWCR: NOT133,NSWCR Minimum Clinical Dataset
+DE289,DES160,CBreastTumourCellsDiameterNotification,Case,NSWCR Source System,NSWCR: NOTB002,NSWCR Minimum Clinical Dataset
+DE68,DES161,CCancerSiteCodeIDNotification,Case,NSWCR Source System,NSWCR: NOT101,NSWCR Minimum Clinical Dataset
+DE309,DES162,CColorectalTumourDimensionsNotification,Case,NSWCR Source System,NSWCR: NOTC002,NSWCR Minimum Clinical Dataset
+DE445,DES163,CDiagnosisDateNotification,Case,NSWCR Source System,NSWCR: NOT100,NSWCR Minimum Clinical Dataset
+DE181,DES164,CDiagnosisDateValidityCodeNotification,Case,NSWCR Source System,NSWCR: NOT141,NSWCR Minimum Clinical Dataset
+DE145,DES165,CDiseaseGradeSchemeIDNotification,Case,NSWCR Source System,NSWCR: NOT109,NSWCR Minimum Clinical Dataset
+DE148,DES166,CDiseaseGradeScoreNotification,Case,NSWCR Source System,NSWCR: NOT111,NSWCR Minimum Clinical Dataset
+DE319,DES167,CDistanceFromAnalVergeNotification,Case,NSWCR Source System,NSWCR: NOTC011,NSWCR Minimum Clinical Dataset
+DE299,DES168,CERStatusIDNotification,Case,NSWCR Source System,NSWCR: NOTB011,NSWCR Minimum Clinical Dataset
+DE196,DES169,CFirstCancerConsultationDateNotification,Case,NSWCR Source System,NSWCR: NOT208,NSWCR Minimum Clinical Dataset
+DE330,DES170,CGleasonRadicalIDNotification,Case,NSWCR Source System,NSWCR: NOTP002,NSWCR Minimum Clinical Dataset
+DE144,DES171,CHaematologyCellTypeIDNotification,Case,NSWCR Source System,NSWCR: NOT108,NSWCR Minimum Clinical Dataset
+DE302,DES172,CHER2StatusIDNotification,Case,NSWCR Source System,NSWCR: NOTB013,NSWCR Minimum Clinical Dataset
+DE303,DES173,CHER2TestIDNotification,Case,NSWCR Source System,NSWCR: NOTB014,NSWCR Minimum Clinical Dataset
+DE143,DES174,CHistoPathologicalGradeIDNotification,Case,NSWCR Source System,NSWCR: NOT107,NSWCR Minimum Clinical Dataset
+DE304,DES175,CInvasiveTumoursCountNotification,Case,NSWCR Source System,NSWCR: NOTB015,NSWCR Minimum Clinical Dataset
+DE139,DES176,CLateralityNotification,Case,NSWCR Source System,NSWCR: NOT103,NSWCR Minimum Clinical Dataset
+DE294,DES177,CLymphovascularInvasionIdNotification,Case,NSWCR Source System,NSWCR: NOTB006,NSWCR Minimum Clinical Dataset
+DE326,DES178,CLymphovascularInvasionIDNotification,Case,NSWCR Source System,NSWCR: NOTC017,NSWCR Minimum Clinical Dataset
+DE173,DES179,CMDTConsultationDateNotification,Case,NSWCR Source System,NSWCR: NOT134,NSWCR Minimum Clinical Dataset
+DE322,DES180,CMMRDStatusIDNotification,Case,NSWCR Source System,NSWCR: NOTC014,NSWCR Minimum Clinical Dataset
+DE35,DES181,CMorphologyCodeIDNotification,Case,NSWCR Source System,NSWCR: NOT102,NSWCR Minimum Clinical Dataset
+DE158,DES182,CMStageIDNotication,Case,NSWCR Source System,NSWCR: NOT120,NSWCR Minimum Clinical Dataset
+DE159,DES183,CMStagingBasisIDNotification,Case,NSWCR Source System,NSWCR: NOT121,NSWCR Minimum Clinical Dataset
+DE306,DES184,CNecrosisIDNotification,Case,NSWCR Source System,NSWCR: NOTB017,NSWCR Minimum Clinical Dataset
+DE163,DES185,CNonTNMStagingValuesDateNotification,Case,NSWCR Source System,NSWCR: NOT125,NSWCR Minimum Clinical Dataset
+DE155,DES186,CNStageIDNotification,Case,NSWCR Source System,NSWCR: NOT118,NSWCR Minimum Clinical Dataset
+DE156,DES187,CNStagingBasisIDNotification,Case,NSWCR Source System,NSWCR: NOT119,NSWCR Minimum Clinical Dataset
+DE166,DES188,COtherStagingBasisIDNotification,Case,NSWCR Source System,NSWCR: NOT128,NSWCR Minimum Clinical Dataset
+DE174,DES189,CPerformanceStatusDateNotification,Case,NSWCR Source System,NSWCR: NOT135,NSWCR Minimum Clinical Dataset
+DE175,DES190,CPerformanceStatusIDNotification,Case,NSWCR Source System,NSWCR: NOT136,NSWCR Minimum Clinical Dataset
+DE321,DES191,CPerineuralInvasionID,Case,NSWCR Source System,NSWCR: NOTC013,NSWCR Minimum Clinical Dataset
+DE288,DES192,CPresentationBreastIDNotification,Case,NSWCR Source System,NSWCR: NOTB001,NSWCR Minimum Clinical Dataset
+DE308,DES193,CPresentationColorectalIDNotification,Case,NSWCR Source System,NSWCR: NOTC001,NSWCR Minimum Clinical Dataset
+DE300,DES194,CPRStatusIdNotification,Case,NSWCR Source System,NSWCR: NOTB012,NSWCR Minimum Clinical Dataset
+DE329,DES195,CPSAIDNotification,Case,NSWCR Source System,NSWCR: NOTP001,NSWCR Minimum Clinical Dataset
+DE316,DES196,CReadmitReasonIDNotification,Case,NSWCR Source System,NSWCR: NOTC008,NSWCR Minimum Clinical Dataset
+DE315,DES197,CReadmitWithin28DaysIDNotification,Case,NSWCR Source System,NSWCR: NOTC007,NSWCR Minimum Clinical Dataset
+DE216,DES198,CReasonAdmitNotification,Case,NSWCR Source System,NSWCR: NOT257,NSWCR Minimum Clinical Dataset
+DE198,DES199,CReasonForNoTreatmentIDNotification,Case,NSWCR Source System,NSWCR: NOT212,NSWCR Minimum Clinical Dataset
+DE320,DES200,CRectalLevelCancerIDNotification,Case,NSWCR Source System,NSWCR: NOTC012,NSWCR Minimum Clinical Dataset
+DE169,DES201,CRecurrenceDateNotification,Case,NSWCR Source System,NSWCR: NOT130,NSWCR Minimum Clinical Dataset
+DE183,DES202,CRecurrenceDateValidityCodeNotification,Case,NSWCR Source System,NSWCR: NOT143,NSWCR Minimum Clinical Dataset
+DE170,DES203,CRecurrenceSiteIDNotification,Case,NSWCR Source System,NSWCR: NOT131,NSWCR Minimum Clinical Dataset
+DE171,DES204,CRecurrenceTypeIDNotification,Case,NSWCR Source System,NSWCR: NOT132,NSWCR Minimum Clinical Dataset
+DE195,DES205,CReferralDateNotification,Case,NSWCR Source System,NSWCR: NOT207,NSWCR Minimum Clinical Dataset
+DE176,DES206,CReferralToPalliativeCareDateNotification,Case,NSWCR Source System,NSWCR: NOT137,NSWCR Minimum Clinical Dataset
+DE295,DES207,CRegionalNodesExaminedCountNotification,Case,NSWCR Source System,NSWCR: NOTB007,NSWCR Minimum Clinical Dataset
+DE324,DES208,CRegionalNodesExaminedCountNotification_d,Case,NSWCR Source System,NSWCR: NOTC015,NSWCR Minimum Clinical Dataset
+DE296,DES209,CRegionalNodesPositiveCountNotification,Case,NSWCR Source System,NSWCR: NOTB008,NSWCR Minimum Clinical Dataset
+DE325,DES210,CRegionalNodesPositiveCountNotification_d,Case,NSWCR Source System,NSWCR: NOTC016,NSWCR Minimum Clinical Dataset
+DE318,DES211,CResectionMarginNotification,Case,NSWCR Source System,NSWCR: NOTC010,NSWCR Minimum Clinical Dataset
+DE317,DES212,CResidualTumourStatusIDNotification,Case,NSWCR Source System,NSWCR: NOTC009,NSWCR Minimum Clinical Dataset
+DE331,DES213,CRiskStratificationIDNotification,Case,NSWCR Source System,NSWCR: NOTP003,NSWCR Minimum Clinical Dataset
+DE297,DES214,CSentinelNodesExaminedCountNotification,Case,NSWCR Source System,NSWCR: NOTB009,NSWCR Minimum Clinical Dataset
+DE298,DES215,CSentinelNodesPositiveCountNotification,Case,NSWCR Source System,NSWCR: NOTB010,NSWCR Minimum Clinical Dataset
+DE293,DES216,CSurgicalMarginInvolvementNotification,Case,NSWCR Source System,NSWCR: NOTB005,NSWCR Minimum Clinical Dataset
+DE292,DES217,CSurgicalMarginNotification,Case,NSWCR Source System,NSWCR: NOTB004,NSWCR Minimum Clinical Dataset
+DE162,DES218,CTNMEditionNumberIDNotification,Case,NSWCR Source System,NSWCR: NOT124,NSWCR Minimum Clinical Dataset
+DE161,DES219,CTNMStagingBasisIdNotification,Case,NSWCR Source System,NSWCR: NOT123,NSWCR Minimum Clinical Dataset
+DE151,DES220,CTNMStagingDateNotification,Case,NSWCR Source System,NSWCR: NOT114,NSWCR Minimum Clinical Dataset
+DE160,DES221,CTNMStagingGroupingIDNotification,Case,NSWCR Source System,NSWCR: NOT122,NSWCR Minimum Clinical Dataset
+DE152,DES222,CTNMStagingTimingIDNotification,Case,NSWCR Source System,NSWCR: NOT115,NSWCR Minimum Clinical Dataset
+DE305,DES223,CTotalExtentNotification,Case,NSWCR Source System,NSWCR: NOTB016,NSWCR Minimum Clinical Dataset
+DE153,DES224,CTumourStageID,Case,NSWCR Source System,NSWCR: NOT116,NSWCR Minimum Clinical Dataset
+DE154,DES225,CTumourStagingBasisIDNotification,Case,NSWCR Source System,NSWCR: NOT117,NSWCR Minimum Clinical Dataset
+DE261,DES226,EActualRadiationDoseNotification,Episode,NSWCR Source System,NSWCR: NOT362,NSWCR Minimum Clinical Dataset
+DE124,DES227,EAntiNeoplasticCyclesCountNotification,Episode,NSWCR Source System,NSWCR: NOT304,NSWCR Minimum Clinical Dataset
+DE215,DES228,ECancerProcedureNotification,Episode,NSWCR Source System,NSWCR: NOT256,NSWCR Minimum Clinical Dataset
+DE222,DES229,EChemotherapyEndDateNotification,Episode,NSWCR Source System,NSWCR: NOT311,NSWCR Minimum Clinical Dataset
+DE177,DES230,EClinicalTrialEnrolmentDateNotification,Episode,NSWCR Source System,NSWCR: NOT138,NSWCR Minimum Clinical Dataset
+DE178,DES231,EClinicalTrialNameNotification,Episode,NSWCR Source System,NSWCR: NOT139,NSWCR Minimum Clinical Dataset
+DE311,DES232,EColorectalEmergergencySurgeryIDNotification,Episode,NSWCR Source System,NSWCR: NOTC004,NSWCR Minimum Clinical Dataset
+DE310,DES233,EColorectalSurgeryMethodCodeNotification,Episode,NSWCR Source System,NSWCR: NOTC003,NSWCR Minimum Clinical Dataset
+DE314,DES234,EComplicationFollowingSurgeryCodeNotification,Episode,NSWCR Source System,NSWCR: NOTC006,NSWCR Minimum Clinical Dataset
+DE150,DES235,EDegreeOfSpreadIDNotification,Episode,NSWCR Source System,NSWCR: NOT113,NSWCR Minimum Clinical Dataset
+DE327,DES236,EDistanceFromCarcenomaResectionMarginNotification,Episode,NSWCR Source System,NSWCR: NOTC018,NSWCR Minimum Clinical Dataset
+DE207,DES237,EEndDateNotification,Episode,NSWCR Source System,NSWCR: NOT251,NSWCR Minimum Clinical Dataset
+DE202,DES238,EInitialTreatmentFlagNotification,Episode,NSWCR Source System,NSWCR: NOT215,NSWCR Minimum Clinical Dataset
+DE187,DES239,EModalityIDNotification,Episode,NSWCR Source System,NSWCR: NOT200,NSWCR Minimum Clinical Dataset
+DE205,DES240,ENotificationWorkflowStatusIDNotification,Episode,NSWCR Source System,NSWCR: NOT218,NSWCR Minimum Clinical Dataset
+DE165,DES241,EOtherStagingGroupingIDNotification,Episode,NSWCR Source System,NSWCR: NOT127,NSWCR Minimum Clinical Dataset
+DE164,DES242,EOtherStagingSchemeIDNotification,Episode,NSWCR Source System,NSWCR: NOT126,NSWCR Minimum Clinical Dataset
+DE167,DES243,EOtherStagingVersionIDNotification,Episode,NSWCR Source System,NSWCR: NOT129,NSWCR Minimum Clinical Dataset
+DE214,DES244,EPrincipalFlagNotification,Episode,NSWCR Source System,NSWCR: NOT255,NSWCR Minimum Clinical Dataset
+DE211,DES245,EProcedureCodeIDNotification,Episode,NSWCR Source System,NSWCR: NOT253,NSWCR Minimum Clinical Dataset
+DE213,DES246,EProcedureDateNotification,Episode,NSWCR Source System,NSWCR: NOT254,NSWCR Minimum Clinical Dataset
+DE101,DES247,EProtocolIDNotification,Episode,NSWCR Source System,NSWCR: NOT303,NSWCR Minimum Clinical Dataset
+DE219,DES248,EProtocolModifiedNotification,Episode,NSWCR Source System,NSWCR: NOT305,NSWCR Minimum Clinical Dataset
+DE252,DES249,ERadiationDoseTotalNotification,Episode,NSWCR Source System,NSWCR: NOT354,NSWCR Minimum Clinical Dataset
+DE253,DES250,ERadiotherapyDoseUnitIDNotification,Episode,NSWCR Source System,NSWCR: NOT355,NSWCR Minimum Clinical Dataset
+DE249,DES251,ERadiotherapyEndDateNotification,Episode,NSWCR Source System,NSWCR: NOT351,NSWCR Minimum Clinical Dataset
+DE264,DES252,ERadiotherapyFractionsRecievedCountNotification,Episode,NSWCR Source System,NSWCR: NOT365,NSWCR Minimum Clinical Dataset
+DE254,DES253,ERadiotherapyFractionsTotalNotification,Episode,NSWCR Source System,NSWCR: NOT356,NSWCR Minimum Clinical Dataset
+DE256,DES254,ERadiotherapyPriorityIDNotification,Episode,NSWCR Source System,NSWCR: NOT358,NSWCR Minimum Clinical Dataset
+DE248,DES255,ERadiotherapyStartDateNotification,Episode,NSWCR Source System,NSWCR: NOT350,NSWCR Minimum Clinical Dataset
+DE250,DES256,ERadiotherapyTypeIDNotification,Episode,NSWCR Source System,NSWCR: NOT352,NSWCR Minimum Clinical Dataset
+DE79,DES257,ERouteIDNotification,Episode,NSWCR Source System,NSWCR: NOT309,NSWCR Minimum Clinical Dataset
+DE259,DES258,ESiteEndDateNotification,Episode,NSWCR Source System,NSWCR: NOT360,NSWCR Minimum Clinical Dataset
+DE251,DES259,ESiteIDNotification,Episode,NSWCR Source System,NSWCR: NOT353,NSWCR Minimum Clinical Dataset
+DE258,DES260,ESiteStartDateNotification,Episode,NSWCR Source System,NSWCR: NOT359,NSWCR Minimum Clinical Dataset
+DE206,DES261,EStartDateNotification,Episode,NSWCR Source System,NSWCR: NOT250,NSWCR Minimum Clinical Dataset
+DE221,DES262,EStartDateNotification,Episode,NSWCR Source System,NSWCR: NOT310,NSWCR Minimum Clinical Dataset
+DE208,DES263,EStatusSeperationIDNotification,Episode,NSWCR Source System,NSWCR: NOT252,NSWCR Minimum Clinical Dataset
+DE209,DES264,EStatusSeperationIDNotification,Needs category,NSWCR Source System,NSWCR: NOT252,NSWCR Minimum Clinical Dataset
+DE210,DES265,EStatusSeperationIDNotification_d,Episode,NSWCR Source System,NSWCR: NOT252 ,NSWCR Minimum Clinical Dataset
+DE313,DES266,EStomaTypeID,Episode,NSWCR Source System,NSWCR: NOTC005,NSWCR Minimum Clinical Dataset
+DE199,DES267,ESuggestedTreatmentCommencementDateNotification,Episode,NSWCR Source System,NSWCR: NOT213,NSWCR Minimum Clinical Dataset
+DE225,DES268,ESystemicTherapyAgentFrequencyCodeNotification,Episode,NSWCR Source System,NSWCR: NOT312,NSWCR Minimum Clinical Dataset
+DE226,DES269,ESystemicTherapyAgentFrequencyUnitCodeNotification,Episode,NSWCR Source System,NSWCR: NOT313,NSWCR Minimum Clinical Dataset
+DE547,DES270,ESystemicTherapyDoseQuantityNotification,Episode,NSWCR Source System,NSWCR: NOT308,NSWCR Minimum Clinical Dataset
+DE90,DES271,ESystemicTherapyDrugIDCodeNotification,Episode,NSWCR Source System,NSWCR: NOT307,NSWCR Minimum Clinical Dataset
+DE217,DES272,ESystemicTherapyEndDateNotification,Episode,NSWCR Source System,NSWCR: NOT301,NSWCR Minimum Clinical Dataset
+DE218,DES273,ESystemicTherapyIDNotification,Episode,NSWCR Source System,NSWCR: NOT302,NSWCR Minimum Clinical Dataset
+DE135,DES274,ESystemicTherapyStartDateNotification,Episode,NSWCR Source System,NSWCR: NOT300,NSWCR Minimum Clinical Dataset
+DE525,DES275,ESystemicTherapyTreatmentCycleDayNotification,Episode,NSWCR Source System,NSWCR: NOT314,NSWCR Minimum Clinical Dataset
+DE188,DES276,ETreatmentIntentionNotification,Episode,NSWCR Source System,NSWCR: NOT201,NSWCR Minimum Clinical Dataset
+DE220,DES277,ETreatmentProtocolConsentNotification,Episode,NSWCR Source System,NSWCR: NOT306,NSWCR Minimum Clinical Dataset
+DE200,DES278,ETreatmentTypeNotification,Episode,NSWCR Source System,NSWCR: NOT214,NSWCR Minimum Clinical Dataset
+DE328,DES279,EUlcerationOfMelanomaIdNotification,Episode,NSWCR Source System,NSWCR: NOTM001,NSWCR Minimum Clinical Dataset
+DE194,DES280,HManagingDoctorNameNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT206,NSWCR Minimum Clinical Dataset
+DE184,DES281,HPsycoSocialReferral1IDNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT144,NSWCR Minimum Clinical Dataset
+DE185,DES282,HPsycoSocialReferral2IDNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT145,NSWCR Minimum Clinical Dataset
+DE186,DES283,HPsycoSocialReferral3IDNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT146,NSWCR Minimum Clinical Dataset
+DE180,DES284,HPsycoSocialReferralIDNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT140,NSWCR Minimum Clinical Dataset
+DE193,DES285,HTreatingAmoRegistrationNumberNotification?,HealthPractioner,NSWCR Source System,NSWCR: NOT205,NSWCR Minimum Clinical Dataset
+DE24,DES286,LFacilityCodeNotification,Location,NSWCR Source System,NSWCR: NOT025,NSWCR Minimum Clinical Dataset
+DE307,DES287,PAccomodationTypeIDNotification,Person,NSWCR Source System,NSWCR: NOTB018,NSWCR Minimum Clinical Dataset
+DE119,DES288,PBirthDateNofication,Person,NSWCR Source System,NSWCR: NOT011,NSWCR Minimum Clinical Dataset
+DE120,DES289,PBirthDateValidityCodeNotification,Person,NSWCR Source System,NSWCR: NOT012,NSWCR Minimum Clinical Dataset
+DE138,DES290,PClinicalDetailsOptOutNotification,Person,NSWCR Source System,NSWCR: NOT030,NSWCR Minimum Clinical Dataset
+DE121,DES291,PCOBCodeNotification,Person,NSWCR Source System,NSWCR: NOT013,NSWCR Minimum Clinical Dataset
+DE281,DES292,PDeathDateNotification,Person,NSWCR Source System,NSWCR: NOT501,NSWCR Minimum Clinical Dataset
+DE131,DES293,PDVANumberNotification,Person,NSWCR Source System,NSWCR: NOT022,NSWCR Minimum Clinical Dataset
+DE111,DES294,PFirstGivenNameNotification_d,Person,NSWCR Source System,NSWCR: NOT005,NSWCR Minimum Clinical Dataset
+DE116,DES295,PFirstGivenNameNotification_d,Person,NSWCR Source System,NSWCR: NOT008,NSWCR Minimum Clinical Dataset
+DE122,DES296,PIndigenousStatusIDNotification,Person,NSWCR Source System,NSWCR: NOT014,NSWCR Minimum Clinical Dataset
+DE123,DES297,PLanguagePreferenceIDNotification,Person,NSWCR Source System,NSWCR: NOT015,NSWCR Minimum Clinical Dataset
+DE126,DES298,PLocalityNotification,Person,NSWCR Source System,NSWCR: NOT017,NSWCR Minimum Clinical Dataset
+DE130,DES299,PMedicareNumberNotification,Person,NSWCR Source System,NSWCR: NOT021,NSWCR Minimum Clinical Dataset
+DE291,DES300,PMenopausalStatusIDNotification,Case,NSWCR Source System,NSWCR: NOTB003,NSWCR Minimum Clinical Dataset
+DE46,DES301,PMRNNotification,Person,NSWCR Source System,NSWCR: NOT211,NSWCR Minimum Clinical Dataset
+DE127,DES302,PPostcodeNotification,Person,NSWCR Source System,NSWCR: NOT018,NSWCR Minimum Clinical Dataset
+DE114,DES303,PSecondGivenNameNotification_d,Person,NSWCR Source System,NSWCR: NOT006,NSWCR Minimum Clinical Dataset
+DE117,DES304,PSecondGivenNameNotification_d,Person,NSWCR Source System,NSWCR: NOT009,NSWCR Minimum Clinical Dataset
+DE109,DES305,PSecondSurnameNotification,Person,NSWCR Source System,NSWCR: NOT003,NSWCR Minimum Clinical Dataset
+DE118,DES306,PSexNotification,Person,NSWCR Source System,NSWCR: NOT010,NSWCR Minimum Clinical Dataset
+DE128,DES307,PStateNotification,Person,NSWCR Source System,NSWCR: NOT019,NSWCR Minimum Clinical Dataset
+DE107,DES308,PSurnameNotification,Person,NSWCR Source System,NSWCR: NOT001,NSWCR Minimum Clinical Dataset
+DE108,DES309,PSurnameNotification_d,Person,NSWCR Source System,NSWCR: NOT002,NSWCR Minimum Clinical Dataset
+DE115,DES310,PThirdGivenNameNotifiction_d,Person,NSWCR Source System,NSWCR: NOT007,NSWCR Minimum Clinical Dataset
+DE137,DES311,PThirdGivenNameNotifiction_d,Person,NSWCR Source System,NSWCR: NOT029,NSWCR Minimum Clinical Dataset
+DE110,DES312,PThirdSurnameNotification,Person,NSWCR Source System,NSWCR: NOT004,NSWCR Minimum Clinical Dataset
+DE57,DES313,PUniqueIdentifierNotification,Person,NSWCR Source System,NSWCR: NOT210,NSWCR Minimum Clinical Dataset
+DE125,DES314,PWayfareAddressNotification,Person,NSWCR Source System,NSWCR: NOT016,NSWCR Minimum Clinical Dataset
+DE341,DES315,CAdjacentDCISNotification,Needs category,NSWCR Source System,NSWCR: NOTU008,NSWCR Internal Dataset
+DE556,DES316,CBestBasisRecurrenceID,Case,NSWCR Source System,NSWCR: CRE019,NSWCR Internal Dataset
+DE235,DES317,CBestDiagnosisBasisID,Case,NSWCR Source System,NSWCR: CRC005,NSWCR Internal Dataset
+DE140,DES318,CBestDiagnosisBasisIDNotification,Case,NSWCR Source System,NSWCR: NOT104,NSWCR Internal Dataset
+DE172,DES319,CBestRecurrenceBasisIDNotification,Case,NSWCR Source System,NSWCR: NOT133,NSWCR Internal Dataset
+DE344,DES320,CBreastDateLastContactNotification,Needs category,NSWCR Source System,NSWCR: NOTU011,NSWCR Internal Dataset
+DE343,DES321,CBreastSiteDistantMetsNotification,Needs category,NSWCR Source System,NSWCR: NOTU010,NSWCR Internal Dataset
+DE345,DES322,CBreastStatusLastContactNotification,Needs category,NSWCR Source System,NSWCR: NOTU012,NSWCR Internal Dataset
+DE289,DES323,CBreastTumourCellsDiameterNotification,Case,NSWCR Source System,NSWCR: NOTB002,NSWCR Internal Dataset
+DE201,DES324,CCancerSiteCodeID,Case,NSWCR Source System,NSWCR: CRC002,NSWCR Internal Dataset
+DE68,DES325,CCancerSiteCodeIDNotification,Case,NSWCR Source System,NSWCR: NOT101,NSWCR Internal Dataset
+DE257,DES326,CClassOfCaseID,Case,NSWCR Source System,NSWCR: CRC007,NSWCR Internal Dataset
+DE142,DES327,CClassOfCaseIDNotification,Case,NSWCR Source System,NSWCR: NOT106,NSWCR Internal Dataset
+DE309,DES328,CColorectalTumourDimensionsNotification,Case,NSWCR Source System,NSWCR: NOTC002,NSWCR Internal Dataset
+DE348,DES329,CCRCRecurrDateNotification,Needs category,NSWCR Source System,NSWCR: NOTU014,NSWCR Internal Dataset
+DE347,DES330,CCRCRecurrSiteNotification,Needs category,NSWCR Source System,NSWCR: NOTU013,NSWCR Internal Dataset
+DE339,DES331,CDateOfDistantMetastisisDiagnosisNotification,Case,NSWCR Source System,NSWCR: NOTU006,NSWCR Internal Dataset
+DE357,DES332,CDegreeOfSpreadClinicalID,Case,NSWCR Source System,NSWCR: CRC016,NSWCR Internal Dataset
+DE346,DES333,CDegreeOfSpreadID,Case,NSWCR Source System,NSWCR: CRC015,NSWCR Internal Dataset
+DE190,DES334,CDiagnosisDate,Case,NSWCR Source System,NSWCR: CRC001,NSWCR Internal Dataset
+DE445,DES335,CDiagnosisDateNotification,Case,NSWCR Source System,NSWCR: NOT100,NSWCR Internal Dataset
+DE181,DES336,CDiagnosisDateValidityCodeNotification,Case,NSWCR Source System,NSWCR: NOT141,NSWCR Internal Dataset
+DE290,DES337,CDiseaseGradeSchemeID,Case,NSWCR Source System,NSWCR: CRC010,NSWCR Internal Dataset
+DE145,DES338,CDiseaseGradeSchemeIDNotification,Case,NSWCR Source System,NSWCR: NOT109,NSWCR Internal Dataset
+DE301,DES339,CDiseaseGradeSchemeVersion,Case,NSWCR Source System,NSWCR: CRC011,NSWCR Internal Dataset
+DE147,DES340,CDiseaseGradeSchemeVersionNotification,Case,NSWCR Source System,NSWCR: NOT110,NSWCR Internal Dataset
+DE312,DES341,CDiseaseGradeScore,Case,NSWCR Source System,NSWCR: CRC012,NSWCR Internal Dataset
+DE148,DES342,CDiseaseGradeScoreNotification,Case,NSWCR Source System,NSWCR: NOT111,NSWCR Internal Dataset
+DE319,DES343,CDistanceFromAnalVergeNotification,Case,NSWCR Source System,NSWCR: NOTC011,NSWCR Internal Dataset
+DE299,DES344,CERStatusIDNotification,Case,NSWCR Source System,NSWCR: NOTB011,NSWCR Internal Dataset
+DE11,DES345,CFirstCancerConsultationDate,Case,NSWCR Source System,NSWCR: CRE036,NSWCR Internal Dataset
+DE196,DES346,CFirstCancerConsultationDateNotification,Case,NSWCR Source System,NSWCR: NOT208,NSWCR Internal Dataset
+DE330,DES347,CGleasonRadicalIDNotification,Case,NSWCR Source System,NSWCR: NOTP002,NSWCR Internal Dataset
+DE279,DES348,CHaematologyCellTypeID ,Case,NSWCR Source System,NSWCR: CRC009,NSWCR Internal Dataset
+DE144,DES349,CHaematologyCellTypeIDNotification,Case,NSWCR Source System,NSWCR: NOT108,NSWCR Internal Dataset
+DE302,DES350,CHER2StatusIDNotification,Case,NSWCR Source System,NSWCR: NOTB013,NSWCR Internal Dataset
+DE303,DES351,CHER2TestIDNotification,Case,NSWCR Source System,NSWCR: NOTB014,NSWCR Internal Dataset
+DE268,DES352,CHistoPathologicalGradeID,Case,NSWCR Source System,NSWCR: CRC008,NSWCR Internal Dataset
+DE143,DES353,CHistoPathologicalGradeIDNotification,Case,NSWCR Source System,NSWCR: NOT107,NSWCR Internal Dataset
+DE278,DES354,CICDCodes,Case,NSWCR Source System,NSWCR: NOT453,NSWCR Internal Dataset
+DE304,DES355,CInvasiveTumoursCountNotification,Case,NSWCR Source System,NSWCR: NOTB015,NSWCR Internal Dataset
+DE105,DES356,CLastPatientContactDate,Case,NSWCR Source System,NSWCR: CRP019,NSWCR Internal Dataset
+DE134,DES357,CLastPatientContactDateNotification,Case,NSWCR Source System,NSWCR: NOT026,NSWCR Internal Dataset
+DE224,DES358,CLaterality,Case,NSWCR Source System,NSWCR: CRC004,NSWCR Internal Dataset
+DE139,DES359,CLateralityNotification,Case,NSWCR Source System,NSWCR: NOT103,NSWCR Internal Dataset
+DE294,DES360,CLymphovascularInvasionIdNotification,Case,NSWCR Source System,NSWCR: NOTB006,NSWCR Internal Dataset
+DE326,DES361,CLymphovascularInvasionIDNotification,Case,NSWCR Source System,NSWCR: NOTC017,NSWCR Internal Dataset
+DE557,DES362,CMDTConsultationDate,Case,NSWCR Source System,NSWCR: CRE020,NSWCR Internal Dataset
+DE173,DES363,CMDTConsultationDateNotification,Case,NSWCR Source System,NSWCR: NOT134,NSWCR Internal Dataset
+DE322,DES364,CMMRDStatusIDNotification,Case,NSWCR Source System,NSWCR: NOTC014,NSWCR Internal Dataset
+DE212,DES365,CMorphologyCodeID,Case,NSWCR Source System,NSWCR: CRC003,NSWCR Internal Dataset
+DE35,DES366,CMorphologyCodeIDNotification,Case,NSWCR Source System,NSWCR: NOT102,NSWCR Internal Dataset
+DE423,DES367,CMStage2ID,Case,NSWCR Source System,NSWCR: CRC022,NSWCR Internal Dataset
+DE522,DES368,CMStageID  ,Case,NSWCR Source System,NSWCR: CRC031,NSWCR Internal Dataset
+DE158,DES369,CMStageIDNotication,Case,NSWCR Source System,NSWCR: NOT120,NSWCR Internal Dataset
+DE434,DES370,CMStagingBasis2ID,Case,NSWCR Source System,NSWCR: CRC023,NSWCR Internal Dataset
+DE523,DES371,CMStagingBasisID ,Case,NSWCR Source System,NSWCR: CRC032,NSWCR Internal Dataset
+DE159,DES372,CMStagingBasisIDNotification,Case,NSWCR Source System,NSWCR: NOT121,NSWCR Internal Dataset
+DE306,DES373,CNecrosisIDNotification,Case,NSWCR Source System,NSWCR: NOTB017,NSWCR Internal Dataset
+DE527,DES374,CNonTNMStagingValuesDate,Case,NSWCR Source System,NSWCR: CRC035,NSWCR Internal Dataset
+DE163,DES375,CNonTNMStagingValuesDateNotification,Case,NSWCR Source System,NSWCR: NOT125,NSWCR Internal Dataset
+DE401,DES376,CNStage2ID,Case,NSWCR Source System,NSWCR: CRC020,NSWCR Internal Dataset
+DE501,DES377,CNStageID ,Case,NSWCR Source System,NSWCR: CRC029,NSWCR Internal Dataset
+DE155,DES378,CNStageIDNotification,Case,NSWCR Source System,NSWCR: NOT118,NSWCR Internal Dataset
+DE412,DES379,CNStagingBasis2ID,Case,NSWCR Source System,NSWCR: CRC021,NSWCR Internal Dataset
+DE512,DES380,CNStagingBasisID,Case,NSWCR Source System,NSWCR: CRC030,NSWCR Internal Dataset
+DE156,DES381,CNStagingBasisIDNotification,Case,NSWCR Source System,NSWCR: NOT119,NSWCR Internal Dataset
+DE530,DES382,COtherStagingBasisID ,Case,NSWCR Source System,NSWCR: CRC038,NSWCR Internal Dataset
+DE166,DES383,COtherStagingBasisIDNotification,Case,NSWCR Source System,NSWCR: NOT128,NSWCR Internal Dataset
+DE528,DES384,COtherStagingGroupingID,Case,NSWCR Source System,NSWCR: CRC036,NSWCR Internal Dataset
+DE529,DES385,COtherStagingGroupingID,Case,NSWCR Source System,NSWCR: CRC037,NSWCR Internal Dataset
+DE551,DES386,COtherStagingGroupingID,Case,NSWCR Source System,NSWCR: CRE014,NSWCR Internal Dataset
+DE550,DES387,COtherStagingSchemeID,Case,NSWCR Source System,NSWCR: CRE013,NSWCR Internal Dataset
+DE531,DES388,COtherStagingVersionID,Case,NSWCR Source System,NSWCR: CRC039,NSWCR Internal Dataset
+DE552,DES389,COtherStagingVersionID,Case,NSWCR Source System,NSWCR: CRE015,NSWCR Internal Dataset
+DE246,DES390,CPathologicalDiagnosisDate,Case,NSWCR Source System,NSWCR: CRC006,NSWCR Internal Dataset
+DE141,DES391,CPathologicalDiagnosisDateNotification,Case,NSWCR Source System,NSWCR: NOT105,NSWCR Internal Dataset
+DE559,DES392,CPerformanceStatusDate,Case,NSWCR Source System,NSWCR: CRE021,NSWCR Internal Dataset
+DE174,DES393,CPerformanceStatusDateNotification,Case,NSWCR Source System,NSWCR: NOT135,NSWCR Internal Dataset
+DE560,DES394,CPerformanceStatusID ,Case,NSWCR Source System,NSWCR: CRE022,NSWCR Internal Dataset
+DE175,DES395,CPerformanceStatusIDNotification,Case,NSWCR Source System,NSWCR: NOT136,NSWCR Internal Dataset
+DE321,DES396,CPerineuralInvasionID,Case,NSWCR Source System,NSWCR: NOTC013,NSWCR Internal Dataset
+DE277,DES397,CPlaceOfResidenceAtTimeOfDiagnosisNotification,Case,NSWCR Source System,NSWCR: NOT452,NSWCR Internal Dataset
+DE288,DES398,CPresentationBreastIDNotification,Case,NSWCR Source System,NSWCR: NOTB001,NSWCR Internal Dataset
+DE308,DES399,CPresentationColorectalIDNotification,Case,NSWCR Source System,NSWCR: NOTC001,NSWCR Internal Dataset
+DE27,DES400,CPrincipalFlag,Case,NSWCR Source System,NSWCR: CRE048,NSWCR Internal Dataset
+DE300,DES401,CPRStatusIdNotification,Case,NSWCR Source System,NSWCR: NOTB012,NSWCR Internal Dataset
+DE329,DES402,CPSAIDNotification,Case,NSWCR Source System,NSWCR: NOTP001,NSWCR Internal Dataset
+DE316,DES403,CReadmitReasonIDNotification,Case,NSWCR Source System,NSWCR: NOTC008,NSWCR Internal Dataset
+DE315,DES404,CReadmitWithin28DaysIDNotification,Case,NSWCR Source System,NSWCR: NOTC007,NSWCR Internal Dataset
+DE216,DES405,CReasonAdmitNotification,Case,NSWCR Source System,NSWCR: NOT257,NSWCR Internal Dataset
+DE16,DES406,CReasonForNoTreatmentId,Case,NSWCR Source System,NSWCR: CRE040,NSWCR Internal Dataset
+DE198,DES407,CReasonForNoTreatmentIDNotification,Case,NSWCR Source System,NSWCR: NOT212,NSWCR Internal Dataset
+DE320,DES408,CRectalLevelCancerIDNotification,Case,NSWCR Source System,NSWCR: NOTC012,NSWCR Internal Dataset
+DE553,DES409,CRecurrenceDate,Case,NSWCR Source System,NSWCR: CRE016,NSWCR Internal Dataset
+DE169,DES410,CRecurrenceDateNotification,Case,NSWCR Source System,NSWCR: NOT130,NSWCR Internal Dataset
+DE183,DES411,CRecurrenceDateValidityCodeNotification,Case,NSWCR Source System,NSWCR: NOT143,NSWCR Internal Dataset
+DE554,DES412,CRecurrenceSiteID  ,Case,NSWCR Source System,NSWCR: CRE017,NSWCR Internal Dataset
+DE170,DES413,CRecurrenceSiteIDNotification,Case,NSWCR Source System,NSWCR: NOT131,NSWCR Internal Dataset
+DE555,DES414,CRecurrenceTypeID ,Case,NSWCR Source System,NSWCR: CRE018,NSWCR Internal Dataset
+DE171,DES415,CRecurrenceTypeIDNotification,Case,NSWCR Source System,NSWCR: NOT132,NSWCR Internal Dataset
+DE10,DES416,CReferralDate,Case,NSWCR Source System,NSWCR: CRE035,NSWCR Internal Dataset
+DE195,DES417,CReferralDateNotification,Case,NSWCR Source System,NSWCR: NOT207,NSWCR Internal Dataset
+DE561,DES418,CReferralToPalliativeCareDate,Case,NSWCR Source System,NSWCR: CRE023,NSWCR Internal Dataset
+DE176,DES419,CReferralToPalliativeCareDateNotification,Case,NSWCR Source System,NSWCR: NOT137,NSWCR Internal Dataset
+DE295,DES420,CRegionalNodesExaminedCountNotification,Case,NSWCR Source System,NSWCR: NOTB007,NSWCR Internal Dataset
+DE324,DES421,CRegionalNodesExaminedCountNotification_d,Case,NSWCR Source System,NSWCR: NOTC015,NSWCR Internal Dataset
+DE296,DES422,CRegionalNodesPositiveCountNotification,Case,NSWCR Source System,NSWCR: NOTB008,NSWCR Internal Dataset
+DE325,DES423,CRegionalNodesPositiveCountNotification_d,Case,NSWCR Source System,NSWCR: NOTC016,NSWCR Internal Dataset
+DE318,DES424,CResectionMarginNotification,Case,NSWCR Source System,NSWCR: NOTC010,NSWCR Internal Dataset
+DE317,DES425,CResidualTumourStatusIDNotification,Case,NSWCR Source System,NSWCR: NOTC009,NSWCR Internal Dataset
+DE331,DES426,CRiskStratificationIDNotification,Case,NSWCR Source System,NSWCR: NOTP003,NSWCR Internal Dataset
+DE297,DES427,CSentinelNodesExaminedCountNotification,Case,NSWCR Source System,NSWCR: NOTB009,NSWCR Internal Dataset
+DE298,DES428,CSentinelNodesPositiveCountNotification,Case,NSWCR Source System,NSWCR: NOTB010,NSWCR Internal Dataset
+DE335,DES429,CSize,Case,NSWCR Source System,NSWCR: CRC014,NSWCR Internal Dataset
+DE149,DES430,CSizeNotification,Needs category,NSWCR Source System,NSWCR: NOT112,NSWCR Internal Dataset
+DE340,DES431,CSLNMethodNotification,Needs category,NSWCR Source System,NSWCR: NOTU007,NSWCR Internal Dataset
+DE293,DES432,CSurgicalMarginInvolvementNotification,Case,NSWCR Source System,NSWCR: NOTB005,NSWCR Internal Dataset
+DE292,DES433,CSurgicalMarginNotification,Case,NSWCR Source System,NSWCR: NOTB004,NSWCR Internal Dataset
+DE323,DES434,CThickness,Case,NSWCR Source System,NSWCR: CRC013,NSWCR Internal Dataset
+DE182,DES435,CThicknessNotification,Needs category,NSWCR Source System,NSWCR: NOT142,NSWCR Internal Dataset
+DE457,DES436,CTNMEditionNumber2ID,Case,NSWCR Source System,NSWCR: CRC025,NSWCR Internal Dataset
+DE526,DES437,CTNMEditionNumberID ,Case,NSWCR Source System,NSWCR: CRC034,NSWCR Internal Dataset
+DE162,DES438,CTNMEditionNumberIDNotification,Case,NSWCR Source System,NSWCR: NOT124,NSWCR Internal Dataset
+DE368,DES439,CTNMStaging2Date,Case,NSWCR Source System,NSWCR: CRC017,NSWCR Internal Dataset
+DE161,DES440,CTNMStagingBasisIdNotification,Case,NSWCR Source System,NSWCR: NOT123,NSWCR Internal Dataset
+DE468,DES441,CTNMStagingDate,Case,NSWCR Source System,NSWCR: CRC026,NSWCR Internal Dataset
+DE151,DES442,CTNMStagingDateNotification,Case,NSWCR Source System,NSWCR: NOT114,NSWCR Internal Dataset
+DE446,DES443,CTNMStagingGrouping2ID,Case,NSWCR Source System,NSWCR: CRC024,NSWCR Internal Dataset
+DE524,DES444,CTNMStagingGroupingID ,Case,NSWCR Source System,NSWCR: CRC033,NSWCR Internal Dataset
+DE160,DES445,CTNMStagingGroupingIDNotification,Case,NSWCR Source System,NSWCR: NOT122,NSWCR Internal Dataset
+DE152,DES446,CTNMStagingTimingIDNotification,Case,NSWCR Source System,NSWCR: NOT115,NSWCR Internal Dataset
+DE305,DES447,CTotalExtentNotification,Case,NSWCR Source System,NSWCR: NOTB016,NSWCR Internal Dataset
+DE379,DES448,CTStage2ID,Case,NSWCR Source System,NSWCR: CRC018,NSWCR Internal Dataset
+DE479,DES449,CTStageID,Case,NSWCR Source System,NSWCR: CRC027,NSWCR Internal Dataset
+DE390,DES450,CTStagingBasis2ID,Case,NSWCR Source System,NSWCR: CRC019,NSWCR Internal Dataset
+DE490,DES451,CTStagingBasisID,Case,NSWCR Source System,NSWCR: CRC028,NSWCR Internal Dataset
+DE153,DES452,CTumourStageID,Case,NSWCR Source System,NSWCR: NOT116,NSWCR Internal Dataset
+DE154,DES453,CTumourStagingBasisIDNotification,Case,NSWCR Source System,NSWCR: NOT117,NSWCR Internal Dataset
+DE261,DES454,EActualRadiationDoseNotification,Episode,NSWCR Source System,NSWCR: NOT362,NSWCR Internal Dataset
+DE33,DES455,EAntiNeoplasticCyclesCount,Episode,NSWCR Source System,NSWCR: CRE054,NSWCR Internal Dataset
+DE124,DES456,EAntiNeoplasticCyclesCountNotification,Episode,NSWCR Source System,NSWCR: NOT304,NSWCR Internal Dataset
+DE336,DES457,EAttemptSLNNotification,Needs category,NSWCR Source System,NSWCR: NOTU003,NSWCR Internal Dataset
+DE342,DES458,EBreastRTSiteNotification,Needs category,NSWCR Source System,NSWCR: NOTU009,NSWCR Internal Dataset
+DE28,DES459,ECancerProcedure,Episode,NSWCR Source System,NSWCR: CRE049,NSWCR Internal Dataset
+DE215,DES460,ECancerProcedureNotification,Episode,NSWCR Source System,NSWCR: NOT256,NSWCR Internal Dataset
+DE41,DES461,EChemotherapyEndDate,Episode,NSWCR Source System,NSWCR: CRE061,NSWCR Internal Dataset
+DE222,DES462,EChemotherapyEndDateNotification,Episode,NSWCR Source System,NSWCR: NOT311,NSWCR Internal Dataset
+DE40,DES463,EChemotherapyStartDate,Needs category,NSWCR Source System,NSWCR: CRE060,NSWCR Internal Dataset
+DE562,DES464,EClinicalTrialEnrolmentDate,Episode,NSWCR Source System,NSWCR: CRE024,NSWCR Internal Dataset
+DE177,DES465,EClinicalTrialEnrolmentDateNotification,Episode,NSWCR Source System,NSWCR: NOT138,NSWCR Internal Dataset
+DE332,DES466,EClinicalTrialEnrolmentStatusNotification,Episode,NSWCR Source System,NSWCR: NOTU001,NSWCR Internal Dataset
+DE563,DES467,EClinicalTrialName,Episode,NSWCR Source System,NSWCR: CRE025,NSWCR Internal Dataset
+DE178,DES468,EClinicalTrialNameNotification,Episode,NSWCR Source System,NSWCR: NOT139,NSWCR Internal Dataset
+DE333,DES469,EClinicalTrialRegistrationNumberNotification,Episode,NSWCR Source System,NSWCR: NOTU002,NSWCR Internal Dataset
+DE311,DES470,EColorectalEmergergencySurgeryIDNotification,Episode,NSWCR Source System,NSWCR: NOTC004,NSWCR Internal Dataset
+DE310,DES471,EColorectalSurgeryMethodCodeNotification,Episode,NSWCR Source System,NSWCR: NOTC003,NSWCR Internal Dataset
+DE314,DES472,EComplicationFollowingSurgeryCodeNotification,Episode,NSWCR Source System,NSWCR: NOTC006,NSWCR Internal Dataset
+DE113,DES473,ECycleNotification,Episode,NSWCR Source System,NSWCR: NOT338,NSWCR Internal Dataset
+DE537,DES474,EDegreeOfSpreadID,Episode,NSWCR Source System,NSWCR: CRE001,NSWCR Internal Dataset
+DE150,DES475,EDegreeOfSpreadIDNotification,Episode,NSWCR Source System,NSWCR: NOT113,NSWCR Internal Dataset
+DE327,DES476,EDistanceFromCarcenomaResectionMarginNotification,Episode,NSWCR Source System,NSWCR: NOTC018,NSWCR Internal Dataset
+DE20,DES477,EEndDate  ,Episode,NSWCR Source System,NSWCR: CRE044,NSWCR Internal Dataset
+DE207,DES478,EEndDateNotification,Episode,NSWCR Source System,NSWCR: NOT251,NSWCR Internal Dataset
+DE5,DES479,EInitialTreatmentFlag,Episode,NSWCR Source System,NSWCR: CRE030,NSWCR Internal Dataset
+DE202,DES480,EInitialTreatmentFlagNotification,Episode,NSWCR Source System,NSWCR: NOT215,NSWCR Internal Dataset
+DE76,DES481,EIntendedChemoTherapyFlag ,Episode,NSWCR Source System,NSWCR: CRE091,NSWCR Internal Dataset
+DE267,DES482,EIntendedChemoTherapyFlagNotification,Episode,NSWCR Source System,NSWCR: NOT401,NSWCR Internal Dataset
+DE80,DES483,EIntendedNoTreatmentFlag,Episode,NSWCR Source System,NSWCR: CRE094,NSWCR Internal Dataset
+DE271,DES484,EIntendedNoTreatmentFlagNotification,Episode,NSWCR Source System,NSWCR: NOT404,NSWCR Internal Dataset
+DE77,DES485,EIntendedOtherTreatmentFlag,Episode,NSWCR Source System,NSWCR: CRE092,NSWCR Internal Dataset
+DE269,DES486,EIntendedOtherTreatmentFlagNotification,Episode,NSWCR Source System,NSWCR: NOT402,NSWCR Internal Dataset
+DE75,DES487,EIntendedRadiotherapyFlagNotification,Episode,NSWCR Source System,NSWCR: CRE090,NSWCR Internal Dataset
+DE266,DES488,EIntendedRadiotherapyFlagNotification,Episode,NSWCR Source System,NSWCR: NOT400,NSWCR Internal Dataset
+DE78,DES489,EIntendedSurgeryFlag,Episode,NSWCR Source System,NSWCR: CRE093,NSWCR Internal Dataset
+DE270,DES490,EIntendedSurgeryFlagNotification,Episode,NSWCR Source System,NSWCR: NOT403,NSWCR Internal Dataset
+DE106,DES491,ELastContactFacilityCode,Episode,NSWCR Source System,NSWCR: CRP020,NSWCR Internal Dataset
+DE568,DES492,EModalityID ,Episode,NSWCR Source System,NSWCR: CRE027,NSWCR Internal Dataset
+DE187,DES493,EModalityIDNotification,Episode,NSWCR Source System,NSWCR: NOT200,NSWCR Internal Dataset
+DE543,DES494,EMStageID,Episode,NSWCR Source System,NSWCR: CRE007,NSWCR Internal Dataset
+DE544,DES495,EMStagingBasisID,Episode,NSWCR Source System,NSWCR: CRE008,NSWCR Internal Dataset
+DE549,DES496,ENonTNMStagingValuesDate,Episode,NSWCR Source System,NSWCR: CRE012,NSWCR Internal Dataset
+DE205,DES497,ENotificationWorkflowStatusIDNotification,Episode,NSWCR Source System,NSWCR: NOT218,NSWCR Internal Dataset
+DE541,DES498,ENStageID,Episode,NSWCR Source System,NSWCR: CRE005,NSWCR Internal Dataset
+DE542,DES499,ENStagingBasisID,Episode,NSWCR Source System,NSWCR: CRE006,NSWCR Internal Dataset
+DE165,DES500,EOtherStagingGroupingIDNotification,Episode,NSWCR Source System,NSWCR: NOT127,NSWCR Internal Dataset
+DE164,DES501,EOtherStagingSchemeIDNotification,Episode,NSWCR Source System,NSWCR: NOT126,NSWCR Internal Dataset
+DE167,DES502,EOtherStagingVersionIDNotification,Episode,NSWCR Source System,NSWCR: NOT129,NSWCR Internal Dataset
+DE4,DES503,EOutcomeOfTreatmentId,Episode,NSWCR Source System,NSWCR: CRE029,NSWCR Internal Dataset
+DE260,DES504,EPrescribedRadiationDoseNotification,Episode,NSWCR Source System,NSWCR: NOT361,NSWCR Internal Dataset
+DE263,DES505,EPrescribedRadiotherapyFractionCountNotification,Episode,NSWCR Source System,NSWCR: NOT364,NSWCR Internal Dataset
+DE214,DES506,EPrincipalFlagNotification,Episode,NSWCR Source System,NSWCR: NOT255,NSWCR Internal Dataset
+DE25,DES507,EProcedureCodeID ,Episode,NSWCR Source System,NSWCR: CRE046,NSWCR Internal Dataset
+DE211,DES508,EProcedureCodeIDNotification,Episode,NSWCR Source System,NSWCR: NOT253,NSWCR Internal Dataset
+DE26,DES509,EProcedureDate,Episode,NSWCR Source System,NSWCR: CRE047,NSWCR Internal Dataset
+DE213,DES510,EProcedureDateNotification,Episode,NSWCR Source System,NSWCR: NOT254,NSWCR Internal Dataset
+DE272,DES511,EProtocol1IDNotification,Episode,NSWCR Source System,NSWCR: NOT405,NSWCR Internal Dataset
+DE274,DES512,EProtocol2IDNotification,Episode,NSWCR Source System,NSWCR: NOT407,NSWCR Internal Dataset
+DE273,DES513,EProtocol3IDNotification,Episode,NSWCR Source System,NSWCR: NOT406,NSWCR Internal Dataset
+DE36,DES514,EProtocolConsent,Episode,NSWCR Source System,NSWCR: CRE056,NSWCR Internal Dataset
+DE32,DES515,EProtocolID   ,Episode,NSWCR Source System,NSWCR: CRE053,NSWCR Internal Dataset
+DE101,DES516,EProtocolIDNotification,Episode,NSWCR Source System,NSWCR: NOT303,NSWCR Internal Dataset
+DE34,DES517,EProtocolModified,Episode,NSWCR Source System,NSWCR: CRE055,NSWCR Internal Dataset
+DE219,DES518,EProtocolModifiedNotification,Episode,NSWCR Source System,NSWCR: NOT305,NSWCR Internal Dataset
+DE252,DES519,ERadiationDoseTotalNotification,Episode,NSWCR Source System,NSWCR: NOT354,NSWCR Internal Dataset
+DE74,DES520,ERadiationDoseUnitID,Needs category,NSWCR Source System,NSWCR: CRE088,NSWCR Internal Dataset
+DE262,DES521,ERadiationDoseUnitIDNotification,Needs category,NSWCR Source System,NSWCR: NOT363,NSWCR Internal Dataset
+DE255,DES522,ERadiotherapyCourseNotification,Episode,NSWCR Source System,NSWCR: NOT357,NSWCR Internal Dataset
+DE253,DES523,ERadiotherapyDoseUnitIDNotification,Episode,NSWCR Source System,NSWCR: NOT355,NSWCR Internal Dataset
+DE72,DES524,ERadiotherapyEndDate,Episode,NSWCR Source System,NSWCR: CRE084,NSWCR Internal Dataset
+DE249,DES525,ERadiotherapyEndDateNotification,Episode,NSWCR Source System,NSWCR: NOT351,NSWCR Internal Dataset
+DE264,DES526,ERadiotherapyFractionsRecievedCountNotification,Episode,NSWCR Source System,NSWCR: NOT365,NSWCR Internal Dataset
+DE254,DES527,ERadiotherapyFractionsTotalNotification,Episode,NSWCR Source System,NSWCR: NOT356,NSWCR Internal Dataset
+DE256,DES528,ERadiotherapyPriorityIDNotification,Episode,NSWCR Source System,NSWCR: NOT358,NSWCR Internal Dataset
+DE71,DES529,ERadiotherapyStartDate,Episode,NSWCR Source System,NSWCR: CRE083,NSWCR Internal Dataset
+DE248,DES530,ERadiotherapyStartDateNotification,Episode,NSWCR Source System,NSWCR: NOT350,NSWCR Internal Dataset
+DE73,DES531,ERadiotherapyTypeID,Needs category,NSWCR Source System,NSWCR: CRE085,NSWCR Internal Dataset
+DE250,DES532,ERadiotherapyTypeIDNotification,Episode,NSWCR Source System,NSWCR: NOT352,NSWCR Internal Dataset
+DE50,DES533,EReasonVariationFrequencyCycle,Needs category,NSWCR Source System,NSWCR: CRE069,NSWCR Internal Dataset
+DE229,DES534,EReasonVariationFrequencyCycleNotification,Episode,NSWCR Source System,NSWCR: NOT319,NSWCR Internal Dataset
+DE39,DES535,ERouteId,Episode,NSWCR Source System,NSWCR: CRE059,NSWCR Internal Dataset
+DE79,DES536,ERouteIDNotification,Episode,NSWCR Source System,NSWCR: NOT309,NSWCR Internal Dataset
+DE259,DES537,ESiteEndDateNotification,Episode,NSWCR Source System,NSWCR: NOT360,NSWCR Internal Dataset
+DE251,DES538,ESiteIDNotification,Episode,NSWCR Source System,NSWCR: NOT353,NSWCR Internal Dataset
+DE258,DES539,ESiteStartDateNotification,Episode,NSWCR Source System,NSWCR: NOT359,NSWCR Internal Dataset
+DE338,DES540,ESLNExtentNotification,Needs category,NSWCR Source System,NSWCR: NOTU005,NSWCR Internal Dataset
+DE337,DES541,ESLNIDNotification,Needs category,NSWCR Source System,NSWCR: NOTU004,NSWCR Internal Dataset
+DE19,DES542,EStartDate,Episode,NSWCR Source System,NSWCR: CRE043,NSWCR Internal Dataset
+DE206,DES543,EStartDateNotification,Episode,NSWCR Source System,NSWCR: NOT250,NSWCR Internal Dataset
+DE221,DES544,EStartDateNotification,Episode,NSWCR Source System,NSWCR: NOT310,NSWCR Internal Dataset
+DE21,DES545,EStatusSeparationId,Episode,NSWCR Source System,NSWCR: CRE045,NSWCR Internal Dataset
+DE208,DES546,EStatusSeperationIDNotification,Episode,NSWCR Source System,NSWCR: NOT252,NSWCR Internal Dataset
+DE209,DES547,EStatusSeperationIDNotification,Needs category,NSWCR Source System,NSWCR: NOT252,NSWCR Internal Dataset
+DE210,DES548,EStatusSeperationIDNotification_d,Episode,NSWCR Source System,NSWCR: NOT252 ,NSWCR Internal Dataset
+DE313,DES549,EStomaTypeID,Episode,NSWCR Source System,NSWCR: NOTC005,NSWCR Internal Dataset
+DE17,DES550,ESuggestedTreatmentCommencementDate,Episode,NSWCR Source System,NSWCR: CRE041,NSWCR Internal Dataset
+DE199,DES551,ESuggestedTreatmentCommencementDateNotification,Episode,NSWCR Source System,NSWCR: NOT213,NSWCR Internal Dataset
+DE42,DES552,ESystemicTherapyAgentFrequencyCode,Episode,NSWCR Source System,NSWCR: CRE062,NSWCR Internal Dataset
+DE225,DES553,ESystemicTherapyAgentFrequencyCodeNotification,Episode,NSWCR Source System,NSWCR: NOT312,NSWCR Internal Dataset
+DE43,DES554,ESystemicTherapyAgentFrequencyUnitCode,Episode,NSWCR Source System,NSWCR: CRE063,NSWCR Internal Dataset
+DE226,DES555,ESystemicTherapyAgentFrequencyUnitCodeNotification,Episode,NSWCR Source System,NSWCR: NOT313,NSWCR Internal Dataset
+DE48,DES556,ESystemicTherapyCycleEndDate,Needs category,NSWCR Source System,NSWCR: CRE067,NSWCR Internal Dataset
+DE227,DES557,ESystemicTherapyCycleEndDateNotification,Episode,NSWCR Source System,NSWCR: NOT317,NSWCR Internal Dataset
+DE47,DES558,ESystemicTherapyCycleStartDate,Needs category,NSWCR Source System,NSWCR: CRE066,NSWCR Internal Dataset
+DE334,DES559,ESystemicTherapyCycleStartDateNotification,Episode,NSWCR Source System,NSWCR: NOT316,NSWCR Internal Dataset
+DE38,DES560,ESystemicTherapyDoseQuantity,Episode,NSWCR Source System,NSWCR: CRE058,NSWCR Internal Dataset
+DE547,DES561,ESystemicTherapyDoseQuantityNotification,Episode,NSWCR Source System,NSWCR: NOT308,NSWCR Internal Dataset
+DE37,DES562,ESystemicTherapyDrugIDCode,Episode,NSWCR Source System,NSWCR: CRE057,NSWCR Internal Dataset
+DE90,DES563,ESystemicTherapyDrugIDCodeNotification,Episode,NSWCR Source System,NSWCR: NOT307,NSWCR Internal Dataset
+DE30,DES564,ESystemicTherapyEndDate,Episode,NSWCR Source System,NSWCR: CRE051,NSWCR Internal Dataset
+DE217,DES565,ESystemicTherapyEndDateNotification,Episode,NSWCR Source System,NSWCR: NOT301,NSWCR Internal Dataset
+DE218,DES566,ESystemicTherapyIDNotification,Episode,NSWCR Source System,NSWCR: NOT302,NSWCR Internal Dataset
+DE223,DES567,ESystemicTherapyProtocolCycleCountNotification,Episode,NSWCR Source System,NSWCR: NOT315,NSWCR Internal Dataset
+DE45,DES568,ESystemicTherapyProtocolCycleNumber,Needs category,NSWCR Source System,NSWCR: CRE065,NSWCR Internal Dataset
+DE29,DES569,ESystemicTherapyStartDate,Episode,NSWCR Source System,NSWCR: CRE050,NSWCR Internal Dataset
+DE135,DES570,ESystemicTherapyStartDateNotification,Episode,NSWCR Source System,NSWCR: NOT300,NSWCR Internal Dataset
+DE44,DES571,ESystemicTherapyTreatmentCycleDay,Episode,NSWCR Source System,NSWCR: CRE064,NSWCR Internal Dataset
+DE525,DES572,ESystemicTherapyTreatmentCycleDayNotification,Episode,NSWCR Source System,NSWCR: NOT314,NSWCR Internal Dataset
+DE31,DES573,ESystemicTherapyTypeID,Episode,NSWCR Source System,NSWCR: CRE052,NSWCR Internal Dataset
+DE538,DES574,ETMNStagingDate,Episode,NSWCR Source System,NSWCR: CRE002,NSWCR Internal Dataset
+DE548,DES575,ETNMEditionNumberID,Episode,NSWCR Source System,NSWCR: CRE011,NSWCR Internal Dataset
+DE546,DES576,ETNMStagingBasisIdID,Episode,NSWCR Source System,NSWCR: CRE010,NSWCR Internal Dataset
+DE545,DES577,ETNMStagingGroupingID,Episode,NSWCR Source System,NSWCR: CRE009,NSWCR Internal Dataset
+DE59,DES578,EToxicityConstipationCode,Needs category,NSWCR Source System,NSWCR: CRE072,NSWCR Internal Dataset
+DE236,DES579,EToxicityConstipationCodeNotification,Episode,NSWCR Source System,NSWCR: NOT327,NSWCR Internal Dataset
+DE60,DES580,EToxicityDiarrhoeaCode,Needs category,NSWCR Source System,NSWCR: CRE073,NSWCR Internal Dataset
+DE237,DES581,EToxicityDiarrhoeaCodeNotification,Episode,NSWCR Source System,NSWCR: NOT328,NSWCR Internal Dataset
+DE61,DES582,EToxicityFatigueCode,Needs category,NSWCR Source System,NSWCR: CRE074,NSWCR Internal Dataset
+DE238,DES583,EToxicityFatigueCodeNotification,Episode,NSWCR Source System,NSWCR: NOT329,NSWCR Internal Dataset
+DE62,DES584,EToxicityHypersensitivityCode,Needs category,NSWCR Source System,NSWCR: CRE075,NSWCR Internal Dataset
+DE239,DES585,EToxicityHypersensitivityCodeNotification,Episode,NSWCR Source System,NSWCR: NOT330,NSWCR Internal Dataset
+DE63,DES586,EToxicityMucositisCode,Needs category,NSWCR Source System,NSWCR: CRE076,NSWCR Internal Dataset
+DE240,DES587,EToxicityMucositisCodeNotification,Episode,NSWCR Source System,NSWCR: NOT331,NSWCR Internal Dataset
+DE64,DES588,EToxicityNauseaCode,Needs category,NSWCR Source System,NSWCR: CRE077,NSWCR Internal Dataset
+DE241,DES589,EToxicityNauseaCodeNotification,Episode,NSWCR Source System,NSWCR: NOT332,NSWCR Internal Dataset
+DE65,DES590,EToxicityNeuropathyCode,Needs category,NSWCR Source System,NSWCR: CRE078,NSWCR Internal Dataset
+DE242,DES591,EToxicityNeuropathyCodeNotification,Episode,NSWCR Source System,NSWCR: NOT333,NSWCR Internal Dataset
+DE70,DES592,EToxicityNeutrophilCount,Needs category,NSWCR Source System,NSWCR: CRE082,NSWCR Internal Dataset
+DE247,DES593,EToxicityNeutrophilCountNotification,Episode,NSWCR Source System,NSWCR: NOT337,NSWCR Internal Dataset
+DE67,DES594,EToxicityRashCode,Needs category,NSWCR Source System,NSWCR: CRE080,NSWCR Internal Dataset
+DE244,DES595,EToxicityRashCodeNotification,Episode,NSWCR Source System,NSWCR: NOT335,NSWCR Internal Dataset
+DE66,DES596,EToxicitySkinReactionCode,Needs category,NSWCR Source System,NSWCR: CRE079,NSWCR Internal Dataset
+DE243,DES597,EToxicitySkinReactionCodeNotation,Episode,NSWCR Source System,NSWCR: NOT334,NSWCR Internal Dataset
+DE69,DES598,EToxicityVomitingCode,Needs category,NSWCR Source System,NSWCR: CRE081,NSWCR Internal Dataset
+DE245,DES599,EToxicityVomitingCodeNotification,Episode,NSWCR Source System,NSWCR: NOT336,NSWCR Internal Dataset
+DE3,DES600,ETreatmentIntention,Episode,NSWCR Source System,NSWCR: CRE028,NSWCR Internal Dataset
+DE188,DES601,ETreatmentIntentionNotification,Episode,NSWCR Source System,NSWCR: NOT201,NSWCR Internal Dataset
+DE189,DES602,ETreatmentOutcomeIDNotification,Episode,NSWCR Source System,NSWCR: NOT202,NSWCR Internal Dataset
+DE220,DES603,ETreatmentProtocolConsentNotification,Episode,NSWCR Source System,NSWCR: NOT306,NSWCR Internal Dataset
+DE18,DES604,ETreatmentType,Episode,NSWCR Source System,NSWCR: CRE042,NSWCR Internal Dataset
+DE200,DES605,ETreatmentTypeNotification,Episode,NSWCR Source System,NSWCR: NOT214,NSWCR Internal Dataset
+DE539,DES606,ETStageID,Episode,NSWCR Source System,NSWCR: CRE003,NSWCR Internal Dataset
+DE540,DES607,ETStagingBasisID,Episode,NSWCR Source System,NSWCR: CRE004,NSWCR Internal Dataset
+DE328,DES608,EUlcerationOfMelanomaIdNotification,Episode,NSWCR Source System,NSWCR: NOTM001,NSWCR Internal Dataset
+DE51,DES609,EVariationDrugDoseFlag,Needs category,NSWCR Source System,NSWCR: CRE070,NSWCR Internal Dataset
+DE146,DES610,EVariationDrugDoseFlagNotification,Episode,NSWCR Source System,NSWCR: NOT320,NSWCR Internal Dataset
+DE13,DES611,EVariationDrugDoseReason1Notification,Episode,NSWCR Source System,NSWCR: NOT321,NSWCR Internal Dataset
+DE230,DES612,EVariationDrugDoseReason2Notification,Episode,NSWCR Source System,NSWCR: NOT322,NSWCR Internal Dataset
+DE231,DES613,EVariationDrugDoseReason3Notification,Episode,NSWCR Source System,NSWCR: NOT323,NSWCR Internal Dataset
+DE232,DES614,EVariationDrugDoseReason4Notification,Episode,NSWCR Source System,NSWCR: NOT324,NSWCR Internal Dataset
+DE233,DES615,EVariationDrugDoseReason5Notification,Episode,NSWCR Source System,NSWCR: NOT325,NSWCR Internal Dataset
+DE234,DES616,EVariationDrugDoseReason6Notification,Episode,NSWCR Source System,NSWCR: NOT326,NSWCR Internal Dataset
+DE56,DES617,EVariationDrugDoseReasonFive,Needs category,NSWCR Source System,NSWCR: CRE071,NSWCR Internal Dataset
+DE55,DES618,EVariationDrugDoseReasonFour,Needs category,NSWCR Source System,NSWCR: CRE071,NSWCR Internal Dataset
+DE52,DES619,EVariationDrugDoseReasonOne,Needs category,NSWCR Source System,NSWCR: CRE071,NSWCR Internal Dataset
+DE58,DES620,EVariationDrugDoseReasonSix,Needs category,NSWCR Source System,NSWCR: CRE071,NSWCR Internal Dataset
+DE54,DES621,EVariationDrugDoseReasonThree,Needs category,NSWCR Source System,NSWCR: CRE071,NSWCR Internal Dataset
+DE53,DES622,EVariationDrugDoseReasonTw,Needs category,NSWCR Source System,NSWCR: CRE071,NSWCR Internal Dataset
+DE49,DES623,EVariationFrequencyCycleFlag,Needs category,NSWCR Source System,NSWCR: CRE068,NSWCR Internal Dataset
+DE283,DES624,HDeathCertifierAddressNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT503,NSWCR Internal Dataset
+DE282,DES625,HDeathCertifierNameNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT502,NSWCR Internal Dataset
+DE6,DES626,HGPAmoRegistrationNumber,HealthPractioner,NSWCR Source System,NSWCR: CRE031,NSWCR Internal Dataset
+DE191,DES627,HGPAmoRegistrationNumberNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT203,NSWCR Internal Dataset
+DE9,DES628,HManagingDoctorName,HealthPractioner,NSWCR Source System,NSWCR: CRE034,NSWCR Internal Dataset
+DE194,DES629,HManagingDoctorNameNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT206,NSWCR Internal Dataset
+DE564,DES630,HPsychoSocialReferral2Id,Health Practioner,NSWCR Source System,NSWCR: CRE026,NSWCR Internal Dataset
+DE184,DES631,HPsycoSocialReferral1IDNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT144,NSWCR Internal Dataset
+DE185,DES632,HPsycoSocialReferral2IDNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT145,NSWCR Internal Dataset
+DE186,DES633,HPsycoSocialReferral3IDNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT146,NSWCR Internal Dataset
+DE180,DES634,HPsycoSocialReferralIDNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT140,NSWCR Internal Dataset
+DE565,DES635,HPyschoSocialReferral1Id,Health Practioner,NSWCR Source System,NSWCR: CRE026,NSWCR Internal Dataset
+DE566,DES636,HPyschoSocialReferral3Id,Health Practioner,NSWCR Source System,NSWCR: CRE026,NSWCR Internal Dataset
+DE567,DES637,HPyschoSocialReferralId,Health Practioner,NSWCR Source System,NSWCR: CRE026,NSWCR Internal Dataset
+DE203,DES638,HReferringGPAddressNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT216,NSWCR Internal Dataset
+DE7,DES639,HReferringGPName  ,HealthPractioner,NSWCR Source System,NSWCR: CRE032,NSWCR Internal Dataset
+DE192,DES640,HReferringGPNameNotification,HealthPractioner,NSWCR Source System,NSWCR: NOT204,NSWCR Internal Dataset
+DE8,DES641,HTreatingAmoRegistrationNumber,HealthPractioner,NSWCR Source System,NSWCR: CRE033,NSWCR Internal Dataset
+DE193,DES642,HTreatingAmoRegistrationNumberNotification?,HealthPractioner,NSWCR Source System,NSWCR: NOT205,NSWCR Internal Dataset
+DE204,DES643,HTreatingDoctorAddressNotification,Needs category,NSWCR Source System,NSWCR: NOT217,NSWCR Internal Dataset
+DE104,DES644,LFacilityCode,Location,NSWCR Source System,NSWCR: CRP018,NSWCR Internal Dataset
+DE24,DES645,LFacilityCodeNotification,Location,NSWCR Source System,NSWCR: NOT025,NSWCR Internal Dataset
+DE197,DES646,LHealthAreaCodeNotification,Location,NSWCR Source System,NSWCR: NOT209,NSWCR Internal Dataset
+DE12,DES647,LHelalthAreaCode,Location,NSWCR Source System,NSWCR: CRE037,NSWCR Internal Dataset
+DE276,DES648,LPathologyLaboratoryNameNotification,Location,NSWCR Source System,NSWCR: NOT451,NSWCR Internal Dataset
+DE265,DES649,LRISSiteNameNotification,Location,NSWCR Source System,NSWCR: NOT366,NSWCR Internal Dataset
+DE349,DES650,METRIQ_AccessionNo,Needs category,NSWCR Source System,NSWCR: NOTU015,NSWCR Internal Dataset
+DE350,DES651,METRIQ_ClassOfCase,Needs category,NSWCR Source System,NSWCR: NOTU016,NSWCR Internal Dataset
+DE356,DES652,METRIQ_DCISPattern,Needs category,NSWCR Source System,NSWCR: NOTU022,NSWCR Internal Dataset
+DE359,DES653,METRIQ_DxMethClin,Needs category,NSWCR Source System,NSWCR: NOTU024,NSWCR Internal Dataset
+DE363,DES654,METRIQ_DxMethCoreBiop,Needs category,NSWCR Source System,NSWCR: NOTU028,NSWCR Internal Dataset
+DE362,DES655,METRIQ_DxMethFNAB,Needs category,NSWCR Source System,NSWCR: NOTU027,NSWCR Internal Dataset
+DE360,DES656,METRIQ_DxMethMamm,Needs category,NSWCR Source System,NSWCR: NOTU025,NSWCR Internal Dataset
+DE361,DES657,METRIQ_DxMethUltra,Needs category,NSWCR Source System,NSWCR: NOTU026,NSWCR Internal Dataset
+DE351,DES658,METRIQ_FirstContactFacilityCode,Needs category,NSWCR Source System,NSWCR: NOTU017,NSWCR Internal Dataset
+DE355,DES659,METRIQ_ResectionDate,Needs category,NSWCR Source System,NSWCR: NOTU021,NSWCR Internal Dataset
+DE353,DES660,METRIQ_RTBoostDs,Needs category,NSWCR Source System,NSWCR: NOTU019,NSWCR Internal Dataset
+DE352,DES661,METRIQ_RTSite,Needs category,NSWCR Source System,NSWCR: NOTU018,NSWCR Internal Dataset
+DE354,DES662,METRIQ_RTVolume,Needs category,NSWCR Source System,NSWCR: NOTU020,NSWCR Internal Dataset
+DE358,DES663,METRIQ_ScintDate,Needs category,NSWCR Source System,NSWCR: NOTU023,NSWCR Internal Dataset
+DE307,DES664,PAccomodationTypeIDNotification,Person,NSWCR Source System,NSWCR: NOTB018,NSWCR Internal Dataset
+DE95,DES665,Paddress,Person,NSWCR Source System,NSWCR: CRP010,NSWCR Internal Dataset
+DE89,DES666,PBirthDate,Person,NSWCR Source System,NSWCR: CRP005,NSWCR Internal Dataset
+DE119,DES667,PBirthDateNofication,Person,NSWCR Source System,NSWCR: NOT011,NSWCR Internal Dataset
+DE91,DES668,PBirthDateValidityCode,Person,NSWCR Source System,NSWCR: CRP006,NSWCR Internal Dataset
+DE120,DES669,PBirthDateValidityCodeNotification,Person,NSWCR Source System,NSWCR: NOT012,NSWCR Internal Dataset
+DE138,DES670,PClinicalDetailsOptOutNotification,Person,NSWCR Source System,NSWCR: NOT030,NSWCR Internal Dataset
+DE92,DES671,PCOBCode,Person,NSWCR Source System,NSWCR: CRP007,NSWCR Internal Dataset
+DE121,DES672,PCOBCodeNotification,Person,NSWCR Source System,NSWCR: NOT013,NSWCR Internal Dataset
+DE284,DES673,PDeathCauseIDNotification,Person,NSWCR Source System,NSWCR: NOT504,NSWCR Internal Dataset
+DE285,DES674,PDeathCauseTextNotification,Person,NSWCR Source System,NSWCR: NOT505,NSWCR Internal Dataset
+DE532,DES675,PDeathCertificateNumber,Person,NSWCR Source System,NSWCR: CRD001,NSWCR Internal Dataset
+DE280,DES676,PDeathCertificateNumberNotification,Person,NSWCR Source System,NSWCR: NOT500,NSWCR Internal Dataset
+DE534,DES677,PDeathCertificateStateID,Person,NSWCR Source System,NSWCR: CRD003,NSWCR Internal Dataset
+DE287,DES678,PDeathCertificateStateIDNotification,Person,NSWCR Source System,NSWCR: NOT508,NSWCR Internal Dataset
+DE533,DES679,PDeathCertificateYear,Person,NSWCR Source System,NSWCR: CRD002,NSWCR Internal Dataset
+DE286,DES680,PDeathCertificateYearNotification,Person,NSWCR Source System,NSWCR: NOT506,NSWCR Internal Dataset
+DE535,DES681,PDeathDate   ,Person,NSWCR Source System,NSWCR: CRD004,NSWCR Internal Dataset
+DE281,DES682,PDeathDateNotification,Person,NSWCR Source System,NSWCR: NOT501,NSWCR Internal Dataset
+DE100,DES683,PDVANumber,Person,NSWCR Source System,NSWCR: CRP015,NSWCR Internal Dataset
+DE131,DES684,PDVANumberNotification,Person,NSWCR Source System,NSWCR: NOT022,NSWCR Internal Dataset
+DE111,DES685,PFirstGivenNameNotification_d,Person,NSWCR Source System,NSWCR: NOT005,NSWCR Internal Dataset
+DE116,DES686,PFirstGivenNameNotification_d,Person,NSWCR Source System,NSWCR: NOT008,NSWCR Internal Dataset
+DE87,DES687,PFirstName,Person,NSWCR Source System,NSWCR: CRP003,NSWCR Internal Dataset
+DE93,DES688,PIndigenousStatusID,Person,NSWCR Source System,NSWCR: CRP008,NSWCR Internal Dataset
+DE122,DES689,PIndigenousStatusIDNotification,Person,NSWCR Source System,NSWCR: NOT014,NSWCR Internal Dataset
+DE94,DES690,PLanguagePreferenceID,Person,NSWCR Source System,NSWCR: CRP009,NSWCR Internal Dataset
+DE123,DES691,PLanguagePreferenceIDNotification,Person,NSWCR Source System,NSWCR: NOT015,NSWCR Internal Dataset
+DE96,DES692,PLocality,Person,NSWCR Source System,NSWCR: CRP011,NSWCR Internal Dataset
+DE126,DES693,PLocalityNotification,Person,NSWCR Source System,NSWCR: NOT017,NSWCR Internal Dataset
+DE99,DES694,PMedicareNumber   ,Person,NSWCR Source System,NSWCR: CRP014,NSWCR Internal Dataset
+DE130,DES695,PMedicareNumberNotification,Person,NSWCR Source System,NSWCR: NOT021,NSWCR Internal Dataset
+DE291,DES696,PMenopausalStatusIDNotification,Case,NSWCR Source System,NSWCR: NOTB003,NSWCR Internal Dataset
+DE15,DES697,PMRN,Person,NSWCR Source System,NSWCR: CRE039,NSWCR Internal Dataset
+DE46,DES698,PMRNNotification,Person,NSWCR Source System,NSWCR: NOT211,NSWCR Internal Dataset
+DE103,DES699,PNHINumber,Person,NSWCR Source System,NSWCR: CRP017,NSWCR Internal Dataset
+DE133,DES700,PNHINumberNotification,Person,NSWCR Source System,NSWCR: NOT024,NSWCR Internal Dataset
+DE81,DES701,PPlaceOfResidenceAtTimeOfDiagnosisId,Needs category,NSWCR Source System,NSWCR: CRE099,NSWCR Internal Dataset
+DE97,DES702,PPostcode,Person,NSWCR Source System,NSWCR: CRP012,NSWCR Internal Dataset
+DE127,DES703,PPostcodeNotification,Person,NSWCR Source System,NSWCR: NOT018,NSWCR Internal Dataset
+DE114,DES704,PSecondGivenNameNotification_d,Person,NSWCR Source System,NSWCR: NOT006,NSWCR Internal Dataset
+DE117,DES705,PSecondGivenNameNotification_d,Person,NSWCR Source System,NSWCR: NOT009,NSWCR Internal Dataset
+DE109,DES706,PSecondSurnameNotification,Person,NSWCR Source System,NSWCR: NOT003,NSWCR Internal Dataset
+DE88,DES707,PSex   ,Person,NSWCR Source System,NSWCR: CRP004,NSWCR Internal Dataset
+DE118,DES708,PSexNotification,Person,NSWCR Source System,NSWCR: NOT010,NSWCR Internal Dataset
+DE98,DES709,PStateCode,Person,NSWCR Source System,NSWCR: CRP013,NSWCR Internal Dataset
+DE128,DES710,PStateNotification,Person,NSWCR Source System,NSWCR: NOT019,NSWCR Internal Dataset
+DE102,DES711,PSUPI  ,Needs category,NSWCR Source System,NSWCR: CRP016,NSWCR Internal Dataset
+DE132,DES712,PSUPINotification,Needs category,NSWCR Source System,NSWCR: NOT023,NSWCR Internal Dataset
+DE83,DES713,PSurname,Needs category,NSWCR Source System,NSWCR: CRP002,NSWCR Internal Dataset
+DE107,DES714,PSurnameNotification,Person,NSWCR Source System,NSWCR: NOT001,NSWCR Internal Dataset
+DE108,DES715,PSurnameNotification_d,Person,NSWCR Source System,NSWCR: NOT002,NSWCR Internal Dataset
+DE115,DES716,PThirdGivenNameNotifiction_d,Person,NSWCR Source System,NSWCR: NOT007,NSWCR Internal Dataset
+DE137,DES717,PThirdGivenNameNotifiction_d,Person,NSWCR Source System,NSWCR: NOT029,NSWCR Internal Dataset
+DE110,DES718,PThirdSurnameNotification,Person,NSWCR Source System,NSWCR: NOT004,NSWCR Internal Dataset
+DE82,DES719,PTitle,Needs category,NSWCR Source System,NSWCR: CRP001,NSWCR Internal Dataset
+DE136,DES720,PTitleNotification,Needs category,NSWCR Source System,NSWCR: NOT028,NSWCR Internal Dataset
+DE14,DES721,PUniqueIdentifier,Person,NSWCR Source System,NSWCR: CRE038,NSWCR Internal Dataset
+DE57,DES722,PUniqueIdentifierNotification,Person,NSWCR Source System,NSWCR: NOT210,NSWCR Internal Dataset
+DE129,DES723,PVitalStatusIDNotification,Person,NSWCR Source System,NSWCR: NOT020,NSWCR Internal Dataset
+DE125,DES724,PWayfareAddressNotification,Person,NSWCR Source System,NSWCR: NOT016,NSWCR Internal Dataset
+DE228,DES725,VariationFrequencyCycleFlagNotification,Person,NSWCR Source System,NSWCR: NOT318,NSWCR Internal Dataset
+DE275,DES726,WProjectIDNotification,Needs category,NSWCR Source System,NSWCR: NOT450,NSWCR Internal Dataset
+DE385,DES727,CBehaviourCode,Case,NSWCR Source System,"naDerived from NSWCR source system CRC002, CRC003",NSWCR Incidence and Mortality Dataset
+DE235,DES728,CBestDiagnosisBasisID,Case,NSWCR Source System,"NSWCR: CRC005The most valid basis of diagnosis in a person with cancer, as represented by a code.",NSWCR Incidence and Mortality Dataset
+DE380,DES729,CCancerGroup,Case,NSWCR Source System,naDerived from NSWCR source system CRC002. This appears to be 1 - 1,NSWCR Incidence and Mortality Dataset
+DE346,DES730,CDegreeOfSpreadID,Case,NSWCR Source System,"NSWCR: CRC015A measure of the progression/extent of cancer at diagnosis, as represented by a code.",NSWCR Incidence and Mortality Dataset
+DE378,DES731,CDiagnosisAge,Case,NSWCR Source System,"naDerived from NSWCR source system CRP005, CRC001, CRP006",NSWCR Incidence and Mortality Dataset
+DE400,DES732,CDiagnosisDateValidityCode,Case,NSWCR Source System,naFlag identifying if diagnosis is estimated,NSWCR Incidence and Mortality Dataset
+DE377,DES733,CDiagnosisMonth,Case,NSWCR Source System,naDerived from NSWCR source system CRC001,NSWCR Incidence and Mortality Dataset
+DE376,DES734,CDiagnosisYear,Case,NSWCR Source System,naDerived from NSWCR source system CRC001,NSWCR Incidence and Mortality Dataset
+DE383,DES735,CICD03MorphologyCode3Digit,Case,NSWCR Source System,"naDerived from NSWCR source system CRC002, CRC003",NSWCR Incidence and Mortality Dataset
+DE384,DES736,CICD03MorphologyCode4Digit,Case,NSWCR Source System,"naDerived from NSWCR source system CRC002, CRC003",NSWCR Incidence and Mortality Dataset
+DE381,DES737,CICD03TopographyCode,Case,NSWCR Source System,naDerived from NSWCR source system CRC002. ,NSWCR Incidence and Mortality Dataset
+DE382,DES738,CICD10AMTopographyCode,Case,NSWCR Source System,naDerived from NSWCR source system CRC002. ,NSWCR Incidence and Mortality Dataset
+DE224,DES739,CLaterality,Case,NSWCR Source System,"NSWCR: CRC004The side of a paired organ or the side of the body that is the origin of the primary cancer in a person with cancer, as represented by a code.",NSWCR Incidence and Mortality Dataset
+DE335,DES740,CSize,Case,NSWCR Source System,"NSWCR: CRC014The largest dimension of a solid tumour, measured in millimetres.",NSWCR Incidence and Mortality Dataset
+DE323,DES741,CThickness,Case,NSWCR Source System,NSWCR: CRC013The measured thickness of a melanoma in millimetres.,NSWCR Incidence and Mortality Dataset
+DE396,DES742,PARIA,Person,NSWCR Source System,naDerived from the NSWCR source system CRP012,NSWCR Incidence and Mortality Dataset
+DE91,DES743,PBirthDateValidityCode,Person,NSWCR Source System,"NSWCR: CRP006An indicator of the accuracy of the components of a reported date, as represented by a code.",NSWCR Incidence and Mortality Dataset
+DE375,DES744,PBirthDay,Person,NSWCR Source System,naDerived from NSWCR source system CRP005,NSWCR Incidence and Mortality Dataset
+DE374,DES745,PBirthMonth,Person,NSWCR Source System,naDerived from NSWCR source system CRP005,NSWCR Incidence and Mortality Dataset
+DE373,DES746,PBirthYear,Person,NSWCR Source System,naDerived from NSWCR source system CRP005,NSWCR Incidence and Mortality Dataset
+DE92,DES747,PCOBCode,Person,NSWCR Source System,"NSWCR: CRP007The country in which the person was born, as represented by a code.",NSWCR Incidence and Mortality Dataset
+DE391,DES748,PDeathAge,Person,NSWCR Source System,naDerived from the NSWCR source system CRD004,NSWCR Incidence and Mortality Dataset
+DE402,DES749,PDeathCauseID   ,Person,NSWCR Source System,"naDerived from the NSWCR source system. There is no dict it, appears to be drawn from NOT504",NSWCR Incidence and Mortality Dataset
+DE389,DES750,PDeathDay,Person,NSWCR Source System,naDerived from the NSWCR source system CRD004,NSWCR Incidence and Mortality Dataset
+DE388,DES751,PDeathMonth,Person,NSWCR Source System,naDerived from the NSWCR source system CRD004,NSWCR Incidence and Mortality Dataset
+DE372,DES752,PDeathPlace,Person,NSWCR Source System,naPersons that been diagnosed with cancer in NSW and have subsequently…this is derived from NSWCR but there is no dict ID…its is PlaceOfDeath column name,NSWCR Incidence and Mortality Dataset
+DE387,DES753,PDeathYear,Person,NSWCR Source System,naDerived from the NSWCR source system CRD004,NSWCR Incidence and Mortality Dataset
+DE392,DES754,PICD03DeathCauseCode,Person,NSWCR Source System,"naDerived from the NSWCR source system. There is no dict it, appears to be drawn from NOT504",NSWCR Incidence and Mortality Dataset
+DE393,DES755,PICD10AMDeathCauseCode,Person,NSWCR Source System,"naDerived from the NSWCR source system. There is no dict it, appears to be drawn from NOT504",NSWCR Incidence and Mortality Dataset
+DE93,DES756,PIndigenousStatusID,Person,NSWCR Source System,"NSWCR: CRP008Whether a person identifies as being of Aboriginal or Torres Strait Islander origin, as represented by a code. This is in accord with the first two of three components of the Commonwealth definition.",NSWCR Incidence and Mortality Dataset
+DE394,DES757,PLGA2006,Person,NSWCR Source System,naDerived from the NSWCR source system CRP012,NSWCR Incidence and Mortality Dataset
+DE398,DES758,PLHD2011,Person,NSWCR Source System,naDerived from the NSWCR source system CRP012,NSWCR Incidence and Mortality Dataset
+DE97,DES759,PPostcode,Person,NSWCR Source System,NSWCR: CRP012The postcode for the suburb of the patient's usual residential address.,NSWCR Incidence and Mortality Dataset
+DE386,DES760,PPrimarySites,Person,NSWCR Source System,naDerived from the dataset itself looking at multiple cases,NSWCR Incidence and Mortality Dataset
+DE399,DES761,PPrimayHealthNetwork2015,Person,NSWCR Source System,naDerived from the NSWCR source system CRP012,NSWCR Incidence and Mortality Dataset
+DE397,DES762,PSEIFA,Person,NSWCR Source System,naDerived from the NSWCR source system CRP012,NSWCR Incidence and Mortality Dataset
+DE88,DES763,PSex   ,Person,NSWCR Source System,"NSWCR: CRP004The biological distinction between male and female, as represented by a code.",NSWCR Incidence and Mortality Dataset
+DE395,DES764,PSLA2006,Person,NSWCR Source System,naDerived from the NSWCR source system CRP012,NSWCR Incidence and Mortality Dataset

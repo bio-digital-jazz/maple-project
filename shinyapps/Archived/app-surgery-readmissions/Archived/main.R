@@ -1,0 +1,102 @@
+
+library(dplyr)
+library(ggplot2)
+library(grid)
+library(extrafont)
+
+
+loadfonts(device = "postscript", quiet=TRUE)
+
+chart5 <- read.csv("./bowel_age_gender_LHD.csv")
+chart5$calc_rate <- chart5$calc_rate*100
+chart5$calc_LCI <- chart5$calc_LCI*100
+chart5$calc_UCI <- chart5$calc_UCI*100
+
+
+
+for (i in 1:dim(chart5)[1]) {
+  if (chart5$AgeGroup[i] != "50-74")
+  {  	chart5$Order[i] <- 1
+  }
+  else
+  {  chart5$Order[i] <- 2
+  }
+}  
+chart5$xyz <- as.character(paste(chart5$Order,chart5$Gender))   
+
+
+cols1 <- c("1 Males" = "#66CCF0", 
+           "1 Females" = "#C680C0", 
+           "2 Females" = "#A33399", 
+           "2 Males" = "#00ABE6", 
+           "Error Bar" = "black")
+
+
+chart5 <- chart5 %>%
+  filter(lhd %in% c("Hunter New England LHD")) %>%
+  group_by(AgeGroup, Gender)
+chart5$AgeGroup <- as.factor(chart5$AgeGroup)
+chart5$xyz <- as.factor(chart5$xyz)
+
+
+chart5
+
+
+############################################## UI #################################################################
+
+ggplot(data = chart5, aes(x=reorder(AgeGroup,Order), y = calc_rate)) +
+  geom_bar(stat = "identity", position = position_dodge(width = -1), aes(fill = xyz, group = Gender),width =  0.8)  +
+  scale_fill_manual(values = cols1, breaks = c("2 Females","2 Males"),labels=c("Female", "Male")) +
+  xlab ("Age Group") +
+  geom_errorbar(data = chart5, aes(x = AgeGroup, ymin = calc_LCI, ymax = calc_UCI, group = Gender), fill = chart5$Gender, width = 0, position = position_dodge(width = -1)) +
+  geom_point(data = chart5, aes(x = AgeGroup, y = calc_LCI, group = Gender, color = "Error Bar"), fill = "black",
+             position = position_dodge(width = -1), shape = 23) +
+  geom_point(data = chart5, aes(x = AgeGroup, y = calc_UCI, group = Gender), fill = "black",
+             position = position_dodge(width = -1), shape = 23) +
+  theme_bw() +
+  theme(
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor.y = element_blank(),
+    strip.background  = element_blank(),
+    panel.border = element_blank(),
+    axis.line = element_line(colour = "black", size = .25),
+    axis.ticks = element_line(colour = "black", size = .25),
+    strip.placement="outside"
+  ) +
+  theme(legend.position = c(0.83, 0.9),
+        legend.title = element_blank(),
+        text = element_text(family = "Verdana"),
+        legend.key.size = unit(6, "mm"),
+        legend.spacing = unit(-2, "mm")) +
+  scale_y_continuous(name = "Participation rate (%)", breaks = seq(0,100, 20), limits = c(0,100), expand = c(0,0)) +
+  scale_color_manual(values = c("Error Bar" = "black"), labels = "Confidence Intervals")
+
+#cols33 <- c("1Male" = "yellow", "1Female" = "orange", "2Male" = "red", "2Female" = "blue")
+ggplot(data = chart5, aes(x=reorder(AgeGroup,Order), y = calc_rate)) +
+  geom_bar(stat = "identity", position = position_dodge(width = -1), aes(fill = xyz, group = Gender),width =  0.8)  +
+  geom_errorbar(data = chart5, aes(x = AgeGroup, ymin = calc_LCI, ymax = calc_UCI, group = Gender, color = "Error Bar"), fill = chart5$Gender, width = 0.1, position = position_dodge(width = -1)) +
+  theme_bw() +
+  theme(
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor.y = element_blank(),
+    strip.background  = element_blank(),
+    panel.border = element_blank(),
+    axis.line = element_line(colour = "black", size = .25),
+    axis.ticks = element_line(colour = "black", size = .25),
+    strip.placement="outside"
+  ) +
+  theme(legend.position = c(0.83, 0.9),
+        legend.title = element_blank(),
+        text = element_text(family = "Times"),
+        legend.key.size = unit(6, "mm"),
+        legend.spacing = unit(-2, "mm")) +
+  xlab ("Age Group") +  
+  scale_y_continuous(name = "Participation rate (%)", breaks = seq(0,100, 20), limits = c(0,100), expand = c(0,0)) +
+  scale_color_manual(values = c("Error Bar" = "black"), labels = "Confidence Intervals") +
+  scale_fill_manual(values = cols1, breaks = c("2 Females","2 Males"),labels=c("Female", "Male"))
+
+
