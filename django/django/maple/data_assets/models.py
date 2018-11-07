@@ -156,8 +156,6 @@ class DataAssetBreach(models.Model):
     date_of_report = models.DateField(default=datetime.now)
     summary = models.CharField(max_length=255)
     description = models.TextField()
-    data_asset = models.ForeignKey(DataAsset, on_delete=models.CASCADE)
 
     class Meta:
         verbose_name_plural = "Data asset breaches"
-

@@ -13,7 +13,7 @@ class AppOrNotebook(models.Model):
     location = models.URLField()
 
     def __str__(self):
-        return self.creator
+        return self.title
 
 
 class AppOrNotebookTag(models.Model):

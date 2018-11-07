@@ -2,9 +2,6 @@ from django.contrib import admin
 from . import models
 
 
-class DataBreachInline(admin.TabularInline):
-    model = models.DataAssetBreach
-    extra = 0
 
 
 
@@ -13,7 +10,7 @@ class DataAssetRoleInline(admin.TabularInline):
     extra = 0
 
 class DataBreachAdmin(admin.ModelAdmin):
-    list_display = ('date_of_report', 'data_asset')
+    list_display = ('date_of_report',)
 
 class DataAssetAdmin(admin.ModelAdmin):
     list_display = ('name',
@@ -23,7 +20,7 @@ class DataAssetAdmin(admin.ModelAdmin):
                     )
     list_filter = ['owning_business_unit', 'type']
     search_fields = ('name',)
-    inlines = [ DataBreachInline, DataAssetRoleInline]
+    inlines = [DataAssetRoleInline, ]
 
 
 

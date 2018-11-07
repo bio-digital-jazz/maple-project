@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'related_resources',
     'training_modules',
     'main',
+    'news_items',
     'rest_framework',
     'django_filters',
 ]

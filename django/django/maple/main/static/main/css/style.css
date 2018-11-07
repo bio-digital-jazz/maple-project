@@ -1,5 +1,4 @@
-iframe {
-	height: 900px;
-	width: 1200px;
+.iframe-config {
+	height: 3000px;
+	width: 1400px;
 }
-

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(shiny)\nlibrary(ggplot2)\nlibrary(dplyr)\nlibrary(jsonlite)\n\nbcl <- read.csv(\"./data/bcl-data.csv\", stringsAsFactors = FALSE)\n\nui <- fluidPage(\n  tags$head(\n    tags$link(rel = \"stylesheet\", type = \"text/css\", href = \"https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css\"),\n    tags$link(rel = \"stylesheet\", type = \"text/css\", href = \"https://fonts.googleapis.com/icon?family=Material+Icons\")\n    \n  ),\n  fluidRow(\n    column(4, \n           div(\"\")),\n    column(4, \n           textInput(\"text\", label = \"\", placeholder = \"Search\")\n           ),\n    column(4,\n           div(''))\n  ),\n  \n  fluidRow(\n    column(12,\n           htmlOutput('test'),\n           br(),\n           br(),\n           tableOutput(\"results\"))\n    \n  \n  )\n\n)\n\nserver <- function(input, output, session) {\n\n\n  output$test <- renderUI({\n    \n    projects <- data.frame(fromJSON(\"http://localhost:8000/api/projects/all-projects/\"));\n    \n    print(projects)\n    \n  \n     lapply(1:nrow(projects), FUN = function(i) {\n        renderUI({\n         tagList(\n           fluidRow(\n             hr(style=\"height:1px;border:none;color:#333;background-color:#333;\"),\n             column(2,\n                    tags$b(\"Date recieved:\")\n                    ),\n             column(2,\n                    div(projects[i,\"date_received\"])),\n             column(2,\n                    tags$b(\"Requested by\")),\n             column(6,\n                    div(projects[i,\"requestor\"]))\n             ),\n            fluidRow(\n              column(12,\n                     tags$b(\"Summary:\")),\n              column(12,\n                     div(projects[i,\"title_or_summary\"]))\n              \n            ),\n           fluidRow(\n             column(12,\n                    tags$b(\"Detail:\")),\n             column(12,\n                    div(projects[i,\"detail\"]),\n                    br()),\n             column(12,\n                    tags$div(\n                      div(class=\"left-align\",\n                          a(class=\"waves-effect waves-light btn\", \"edit\", \n                            HTML(\"<i class='material-icons left'>edit</i>\"), \n                            href=paste0(\"http://localhost:8000/admin/projects/project/\",projects[i,\"id\"]))\n                          )))\n             \n           )\n           \n           )\n       })\n     })\n   \n  }\n    \n   \n   \n  )\n  \n\n \n  \n \n}\n\nshinyApp(ui = ui, server = server)\n\n",
+    "created" : 1541395064595.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "518347350",
+    "id" : "A08F6684",
+    "lastKnownWriteTime" : 1541552749,
+    "last_content_update" : 1541552749499,
+    "path" : "C:/JamiesFiles/Projects/MapleProjectServer/shinyapps/app-projects-and-requests/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
